@@ -11,9 +11,10 @@ class Officers:
         This method takes in the first name and last name of the officer,
         returning the whole entry
         """
-        return self.data["Internal Unique ID"][
+        result = self.data["Internal Unique ID"][
             (self.data['First Name'] == first_name.lower()) &
-            (self.data['Last Name'] == last_name.lower())].to_string(index=False)
+            (self.data['Last Name'] == last_name.lower())]
+        return None if result.empty else result.to_string(index=False)
 
 def get_officer_client():
     """
