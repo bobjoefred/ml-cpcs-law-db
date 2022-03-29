@@ -1,6 +1,6 @@
 import easyocr
 
-def extractText(img_path):
+def extract_text(img_path):
     """
     Extract text from an image using OCR.
     """
