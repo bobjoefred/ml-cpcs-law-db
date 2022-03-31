@@ -43,5 +43,3 @@ def pdf_to_text(pdf_path):
         result.append(extract_text(np_arrays[i], ocr))
 
     return result
-
-print(pdf_to_text('example.pdf'))
