@@ -8,6 +8,7 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 import re
 from os import walk, path
+from ..ocr import extract_text
 
  
 '''
@@ -45,6 +46,14 @@ def get_suit_fields(directory):
 
   # create combined lowered token list
   tokens = []
+
+  # use OCR for complaint document, which is scanned
+  # complaint_text = extract_text.pdf_to_text(complaint_filename)
+  # print(complaint_text)
+
+  # use simple text extraction for order document, which is digitally created
+
+
   for fn in [complaint_filename, order_filename]:
     with fitz.open(directory + fn) as doc:
       for page in doc:
