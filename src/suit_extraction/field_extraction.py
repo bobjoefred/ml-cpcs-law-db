@@ -71,7 +71,7 @@ def get_suit_fields(directory):
 
   fields = { 'docket_num': docket_num, 'officers': officers }
   print(fields)
-  
+
   return fields
 
 
@@ -89,7 +89,3 @@ def extract_officers(lines):
   officers = [m.group(1) + ' ' + m.group(2) for m in (officers_regex.match(str(line)) for line in lines) if m]
   officers = list(set(officers))
   return officers
-
-get_suit_fields('../../examples/Andro v. Brookline')
-
-# extract_officers(['Defendant Nick Hall was hello there', 'Defendant Test :) Name is', 'Defendant hey there does'])
