@@ -40,6 +40,6 @@ def pdf_to_text(pdf_path):
     ocr = easyocr.Reader(['en'])
     # Extract the text
     for i in tqdm(range(len(np_arrays))):
-        result.append(extract_text(np_arrays[i], ocr))
+        result += extract_text(np_arrays[i], ocr)
 
     return result
