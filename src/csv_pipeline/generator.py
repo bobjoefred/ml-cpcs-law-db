@@ -2,11 +2,12 @@ import sys
 sys.path.append("..")
 
 # Custom libraries
+from text_based_extraction import field_extractor
 from text_based_extraction import internal_unique_id_lookup
-from text_based_extraction import field_extraction
-from ml_based_extraction import incident_tags_generator
+from ml_based_extraction import text_extractor
 from ml_based_extraction import case_name_generator
-from ml_based_extraction import extract_text
+from ml_based_extraction import settlement_extractor
+from ml_based_extraction import incident_tags_generator
 
 # Standard libraries
 from nltk.tokenize import word_tokenize
@@ -53,8 +54,7 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
 
     # Use OCR for complaint document, which is scanned
     # complaint_lines is organized as a list of strings, each a single line of the document
-    complaint_lines = extract_text.pdf_to_text(
-        input_directory + complaint_filename)
+    complaint_lines = text_extractor.pdf_to_text(input_directory + complaint_filename)
 
     # Use simple text extraction for order document, which is digitally created
     # order_tokens is a list of lowercase single-word tokens
@@ -65,17 +65,27 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
             page_tokens = word_tokenize(page_text)
             order_tokens += page_tokens
     
-    fields = field_extraction.get_suit_fields(complaint_lines, order_tokens)
+    fields = field_extractor.get_suit_fields(complaint_lines, order_tokens)
 
     # Populate dataframe with extracted fields
     df['Docket Number'] = fields['Docket Number']
-    df['Internal Unique ID (Officer)'] = internal_unique_id_lookup.lookup(fields['Officer(s)'], officer_data)
+    df['Internal Unique ID (Officer)'] = internal_unique_id_lookup.lookup(str(fields['Officer(s)']), officer_data)
     df['Case Name/Caption'] = case_name_generator.generate_case_name(complaint_lines)
     df['Officer(s)'] = fields['Officer(s)']
     # TODO: Add Agency (from Officers)
     # df['Agency (from Officers)'] = fields['Agency (from Officers)']
     df['Incident Tags'] = incident_tags_generator.generate_incident_tags(complaint_lines)
+    # TODO: Add Courts
+    # df['Courts'] = fields['Courts']
+    # TODO: Add Disposition
+    df['Disposition Type'] = None
+    df['Disposition Date'] = None
+    # TODO: Provide correct tokens that are relevant to settlement
+    df['Settlement/Judgment Amount'] = settlement_extractor.get_settlement_amount(order_tokens)
+    # TODO: Upload content to GDrive(?) and get shareable link
+    df['Attachments'] = None
+    df['Notes'] = None
 
     df.to_csv(output_file, index=False)
 
-#generate_csv('../../examples/Andro v. Brookline','../data/officer_roster.csv')
+generate_csv('../../examples/Andro v. Brookline','../data/officer_roster.csv')
