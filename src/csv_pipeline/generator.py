@@ -2,9 +2,11 @@ import sys
 sys.path.append("..")
 
 # Custom libraries
-from suit_extraction import field_extraction
-from officer_roster import lookup_builder
-from ocr import extract_text
+from text_based_extraction import internal_unique_id_lookup
+from text_based_extraction import field_extraction
+from ml_based_extraction import incident_tags_generator
+from ml_based_extraction import case_name_generator
+from ml_based_extraction import extract_text
 
 # Standard libraries
 from nltk.tokenize import word_tokenize
@@ -27,9 +29,9 @@ data_columns = ['Docket Number',
                 'Attachments',
                 'Notes']
 
-
-def generate_csv(input_directory, output_file='output.csv'):
+def generate_csv(input_directory, officer_roster_csv_path, output_file='output.csv'):
     df = pd.DataFrame(columns=data_columns)
+    officer_data = pd.read_csv(officer_roster_csv_path)
 
     # Standardize path name
     input_directory = path.join(input_directory, '')
@@ -45,8 +47,7 @@ def generate_csv(input_directory, output_file='output.csv'):
     # Search through filenames to find relevant complaint and order documents
     complaint_filenames = [fn for fn in filenames if 'Complaint' in fn]
     complaint_filename = complaint_filenames[0]
-    order_filenames = [
-        fn for fn in filenames if 'Order' in fn or 'Judgment' in fn]
+    order_filenames = [fn for fn in filenames if 'Order' in fn or 'Judgment' in fn]
     order_filename = order_filenames[-1]
     print('Complaint: ' + complaint_filename + '\nOrder: ' + order_filename)
 
@@ -64,9 +65,17 @@ def generate_csv(input_directory, output_file='output.csv'):
             page_tokens = word_tokenize(page_text)
             order_tokens += page_tokens
     
-    fields = field_extraction.get_suit_fields(complaint_lines, order_tokens) 
-    print(fields)
+    fields = field_extraction.get_suit_fields(complaint_lines, order_tokens)
 
-    return fields
+    # Populate dataframe with extracted fields
+    df['Docket Number'] = fields['Docket Number']
+    df['Internal Unique ID (Officer)'] = internal_unique_id_lookup.lookup(fields['Officer(s)'], officer_data)
+    df['Case Name/Caption'] = case_name_generator.generate_case_name(complaint_lines)
+    df['Officer(s)'] = fields['Officer(s)']
+    # TODO: Add Agency (from Officers)
+    # df['Agency (from Officers)'] = fields['Agency (from Officers)']
+    df['Incident Tags'] = incident_tags_generator.generate_incident_tags(complaint_lines)
 
-# generate_csv('../../examples/Andro v. Brookline')
+    df.to_csv(output_file, index=False)
+
+#generate_csv('../../examples/Andro v. Brookline','../data/officer_roster.csv')
