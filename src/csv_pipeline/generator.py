@@ -69,4 +69,4 @@ def generate_csv(input_directory, output_file='output.csv'):
 
     return fields
 
-generate_csv('../../examples/Andro v. Brookline')
+# generate_csv('../../examples/Andro v. Brookline')
