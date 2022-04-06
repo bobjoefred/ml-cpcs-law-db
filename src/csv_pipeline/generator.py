@@ -10,11 +10,12 @@ from ml_based_extraction import settlement_extractor
 from ml_based_extraction import incident_tags_generator
 
 # Standard libraries
-from nltk.tokenize import word_tokenize
-import nltk
 import fitz # PyMuPDF
-from os import walk, path
+import nltk
+import pickle
 import pandas as pd
+from os import walk, path
+from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 
 data_columns = ['Docket Number',
@@ -30,7 +31,10 @@ data_columns = ['Docket Number',
                 'Attachments',
                 'Notes']
 
-def generate_csv(input_directory, officer_roster_csv_path, output_file='output.csv'):
+"""
+Function generates the field CSV files to be used by the CPCS team
+"""
+def generate_csv(input_directory, officer_roster_csv_path, output_file='output.csv', debug = False):
     df = pd.DataFrame(columns=data_columns)
     officer_data = pd.read_csv(officer_roster_csv_path)
 
@@ -54,7 +58,13 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
 
     # Use OCR for complaint document, which is scanned
     # complaint_lines is organized as a list of strings, each a single line of the document
-    complaint_lines = text_extractor.pdf_to_text(input_directory + complaint_filename)
+    if not debug:
+        complaint_lines = text_extractor.pdf_to_text(input_directory + complaint_filename)
+        with open('complaint_lines.pkl', 'wb') as f:
+            pickle.dump(complaint_lines, f)
+    else:
+        with open('complaint_lines.pkl', 'rb') as f:
+            complaint_lines = pickle.load(f)
 
     # Use simple text extraction for order document, which is digitally created
     # order_tokens is a list of lowercase single-word tokens
@@ -64,7 +74,7 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
             page_text = page.get_text().lower()
             page_tokens = word_tokenize(page_text)
             order_tokens += page_tokens
-    
+
     fields = field_extractor.get_suit_fields(complaint_lines, order_tokens)
 
     # Populate dataframe with extracted fields
@@ -88,4 +98,4 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
 
     df.to_csv(output_file, index=False)
 
-generate_csv('../../examples/Andro v. Brookline','../data/officer_roster.csv')
+generate_csv(input_directory = '../../examples/Andro v. Brookline', officer_roster_csv_path = '../data/officer_roster.csv', debug = True)
