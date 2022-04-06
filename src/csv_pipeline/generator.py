@@ -10,12 +10,12 @@ from ml_based_extraction import settlement_extractor
 from ml_based_extraction import incident_tags_generator
 
 # Standard libraries
-from nltk.tokenize import word_tokenize
+import fitz # PyMuPDF
 import nltk
 import pickle
-import fitz # PyMuPDF
-from os import walk, path
 import pandas as pd
+from os import walk, path
+from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 
 data_columns = ['Docket Number',
@@ -31,6 +31,9 @@ data_columns = ['Docket Number',
                 'Attachments',
                 'Notes']
 
+"""
+Function generates the field CSV files to be used by the CPCS team
+"""
 def generate_csv(input_directory, officer_roster_csv_path, output_file='output.csv', debug = False):
     df = pd.DataFrame(columns=data_columns)
     officer_data = pd.read_csv(officer_roster_csv_path)
@@ -71,7 +74,7 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
             page_text = page.get_text().lower()
             page_tokens = word_tokenize(page_text)
             order_tokens += page_tokens
-    
+
     fields = field_extractor.get_suit_fields(complaint_lines, order_tokens)
 
     # Populate dataframe with extracted fields
