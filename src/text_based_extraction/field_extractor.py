@@ -46,9 +46,12 @@ def extract_docket_num(tokens):
 # pass in complaint lines, returns list of officers
 def extract_officers(lines):
   officers_regex = re.compile('Defendant ([a-zA-Z\']{3,40})(?:\s[A-Z].)?\s([a-zA-Z\']{3,40}) (is|was)')
-  officers = [m.group(1) + ' ' + m.group(2) for m in (officers_regex.match(str(line)) for line in lines) if m]
+  officers = [m.group(2) + ', ' + m.group(1) for m in (officers_regex.match(str(line)) for line in lines) if m]
 
   # remove duplicates
   officers = list(set(officers))
 
-  return officers
+  # format as single string
+  officers_string = "; ".join(officers)
+
+  return officers_string

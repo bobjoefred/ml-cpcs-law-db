@@ -18,24 +18,11 @@ from os import walk, path
 from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 
-data_columns = ['Docket Number',
-                'Internal Unique ID (Officer)',
-                'Case Name/Caption',
-                'Officer(s)',
-                'Agency (from Officers)'
-                'Incident Tags',
-                'Courts',
-                'Disposition Type',
-                'Disposition Date',
-                'Settlement/Judgment Amount',
-                'Attachments',
-                'Notes']
 
 """
 Function generates the field CSV files to be used by the CPCS team
 """
 def generate_csv(input_directory, officer_roster_csv_path, output_file='output.csv', debug = False):
-    df = pd.DataFrame(columns=data_columns)
     officer_data = pd.read_csv(officer_roster_csv_path)
 
     # Standardize path name
@@ -77,25 +64,7 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
 
     fields = field_extractor.get_suit_fields(complaint_lines, order_tokens)
 
-    # Populate dataframe with extracted fields
-    df['Docket Number'] = fields['Docket Number']
-    df['Internal Unique ID (Officer)'] = internal_unique_id_lookup.lookup(str(fields['Officer(s)']), officer_data)
-    df['Case Name/Caption'] = case_name_generator.generate_case_name(complaint_lines)
-    df['Officer(s)'] = fields['Officer(s)']
-    # TODO: Add Agency (from Officers)
-    # df['Agency (from Officers)'] = fields['Agency (from Officers)']
-    df['Incident Tags'] = incident_tags_generator.generate_incident_tags(complaint_lines)
-    # TODO: Add Courts
-    # df['Courts'] = fields['Courts']
-    # TODO: Add Disposition
-    df['Disposition Type'] = None
-    df['Disposition Date'] = None
-    # TODO: Provide correct tokens that are relevant to settlement
-    df['Settlement/Judgment Amount'] = settlement_extractor.get_settlement_amount(order_tokens)
-    # TODO: Upload content to GDrive(?) and get shareable link
-    df['Attachments'] = None
-    df['Notes'] = None
-
+    df = pd.DataFrame([fields])
     df.to_csv(output_file, index=False)
 
 generate_csv(input_directory = '../../examples/Andro v. Brookline', officer_roster_csv_path = '../data/officer_roster.csv', debug = True)
