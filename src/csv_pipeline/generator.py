@@ -1,6 +1,3 @@
-import sys
-sys.path.append("..")
-
 # Custom libraries
 from text_based_extraction import field_extractor
 from text_based_extraction import internal_unique_id_lookup
@@ -22,7 +19,7 @@ nltk.download('punkt')
 """
 Function generates the field CSV files to be used by the CPCS team
 """
-def generate_csv(input_directory, officer_roster_csv_path, output_file='output.csv', debug = False):
+def generate_fields(input_directory, officer_roster_csv_path, debug = False):
     officer_data = pd.read_csv(officer_roster_csv_path)
 
     # Standardize path name
@@ -34,23 +31,22 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
     for filename in filenames:
         if ".pdf" not in filename:
             filenames.remove(filename)
-    print(filenames)
 
     # Search through filenames to find relevant complaint and order documents
     complaint_filenames = [fn for fn in filenames if 'Complaint' in fn]
     complaint_filename = complaint_filenames[0]
     order_filenames = [fn for fn in filenames if 'Order' in fn or 'Judgment' in fn]
     order_filename = order_filenames[-1]
-    print('Complaint: ' + complaint_filename + '\nOrder: ' + order_filename)
+    # print('Complaint: ' + complaint_filename + '\nOrder: ' + order_filename)
 
     # Use OCR for complaint document, which is scanned
     # complaint_lines is organized as a list of strings, each a single line of the document
     if not debug:
         complaint_lines = text_extractor.pdf_to_text(input_directory + complaint_filename)
-        with open('complaint_lines.pkl', 'wb') as f:
+        with open('data/complaint_lines.pkl', 'wb') as f:
             pickle.dump(complaint_lines, f)
     else:
-        with open('complaint_lines.pkl', 'rb') as f:
+        with open('data/complaint_lines.pkl', 'rb') as f:
             complaint_lines = pickle.load(f)
 
     # Use simple text extraction for order document, which is digitally created
@@ -64,7 +60,4 @@ def generate_csv(input_directory, officer_roster_csv_path, output_file='output.c
 
     fields = field_extractor.get_suit_fields(complaint_lines, order_tokens)
 
-    df = pd.DataFrame([fields])
-    df.to_csv(output_file, index=False)
-
-generate_csv(input_directory = '../../examples/Andro v. Brookline', officer_roster_csv_path = '../data/officer_roster.csv', debug = True)
+    return fields
