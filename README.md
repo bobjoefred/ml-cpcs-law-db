@@ -14,5 +14,5 @@ The current setup is a data extraction pipeline that is deployed on the **BU Sha
 2. Download and enter this repo, as git is included by default in all instances.
 3. Execute the `init_scc.sh` script, which loads in the nessesary modules and installs any dependencies the Python program requires.
 4. Add any desired civil suit directories into `input/` (there is an example civil suit already so it is fine to skip this step)
-4. Change directory to `src/`.
-5. Execute `python3 main.py` to parse the document information. Output file is stored to `output.csv` inside of `src/`.
+5. Change directory to `src/`.
+6. Execute `python3 main.py` to parse the document information. Output file is stored to `output.csv` inside of `src/`.

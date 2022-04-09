@@ -1,5 +1,4 @@
 # Custom libraries
-from numpy import sort
 from text_based_extraction import field_extractor
 from text_based_extraction import internal_unique_id_lookup
 from ml_based_extraction import text_extractor
