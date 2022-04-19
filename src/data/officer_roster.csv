@@ -183,7 +183,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Alves, Christopher",003-06950233,Massachusetts,4416,D,Employee ID,Trooper,,Active,,20-200,,,,,alves,christopher
 "Alves, John F",004-09073844,Boston,99822,2312,Employee ID,Police Officer,,Active,,,,,,,alves,john
 "Alves, Luis",010-03137275,Brockton,598,598,,Patrolman,,Full Time,,20-200,,,,,alves,luis
-"Alves,, Samya",017-00190375,Framingham,,359,Badge Number,Police Officer,,,,,,,,,alves,
+"Alves,, Samya",017-00190375,Framingham,,359,Badge Number,Police Officer,,,,,,,,,alves,samya
 "Alward, Paul",046-00801169,Shrewsbury,3554,,,Patrolman,,Inactive,,,,,,,alward,paul
 "Alward, Paul A",005-07893169,Worcester,,226,,Officer,,Active,,,,,,,alward,paul
 "Alyce Heywood, Jaela",004-09198927,Boston,143184,ZZZZZ,Employee ID,Cadet (Police),,Active,,,,,,,alyce heywood,jaela
@@ -299,7 +299,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Anthony Mustacchio, Michael",004-04825396,Boston,111241,5125,Employee ID,Police Officer,,Active,,,,,,,anthony mustacchio,michael
 "Anthony Regan, Richard",004-04826234,Boston,148294,1656,Employee ID,Police Officer,,Active,,,,,,,anthony regan,richard
 "Anthony Verderico Jr., James",004-08287120,Boston,148310,1729,Employee ID,Police Officer,,Active,,,,,,,anthony verderico,james
-"Anthony, Deputy",006-11585932,Springfield,,,,,,,,,"""Julio Toledo, Denise Toledo""",3:19-cv-30118,,,,anthony
+"Anthony, Deputy",006-11585932,Springfield,,,,,,,,,"""Julio Toledo, Denise Toledo""",3:19-cv-30118,,,deputy,anthony
 "Anthony, Lawrence",003-08597420,Massachusetts,3381,G,Employee ID,Trooper,,Active,,,,,,,anthony,lawrence
 "Anthony, Marie",004-09549799,Boston,106580,ZZZZZ,Employee ID,Head Clerk & Secretary,,Active,,,,,,,anthony,marie
 "Anthony, Nicole",098-07191235,Bourne,1092,31,Employee ID,Ptl,,Active,,,,,,,anthony,nicole
@@ -312,7 +312,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Antoni Estrella Mcgrath, Angela",004-01207976,Boston,78454,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,antoni estrella mcgrath,angela
 "Antonino, Thomas M",004-06336433,Boston,8641,1092,Employee ID,Police Officer,,Active,,,,,,,antonino,thomas
 "Antonio Diaz, Christopher",004-02090703,Boston,148255,1903,Employee ID,Police Officer,,Active,,,,,,,antonio diaz,christopher
-"Antonio,, James",017-01200029,Framingham,,238,Badge Number,Police Officer,,,,,,,,,antonio,
+"Antonio,, James",017-01200029,Framingham,,238,Badge Number,Police Officer,,,,,,,,,antonio,james
 "Antoniou, Maria",062-72481734,Norwood,MA02,,External ID,Traffic Supervisor,,P,,,,,,,antoniou,maria
 "Antonovitch, Philip",082-07638309,Yarmouth,3997,121,Employee ID,Patrol Ofc.,,Full Time,,,,,,,antonovitch,philip
 "Antonovitch, Vicki",030-07621991,Barnstable,20047,,Employee ID,Police Matron/Jail Attendant,,Inactive,,,,,,,antonovitch,vicki
@@ -446,7 +446,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Avery, David",052-09113439,Randolph,,43,Badge Number,Cmdr,,RETIRED,,,,,,,avery,david
 "Avery, Robert",012-08314490,Lynn,6788,,Employee ID,Sgt,,Active,,,,,,,avery,robert
 "Avila, Daniel",021-04955532,Brookline,991184,116,Employee ID,Patrol Officer,,,,,,,,,avila,daniel
-"Avila-Oliveras,, William",017-08682362,Framingham,,374,Badge Number,Police Officer,,,,,,,,,avila-oliveras,
+"Avila-Oliveras,, William",017-08682362,Framingham,,374,Badge Number,Police Officer,,,,,,,,,avila-oliveras,william
 "Aviles, Angel",018-03513516,Haverhill,156,156,Employee ID,Officer,,,,,,,,,aviles,angel
 "Aviles, Derek C",006-08663946,Springfield,111388,266,Employee ID,Officer,,Active,,,,,,,aviles,derek
 "Aviles, Elvin",004-08297425,Boston,10042,1259,Employee ID,Police Officer,,Active,,,,,,,aviles,elvin
@@ -526,7 +526,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Baker, Paul",003-06964866,Massachusetts,2597,G,Employee ID,Det. Lieutenant,,Active,,,,,,,baker,paul
 "Baker, Robert",062-14491740,Norwood,RB02,2,External ID,Special Police Officer,,P,,,,,,,baker,robert
 "Baker, Shawn",010-02939551,Brockton,362,362,,Patrolman,,Inactive,,,,,,,baker,shawn
-"Baker,, Lester",017-04191288,Framingham,,282,Badge Number,Chief,,,,,,,,,baker,
+"Baker,, Lester",017-04191288,Framingham,,282,Badge Number,Chief,,,,,,,,,baker,lester
 "Bakey, Thomas",003-09119344,Massachusetts,2300,B,Employee ID,Lieutenant,,Active,,,,,,,bakey,thomas
 "Balaguer, Francisco Jr.",038-04348730,Fitchberg,87,6,Employee ID,Patrol Officer,,Active,,,,,,,balaguer,francisco
 "Balbi, Jose",015-09860988,Lawrence,3291,,Employee ID,Patrol Officer,,,,,,,,,balbi,jose
@@ -537,12 +537,12 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Baldera, Cory",018-06983134,Haverhill,94,94,Employee ID,Officer,,,,,,,,,baldera,cory
 "Baldner, Denise",030-08859951,Barnstable,15187,,Employee ID,Patrol Officer Associates 10%,,Active,,,,,,,baldner,denise
 "Balducci, Joel",003-06795634,Massachusetts,2819,G,Employee ID,Sergeant,,Active,,,,,,,balducci,joel
-"Balducci,, Stephen",017-00693121,Framingham,,364,Badge Number,Police Officer,,,,,,,,,balducci,
+"Balducci,, Stephen",017-00693121,Framingham,,364,Badge Number,Police Officer,,,,,,,,,balducci,stephen
 "Baldwin, Erik",003-03549415,Massachusetts,2820,C,Employee ID,Lieutenant,,Active,,,,,,,baldwin,erik
 "Ball, Brian L",004-00535591,Boston,12198,6759,Employee ID,Police Detective,,Active,,,,,,,ball,brian
 "Ball, John E",004-03038571,Boston,126561,2540,Employee ID,Police Officer,,Active,,,,,,,ball,john
 "Ball, Michael S",035-02562951,Salem,102293,143,Employee ID,Na,,POLICE SERGEANT,,,,,,,ball,michael
-"Ball,, Jason A.",017-03539750,Framingham,,337,Badge Number,Police Officer,,,,,,,,,ball,
+"Ball,, Jason A.",017-03539750,Framingham,,337,Badge Number,Police Officer,,,,,,,,,ball,jason
 "Ballard, Quandell",004-04874414,Boston,126562,,Employee ID,Police Officer,,Inactive,,,,,,,ballard,quandell
 "Ballotte, Joseph",003-07389700,Massachusetts,4072,G,Employee ID,Trooper,,Active,,,,,,,ballotte,joseph
 "Ballou, Jean M",004-03984314,Boston,86243,,Employee ID,"Communequipop Iii, R-13 (Ct)",,Inactive,,,,,,,ballou,jean
@@ -635,7 +635,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Barrett, Thomas E",004-04635168,Boston,96731,495,Employee ID,Police Sergeant (Det),,Active,,,,,,,barrett,thomas
 "Barrett, Timothy",077-05900426,Reading,89,89,Employee ID,Officer,,Active,,,,,,,barrett,timothy
 "Barrette, Steven",030-04250125,Barnstable,11804,,Employee ID,Detective Bachelor'S 20%,,Active,,,,,,,barrette,steven
-"BARRIEAU, ROCK",096-26569907,Gardner,1350,,Employee ID,Deputy Chief,,Inactive,,,,,,,,barrieau
+"BARRIEAU, ROCK",096-26569907,Gardner,1350,,Employee ID,Deputy Chief,,Inactive,,,,,,,rock,barrieau
 "Barros, Joao",003-00843810,Massachusetts,4427,C,Employee ID,Trooper,,Active,,,,,,,barros,joao
 "Barros, Timothy",068-05650995,Wellesley,474378,57,Employee ID,Police Prosecuting Officer,,Active,,,,,,,barros,timothy
 "Barry III, James",056-05430978,Lexington,,202,Badge Number,Patrolman,,Active,,,,,,,barry,james
@@ -802,7 +802,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Benive, Patrick",010-08789066,Brockton,549,549,,Sergeant,,Full Time,,,,,,,benive,patrick
 "Benjamin, Carlos",067-03499091,Milford,9999-8143,817,Employee ID,Special Police Officer,,Active,,,,,,,benjamin,carlos
 "Benjamin, Kenisha",004-00173678,Boston,80396,6605,Employee ID,Police Detective,,Active,,,,,,,benjamin,kenisha
-"Benjamin,, Matthew",017-06557822,Framingham,,403,Badge Number,Police Officer,,,,,,,,,benjamin,
+"Benjamin,, Matthew",017-06557822,Framingham,,403,Badge Number,Police Officer,,,,,,,,,benjamin,matthew
 "Benjumea, Juan",007-04505742,Lowell,24959,,Employee ID,Police Officer,,Active,,,,,,,benjumea,juan
 "Benner, Michael",081-05451568,Walpole,,25,Badge Number,Sergeant,,,,,,,,,benner,michael
 "Bennes, Justin",005-05543259,Worcester,,394,,Sergeant,,Active,,,,,,,bennes,justin
@@ -826,7 +826,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Benton, Jeremiah",004-08047374,Boston,10385,728,Employee ID,Police Detective,,Active,,,,,,,benton,jeremiah
 "Benvie, Brian",010-07335753,Brockton,361,361,,Lieutenant,,Full Time,,,,,,,benvie,brian
 "Benvie, Daniel",010-05115100,Brockton,621,621,,Patrolman,,Full Time,,,,,,,benvie,daniel
-"Benvie, Jr., Brian",010-03156753,Brockton,517,517,,Sergeant,,Full Time,,,,,,,benvie,
+"Benvie, Jr., Brian",010-03156753,Brockton,517,517,,Sergeant,,Full Time,,,,,,,benvie,brain
 "Benvie, Matthew",011-08567995,Quincy,8412,8412,Employee ID,Na,,,,,,,,,benvie,matthew
 "Bera, David",003-09339852,Massachusetts,2705,C,Employee ID,Trooper,,Active,,,,,,,bera,david
 "Berardi, Kaitlin E",004-05191606,Boston,157640,5230,Employee ID,Police Officer,,Active,,,,,,,berardi,kaitlin
@@ -987,7 +987,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Blas, Kate E",004-04102098,Boston,76248,ZZZZZ,Employee ID,Community Services Offc,,Active,,,,,,,blas,kate
 "Blas, Manuel",004-07096435,Boston,80411,302,Employee ID,Police Sergeant (Det),,Active,,,,,,,blas,manuel
 "Blascak, John",036-08030595,Westfield,74688,69,Employee ID,Patrolman,,,,,,,,,blascak,john
-"Blass,, Kenneth",017-00585592,Framingham,,270,Badge Number,Police Officer,,,,,,,,,blass,
+"Blass,, Kenneth",017-00585592,Framingham,,270,Badge Number,Police Officer,,,,,,,,,blass,kenneth
 "Blazuk, Robert",003-06794177,Massachusetts,3917,H,Employee ID,Trooper,,Active,,,,,,,blazuk,robert
 "Bleicher, Paul",082-03038071,Yarmouth,4863,,Employee ID,Mechanic,,Full Time,,,,,,,bleicher,paul
 "Bleicher, Phillip",030-03311667,Barnstable,10905,,Employee ID,Temporary Contract,,Inactive,,,,,,,bleicher,phillip
@@ -1208,7 +1208,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Branch, Jonathan",067-05758248,Milford,8329-4753,583,Employee ID,Patrol Officer,,Active,,,,,,,branch,jonathan
 "Branco, Joe",094-04612965,Ludlow,A2,,,Special Police Officer,,Active,,,,,,,branco,joe
 "Brandao, Emanuel",004-06282087,Boston,144417,,Employee ID,Police Officer,,Inactive,,,,,,,brandao,emanuel
-"Brandolini,, Ronald",017-00953218,Framingham,,229,Badge Number,Deputy Police Chief,,,,,,,,,brandolini,
+"Brandolini,, Ronald",017-00953218,Framingham,,229,Badge Number,Deputy Police Chief,,,,,,,,,brandolini,ronald
 "BRANDON , HAGAI",014-10905183,Newton,,,Not Provided,Officer,,Active,,,,,,,brandon,hagai
 "Brandon, Christopher",003-09019140,Massachusetts,4438,H,Employee ID,Trooper,,Military Leave,,,,,,,brandon,christopher
 "Braswell, Ryan",042-09124037,Marlborough,82RB,,,Patrol,,Active,,,,,,,braswell,ryan
@@ -1368,7 +1368,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Brown, Travis",030-03128051,Barnstable,13732,,Employee ID,Patrol Officer Associates 10%,,Active,,,,,,,brown,travis
 "Brown, Wayne P",004-09550297,Boston,11805,1014,Employee ID,Police Officer,,Active,,,,,,,brown,wayne
 "Brown, William",026-07891233,Weymouth,1287,,Employee ID,Patrolman,,RETIRED,,,,,,,brown,william
-"Brown,, Scott",017-08119186,Framingham,,253,Badge Number,Police Sergeant,,,,,,,,,brown,
+"Brown,, Scott",017-08119186,Framingham,,253,Badge Number,Police Sergeant,,,,,,,,,brown,scott
 "Browne, Thomas",080-01608747,Burlington,,,Unknown,Deputy Police Chief,,Active,,,,,,,browne,thomas
 "Brownell, Alicia",046-05937264,Shrewsbury,46406,47,,Patrolman,,Active,,,,,,,brownell,alicia
 "Browning, Joseph H",004-01367573,Boston,1521,,Employee ID,Police Offc Acad Instr 2$6,,Inactive,,,,,,,browning,joseph
@@ -1417,7 +1417,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Buckley, Michael",079-02927726,Dedham,6002,,Employee ID,Deputy,,,,,,,,,buckley,michael
 "Buckley, Steven",049-06806175,Chelmsford,,160,Badge Number,Patrol Officer,,Active,,,,,,,buckley,steven
 "Bufford, Darlene S",004-02647134,Boston,91721,ZZZZZ,Employee ID,Dep Dir Of Human Res,,Active,,,,,,,bufford,darlene
-"Bufford-Pomales,, Pamela",017-00950792,Framingham,,250,Badge Number,Police Officer,,,,,,,,,bufford-pomales,
+"Bufford-Pomales,, Pamela",017-00950792,Framingham,,250,Badge Number,Police Officer,,,,,,,,,bufford-pomales,pamela
 "Bugbee, Cameron E",006-02632598,Springfield,111573,368,Employee ID,Officer,,Active,,,,,,,bugbee,cameron
 "Buiel, Joseph",004-01021154,Boston,103596,6470,Employee ID,Police Detective,,Active,,,,,,,buiel,joseph
 "Builes, Eliana",004-05532015,Boston,144448,3598,Employee ID,Police Officer,,Active,,,,,,,builes,eliana
@@ -1437,7 +1437,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Bullough, Zachary J.",044-01688653,Amherst,142,,,Patrol,,,,,,,,,bullough,zachary
 "Bulman, Eric W",004-08900182,Boston,10511,433,Employee ID,Police Sergeant (Det),,Active,,,,,,,bulman,eric
 "Bulman, Matthew",030-06760184,Barnstable,13306,,Employee ID,Patrol Officer,,Inactive,,,,,,,bulman,matthew
-"Buma,, Stephen",017-05259336,Framingham,,307,Badge Number,Police Officer,,,,,,,,,buma,
+"Buma,, Stephen",017-05259336,Framingham,,307,Badge Number,Police Officer,,,,,,,,,buma,stephen
 "Bunavicz, Jamie",098-03709583,Bourne,429,17,Employee ID,Ptl,,Active,,,,,,,bunavicz,jamie
 "Bunce, Rachel",063-05968205,Northampton,8116,,Employee ID,Patrol Officer,,Active,,,,,,,bunce,rachel
 "Bunker, Michael",010-04917917,Brockton,479,479,,Detective,,Full Time,,,,,,,bunker,michael
@@ -1509,7 +1509,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Burns, Timothy",003-07672456,Massachusetts,3217,H,Employee ID,Trooper,,Active,,,,,,,burns,timothy
 "Burrage, Ian",030-07525638,Barnstable,15100,,Employee ID,Gr.9 Mechanic,,Active,,,,,,,burrage,ian
 "Burrell, Alexander",010-01643636,Brockton,547,547,,Patrolman,,Full Time,,,,,,,burrell,alexander
-"Burrell,, Christopher",017-03366011,Framingham,,292,Badge Number,Police Sergeant,,,,,,,,,burrell,
+"Burrell,, Christopher",017-03366011,Framingham,,292,Badge Number,Police Sergeant,,,,,,,,,burrell,christopher
 "Burrill Jr., Dana",018-02424037,Haverhill,74,74,Employee ID,Detective,,,,,,,,,burrill,dana
 "Burroughs, Evon J",004-06041753,Boston,95150,6403,Employee ID,Police Offc Mobile Offc 2$6,,Active,,,,,,,burroughs,evon
 "Burrows, John G",004-02065573,Boston,99722,392,Employee ID,Police Sergeant,,Active,,,,,,,burrows,john
@@ -1803,7 +1803,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Carlin, Christopher",046-06354888,Shrewsbury,51308,,,Off Duty Police Detail,,Active,,,,,,,carlin,christopher
 "Carlisle-Swedberg, Rafaela",021-09659268,Brookline,991040,139,Employee ID,Patrol Officer,,,,,,,,,carlisle-swedberg,rafaela
 "Carlo, William P",049-01279435,Chelmsford,,139,Badge Number,Sergeant,,Active,,,,,,,carlo,william
-"Carlos Pereira,, Victor",017-07926009,Framingham,,268,Badge Number,Deputy Police Chief,,,,,,,,,carlos pereira,
+"Carlos Pereira,, Victor",017-07926009,Framingham,,268,Badge Number,Deputy Police Chief,,,,,,,,,carlos pereira,victor
 "Carlozzi, Dino",013-09780349,Fall,A680,A680,Employee ID,Det.,,Active,,,,,,,carlozzi,dino
 "Carlson, Brian R",004-08163272,Boston,119101,2516,Employee ID,Police Offc Mobile Offc 2$6,,Active,,,,,,,carlson,brian
 "Carlson, David",065-01779219,West,414,,Employee ID,Police Patrolman,,,,,,,,,carlson,david
@@ -1904,7 +1904,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Casey, Patrick",007-03840162,Lowell,23195,,Employee ID,Sergeant Police,,Active,,,,,,,casey,patrick
 "Casey, Ryan",003-00502046,Massachusetts,4266,A,Employee ID,Trooper,,Active,,,,,,,casey,ryan
 "Casey, Sean",069-03145063,Milton,402,,Employee ID,Cadet,,Resigned,,,,,,,casey,sean
-"Casey,, Steven",017-07489753,Framingham,,247,Badge Number,Police Officer,,,,,,,,,casey,
+"Casey,, Steven",017-07489753,Framingham,,247,Badge Number,Police Officer,,,,,,,,,casey,steven
 "Cash, Jennifer A",012-08555313,Lynn,6650,,Employee ID,Patrol,,Active,,,,,,,cash,jennifer
 "Cash, Taylor",012-05939377,Lynn,11141,,Employee ID,Patrol,,Active,,,,,,,cash,taylor
 "Cash, William",072-06035853,Saugus,3846,3846,Employee ID,Patrolmen,,Active,,,,,,,cash,william
@@ -2008,7 +2008,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Cerullo, Joseph",015-01326410,Lawrence,1155,,Employee ID,Police Lieutenant,,,,,,,,,cerullo,joseph
 "Ceruolo, Daryl",086-09989321,Wilmington,212,212,Employee ID,Patrol Officer,,Active,,,,,,,ceruolo,daryl
 "Cesar, Monique R",004-07069718,Boston,11094,1431,Employee ID,Police Officer,,Active,,,,,,,cesar,monique
-"Cesar,, Rony",017-07693941,Framingham,,314,Badge Number,Police Officer,,,,,,,,,cesar,
+"Cesar,, Rony",017-07693941,Framingham,,314,Badge Number,Police Officer,,,,,,,,,cesar,rony
 "Cesarini, Andrew",010-07538204,Brockton,274,274,,Sergeant,,Inactive,,,,,,,cesarini,andrew
 "Cesarini, Michael",010-03338906,Brockton,331,331,,Patrolman,,Full Time,,,,,,,cesarini,michael
 "Cesarz, Richard",007-08929297,Lowell,21247,,Employee ID,Sergeant Police,,Active,,,,,,,cesarz,richard
@@ -2220,7 +2220,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Cintolo, Joseph P",004-08542750,Boston,11169,916,Employee ID,Police Sergeant,,Active,,,,,,,cintolo,joseph
 "Cintolo, Richard D",004-05273768,Boston,10516,2286,Employee ID,Police Officer,,Active,,,,,,,cintolo,richard
 "Ciocca, Daniel F",051-02283023,Natick,43878,43878,,Police Officer,,Active,,,,,,,ciocca,daniel
-"Cipoletta, Jr., Randy",027-07661785,Revere,359,227,Employee ID,Patrol Officer,,,,,,,,,cipoletta,
+"Cipoletta, Jr., Randy",027-07661785,Revere,359,227,Employee ID,Patrol Officer,,,,,,,,,cipoletta,randy
 "Cipro, Richard Jr P",005-07840047,Worcester,,,,Sergeant,,Active,,,,,,,cipro,richard
 "Cirillo, Dominic",005-06548003,Worcester,,307,,Officer,,Active,,,,,,,cirillo,dominic
 "Cirino, Penny",052-06801608,Randolph,,92,Badge Number,Lt,,Active,,,,,,,cirino,penny
@@ -2265,7 +2265,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Clark, Todd",006-15407852,Springfield,,,,,,,,,Oliver Rich,3:13-CV-30161,,,clark,todd
 "Clark, Trevor",052-01067713,Randolph,,126,Badge Number,Ptl,,Active,,,,,,,clark,trevor
 "Clark, Zachary",003-02137025,Massachusetts,4097,G,Employee ID,Trooper,,Active,,,,,,,clark,zachary
-"Clark,, Sean",017-05317390,Framingham,,398,Badge Number,Police Officer,,,,,,,,,clark,
+"Clark,, Sean",017-05317390,Framingham,,398,Badge Number,Police Officer,,,,,,,,,clark,sean
 "Clarke, Angela",098-05067685,Bourne,1093,34,Employee ID,Ptl,,Active,,,,,,,clarke,angela
 "Clarke, Cheryl O",004-09336495,Boston,10095,ZZZZZ,Employee ID,Police Clerk And Typist,,Active,,,,,,,clarke,cheryl
 "Clarke, Stephen",019-06245957,Waltham,127094,2,Employee ID,Ofc,,,,,,,,,clarke,stephen
@@ -2337,7 +2337,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Coffey, Paul J",004-09966345,Boston,9564,989,Employee ID,Police Detective,,Inactive,,,,,,,coffey,paul
 "Coffey, Sean P",039-05166951,Billerica,82,128,Employee ID,Lieutenant,,,,,,,,,coffey,sean
 "Coffey, Thomas",015-03507783,Lawrence,3892,,Employee ID,Special Police Officers,,,,,,,,,coffey,thomas
-"Coffin,, Garrett",017-07107344,Framingham,,309,Badge Number,Police Officer,,,,,,,,,coffin,
+"Coffin,, Garrett",017-07107344,Framingham,,309,Badge Number,Police Officer,,,,,,,,,coffin,garrett
 "Coflesky, Michael",003-09796001,Massachusetts,3769,G,Employee ID,Trooper,,Active,,,,,,,coflesky,michael
 "Cogan, Michael",003-00194469,Massachusetts,3406,A,Employee ID,Trooper,,Active,,,,,,,cogan,michael
 "Cogavin, Dennis C",004-01822188,Boston,86124,6129,Employee ID,Police Lieutenant,,Active,,,,,,,cogavin,dennis
@@ -2684,7 +2684,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Correy, Bryant",024-07057884,Taunton,438,438,Employee ID,Patrolman,,Active,,,,,,,correy,bryant
 "Corriveau, Michael",003-05867818,Massachusetts,3929,G,Employee ID,Trooper,,Active,,,,,,,corriveau,michael
 "Corsetti, Dominick A.",044-08757575,Amherst,104,,,Patrol,,,,,,,,,corsetti,dominick
-"Corsi,, Joseph",017-00152063,Framingham,,,Unknown,Na,,,,,,,,,corsi,
+"Corsi,, Joseph",017-00152063,Framingham,,,Unknown,Na,,,,,,,,,corsi,joseph
 "Corson, Kenneth",087-01859980,Hingham,,,,Harbormaster,,Active,,,,,,,corson,kenneth
 "Cortes, Jessica",005-07919236,Worcester,,285,,Officer,,Active,,,,,,,cortes,jessica
 "Cortes, Kevin A",005-05704815,Worcester,,387,,Officer,,Active,,,,,,,cortes,kevin
@@ -2693,7 +2693,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Cosenza, Albert J",005-03353390,Worcester,,93,,Officer,,Active,,,,,,,cosenza,albert
 "Cosgrove, Richard",003-00206042,Massachusetts,2330,G,Employee ID,Det. Lieutenant,,Active,,,,,,,cosgrove,richard
 "Coska, Mary E",069-04863668,Milton,310,M1009,Employee ID,Sgt,,Active,,,,,,,coska,mary
-"Cosme-Santiago,, Jose",017-01918180,Framingham,,356,Badge Number,Police Officer,,,,,,,,,cosme-santiago,
+"Cosme-Santiago,, Jose",017-01918180,Framingham,,356,Badge Number,Police Officer,,,,,,,,,cosme-santiago,jose
 "Coss, Jeffrey",015-08798230,Lawrence,3584,,Employee ID,Patrol Officer,,,,,,,,,coss,jeffrey
 "Costa Goncalves, Cassandra",016-04683229,Somerville,38450,314,Employee ID,Patrolmen,,Active,,,,,,,costa goncalves,cassandra
 "Costa, Adrienne",074-06974118,Danvers,10883,,Employee ID,Patrol Officer,,,,,,,,,costa,adrienne
@@ -2804,8 +2804,8 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Craven, Scott",077-01153606,Reading,91,91,Employee ID,Armorer,,Active,,,,,,,craven,scott
 "Crawford, Donald",007-04193945,Lowell,10751,,Employee ID,Captain Police,,Active,,,,,,,crawford,donald
 "Crawford, Mark",003-07049198,Massachusetts,4464,H,Employee ID,Trooper,,Active,,,,,,,crawford,mark
-"Crawford,, Andrew",017-01069282,Framingham,,363,Badge Number,Police Officer,,,,,,,,,crawford,
-"Crawford,, Darren",017-05547836,Framingham,,262,Badge Number,Police Officer,,,,,,,,,crawford,
+"Crawford,, Andrew",017-01069282,Framingham,,363,Badge Number,Police Officer,,,,,,,,,crawford,andrew
+"Crawford,, Darren",017-05547836,Framingham,,262,Badge Number,Police Officer,,,,,,,,,crawford,darren
 "Cray, Andrew",059-05535764,Needham,,8675,Badge Number,Sergeant,,Active,,,,,,,cray,andrew
 "Crayton, Charles",056-03101426,Lexington,,129,Badge Number,Patrolman,,Retired,,,,,,,crayton,charles
 "Creamer, Matthew",080-07413307,Burlington,,,Unknown,Police Patrolmen,,Active,,,,,,,creamer,matthew
@@ -2998,8 +2998,8 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Curtis, Robert",003-07482487,Massachusetts,3775,D,Employee ID,Trooper,,Active,,,,,,,curtis,robert
 "Curtis, Ronald P",004-04913203,Boston,10523,,Employee ID,Police Officer,,Inactive,,,,,,,curtis,ronald
 "Curtis, Stephanie M",004-06395508,Boston,91875,111,Employee ID,Police Lieutenant/Hdq Dispatch,,Active,,,,,,,curtis,stephanie
-"Curtis,, Brian",017-03415184,Framingham,,305,Badge Number,Police Officer,,,,,,,,,curtis,
-"Curtis,, David",017-06721498,Framingham,,330,Badge Number,Police Sergeant,,,,,,,,,curtis,
+"Curtis,, Brian",017-03415184,Framingham,,305,Badge Number,Police Officer,,,,,,,,,curtis,brian
+"Curtis,, David",017-06721498,Framingham,,330,Badge Number,Police Sergeant,,,,,,,,,curtis,david
 "Curvelo, Nathan",003-00895959,Massachusetts,4279,D,Employee ID,Trooper,,Active,,,,,,,curvelo,nathan
 "Cusack, Eugene",012-06298453,Lynn,6446,,Employee ID,Sgt,,Active,,,,,,,cusack,eugene
 "Cusack, Thomas",003-03612543,Massachusetts,3776,G,Employee ID,Trooper,,Active,,,,,,,cusack,thomas
@@ -3322,7 +3322,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Delossantos, Clayron",015-00280212,Lawrence,3293,,Employee ID,Patrol Officer,,,,,,,,,delossantos,clayron
 "Delpapa, David",045-00971831,Braintree,106,,Employee ID,Lieutenant,,Active,,,,,,,delpapa,david
 "Delponte, Danielle",003-04501372,Massachusetts,4476,C,Employee ID,Trooper,,Active,,,,,,,delponte,danielle
-"Delprete,, David",017-00123571,Framingham,,241,Badge Number,Police Officer,,,,,,,,,delprete,
+"Delprete,, David",017-00123571,Framingham,,241,Badge Number,Police Officer,,,,,,,,,delprete,david
 "Delrio, Elbis",025-01254345,Chicopee,397,95,Employee ID,Ptl.,,Active,,,,,,,delrio,elbis
 "Deltufo, Lisa M",004-00192081,Boston,103869,ZZZZZ,Employee ID,Communic. Equipop Ii 9Ii(Ss),,Active,,,,,,,deltufo,lisa
 "Deluca, Frank",003-01112331,Massachusetts,4111,C,Employee ID,Trooper,,Active,,,,,,,deluca,frank
@@ -3349,7 +3349,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Demers, Zachary",036-03429237,Westfield,83814,162,Employee ID,Patrolman,,,,,,,,,demers,zachary
 "Demesmin, Stanley",004-08873985,Boston,9278,65,Employee ID,Police Lieutenant,,Active,,,,,,,demesmin,stanley
 "Demetrion, Nicholas",063-04388537,Northampton,4755,,Employee ID,Patrol Officer,,Inactive,,,,,,,demetrion,nicholas
-"Demoraes,, Katherine",017-04090666,Framingham,,322,Badge Number,Police Officer,,,,,,,,,demoraes,
+"Demoraes,, Katherine",017-04090666,Framingham,,322,Badge Number,Police Officer,,,,,,,,,demoraes,katherine
 "Demorat, Steven",026-00887416,Weymouth,3455,,Employee ID,Patrolman,,Active,,,,,,,demorat,steven
 "Demos, George",003-03593071,Massachusetts,2731,C,Employee ID,Lieutenant,,Active,,,,,,,demos,george
 "Demota Done, Freddy",012-04208146,Lynn,11612,,Employee ID,Patrol,,Active,,,,,,,demota done,freddy
@@ -3402,7 +3402,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Dercolo, Michael",027-00319439,Revere,345,219,Employee ID,Patrol Officer,,,,,,,,,dercolo,michael
 "Derosa, Michael",093-03736813,Winchester,749,56,Employee ID,Patrol Officer,,Active,,,,,,,derosa,michael
 "Derosa, Rob",033-90934935,Arlington,,,Non-Officer,Mechanic,,Active,,,,,,,derosa,rob
-"Derosa,, Jeffrey",017-09201011,Framingham,,286,Badge Number,Police Officer,,,,,,,,,derosa,
+"Derosa,, Jeffrey",017-09201011,Framingham,,286,Badge Number,Police Officer,,,,,,,,,derosa,jeffrey
 "Derosier, Jeremy",024-01217975,Taunton,413,413,Employee ID,Patrolman,,Active,,,,,,,derosier,jeremy
 "Derrig, Taylor",036-08796599,Westfield,84491,180,Employee ID,Patrolman,,,,,,,,,derrig,taylor
 "Dervan, Edward P",004-07699505,Boston,92675,390,Employee ID,Police Officer,,Active,,,,,,,dervan,edward
@@ -3475,7 +3475,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Devlin, James",003-03405953,Massachusetts,889,G,Employee ID,Captain,,Active,,,,,,,devlin,james
 "Devlin, Shaun",007-00659075,Lowell,25844,,Employee ID,Police Officer,,Active,,,,,,,devlin,shaun
 "Devlin, Stephanie",003-09335977,Massachusetts,4113,G,Employee ID,Trooper,,Active,,,,,,,devlin,stephanie
-"Devlin,, Zachary",017-03716783,Framingham,,389,Badge Number,Police Officer,,,,,,,,,devlin,
+"Devlin,, Zachary",017-03716783,Framingham,,389,Badge Number,Police Officer,,,,,,,,,devlin,zachary
 "Devoe Sr., Richard P",004-01790767,Boston,1287,,Employee ID,Police Detective,,Inactive,,,,,,,devoe,richard
 "Devoe, Kevin",019-05757989,Waltham,101370,14,Employee ID,Sgt.,,,,,,,,,devoe,kevin
 "Devon Thompson, Clarence",004-04549319,Boston,151204,ZZZZZ,Employee ID,Cadet (Police),,Active,,,,,,,devon thompson,clarence
@@ -3504,7 +3504,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Dibenedetto, Lucille A",004-04614070,Boston,7670,,Employee ID,Head Clerk & Secretary,,Inactive,,,,,,,dibenedetto,lucille
 "Dibenedetto, Robert",015-08126895,Lawrence,151,,Employee ID,Police Sergeant,,,,,,,,,dibenedetto,robert
 "Dibernardo, Ryan N",006-06100871,Springfield,107067,379,Employee ID,Officer,,Active,,,,,,,dibernardo,ryan
-"Diblasi, Jr., Kenneth",023-07258017,Medford,,134,Badge Number,Patrol Officer,,,,,,,,,diblasi,
+"Diblasi, Jr., Kenneth",023-07258017,Medford,,134,Badge Number,Patrol Officer,,,,,,,,,diblasi,kenneth
 "Dicarlo, Anthony",085-02947655,Easton,,81,Employee ID,Patrol,,Active,,,,,,,dicarlo,anthony
 "Dicarlo, Cameron",020-05828809,Malden,322,,Employee ID,Patrol Officer,,Active,,,,,,,dicarlo,cameron
 "Dicarlo, Jennifer",063-00231522,Northampton,7269,,Employee ID,Prin Clerk,,Active,,,,,,,dicarlo,jennifer
@@ -3589,7 +3589,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Dipanfilo, Brett",072-01044331,Saugus,11177,11177,Employee ID,Recruit,,Active,,,,,,,dipanfilo,brett
 "Dipanfilo, Nolan",072-02913514,Saugus,10979,10979,Employee ID,Patrolmen,,Active,,,,,,,dipanfilo,nolan
 "DIPASQUALE, MARCUS",096-44897630,Gardner,1084,,Employee ID,Dispatcher,,Inactive,,,,,,,dipasquale,marcus
-"Dipasquale,, John",017-09608377,Framingham,,399,Badge Number,Police Officer,,,,,,,,,dipasquale,
+"Dipasquale,, John",017-09608377,Framingham,,399,Badge Number,Police Officer,,,,,,,,,dipasquale,john
 "Diperna, Kathryn",093-07839908,Winchester,739,64,Employee ID,Patrol Officer,,Active,,,,,,,diperna,kathryn
 "Diperri, Adam M",004-05186887,Boston,98667,1393,Employee ID,Police Officer,,Active,,,,,,,diperri,adam
 "Diperri, Richard",086-09019396,Wilmington,173,173,Employee ID,Patrol Officer,,Active,,,,,,,diperri,richard
@@ -3698,7 +3698,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Donato, James",010-07679956,Brockton,618,618,,Patrolman,,Full Time,,,,,,,donato,james
 "Dondero, Christopher",018-05810807,Haverhill,116,116,Employee ID,Officer,,,,,,,,,dondero,christopher
 "Donermeyer, Evan J",006-02054807,Springfield,108846,256,Employee ID,Officer,,Active,,,,,,,donermeyer,evan
-"Dones-Linehan,, Jeannette",017-02704600,Framingham,,234,Badge Number,Police Officer,,,,,,,,,dones-linehan,
+"Dones-Linehan,, Jeannette",017-02704600,Framingham,,234,Badge Number,Police Officer,,,,,,,,,dones-linehan,jeannette
 "Donga, William F",004-05652573,Boston,9570,627,Employee ID,Police Detective,,Inactive,,,,,,,donga,william
 "Donham, Henry",033-36425685,Arlington,4665,62,Employee ID/Badge,Police Officer,,Active,,,,,,,donham,henry
 "Donlon, Christopher M",004-07990996,Boston,144486,ZZZZZ,Employee ID,Police Officer,,Active,,,,,,,donlon,christopher
@@ -3822,7 +3822,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Downing, Roger",099-05142940,Hudson,1250,107,Employee ID,Sgt.,,,,,,,,,downing,roger
 "Downing, Terence",024-04659788,Taunton,397,397,Employee ID,Patrolman,,Active,,,,,,,downing,terence
 "Downing, Terrence E",011-01779362,Quincy,103325,3325,Employee ID,Na,,,,,,,,,downing,terrence
-"Downing,, Robert",017-05853345,Framingham,,248,Badge Number,Police Lieutenant,,,,,,,,,downing,
+"Downing,, Robert",017-05853345,Framingham,,248,Badge Number,Police Lieutenant,,,,,,,,,downing,robert
 "Downs, David",030-03125531,Barnstable,11873,,Employee ID,Patrol Officer Bachelor'S 20%,,Active,,,,,,,downs,david
 "Downs, Edward",004-05503391,Boston,109338,5209,Employee ID,Police Officer,,Active,,,,,,,downs,edward
 "Downs, Steven G",004-09129839,Boston,8714,330,Employee ID,Police Sergeant (Det),,Active,,,,,,,downs,steven
@@ -3862,7 +3862,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Driscoll, Sean",021-03298232,Brookline,204440,146,Employee ID,Patrol Officer,,,,,,,,,driscoll,sean
 "Driscoll, Thomas",004-05601364,Boston,144442,5033,Employee ID,Police Officer,,Active,,,,,,,driscoll,thomas
 "Driscoll, Timothy",003-01949142,Massachusetts,2985,G,Employee ID,Sergeant,,Active,,,,,,,driscoll,timothy
-"Drumm,, Shannon",017-08056642,Framingham,,341,Badge Number,Police Officer,,,,,,,,,drumm,
+"Drumm,, Shannon",017-08056642,Framingham,,341,Badge Number,Police Officer,,,,,,,,,drumm,shannon
 "Drummer, Khalilah A",004-08205570,Boston,99767,ZZZZZ,Employee ID,Chcommequipoper I (Sctt),,Active,,,,,,,drummer,khalilah
 "Duarte, Jason",003-07840243,Massachusetts,4485,D,Employee ID,Trooper,,Active,,,,,,,duarte,jason
 "Duarte, Kyle",003-00705280,Massachusetts,3585,D,Employee ID,Sergeant,,Active,,,,,,,duarte,kyle
@@ -3934,7 +3934,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Dunbar, Colleen",056-09850120,Lexington,,149,Badge Number,Lieutenant,,Active,,,,,,,dunbar,colleen
 "Duncan, Calvin",052-07025065,Randolph,,139,Badge Number,Ptl,,Active,,,,,,,duncan,calvin
 "Duncan, Francisco",006-07533990,Springfield,20867,19,Employee ID,Officer,,Active,,,,,,,duncan,francisco
-"Duncan,, Paul",017-07369400,Framingham,,293,Badge Number,Police Officer,,,,,,,,,duncan,
+"Duncan,, Paul",017-07369400,Framingham,,293,Badge Number,Police Officer,,,,,,,,,duncan,paul
 "Duncanson, Damarr A",006-01496943,Springfield,115604,,Employee ID,Recruit,,Active,,,,,,,duncanson,damarr
 "Dunderdale, Paul",003-04765315,Massachusetts,3248,G,Employee ID,Trooper,,Active,,,,,,,dunderdale,paul
 "Dundutsang, Tenzing",033-28995403,Arlington,4473,66,Employee ID/Badge,Police Officer,,Active,,,,,,,dundutsang,tenzing
@@ -4062,7 +4062,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Edwards, David J",004-02627987,Boston,12259,6431,Employee ID,Police Detective,,Active,,,,,,,edwards,david
 "Edwards, Thomas",030-05940281,Barnstable,13305,,Employee ID,Patrol Officer Ed Incent 15%,,Active,,,,,,,edwards,thomas
 "Edwards, Todd",036-03801696,Westfield,74689,86,Employee ID,Na,,,,,,,,,edwards,todd
-"Edwards,, Michael",017-08994318,Framingham,,395,Badge Number,Police Officer,,,,,,,,,edwards,
+"Edwards,, Michael",017-08994318,Framingham,,395,Badge Number,Police Officer,,,,,,,,,edwards,michael
 "Efantis, Arthur",006-11233198,Springfield,,,,,,,,,Beliza Cortez, 3:17-cv-30169,,,efantis,arthur
 "Egan, Karen M",004-06318135,Boston,10122,,Employee ID,Office Manager,,Inactive,,,,,,,egan,karen
 "Egan, Keith",003-09041463,Massachusetts,2733,G,Employee ID,Det. Lieutenant,,Active,,,,,,,egan,keith
@@ -4083,7 +4083,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Elcock, Christopher",021-01242091,Brookline,991843,210,Employee ID,Patrol Officer,,,,,,,,,elcock,christopher
 "Elder, Jason L",006-07022395,Springfield,112505,333,Employee ID,Officer,,Active,,,,,,,elder,jason
 "Elhamawy, Karim",003-00168228,Massachusetts,4299,C,Employee ID,Trooper,,Military Leave,,,,,,,elhamawy,karim
-"Eliadi,, Christopher",017-09735323,Framingham,,298,Badge Number,Police Sergeant,,,,,,,,,eliadi,
+"Eliadi,, Christopher",017-09735323,Framingham,,298,Badge Number,Police Sergeant,,,,,,,,,eliadi,christopher
 "Eliason, Thomas",003-05806193,Massachusetts,3106,C,Employee ID,Sergeant,,Active,,,,,,,eliason,thomas
 "Eliopoulos, Antonios S",004-02130587,Boston,11571,ZZZZZ,Employee ID,Video Forensic Analyst,,Active,,,,,,,eliopoulos,antonios
 "Elizabeth Drew, Sarah",004-03992316,Boston,148258,2899,Employee ID,Police Officer,,Active,,,,,,,elizabeth drew,sarah
@@ -4289,7 +4289,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Fantasia, Nicholas",027-05840786,Revere,321,197,Employee ID,Patrol Officer,,Active,,,,,,,fantasia,nicholas
 "Fappiano, Peter",063-03088900,Northampton,769,,Employee ID,Patrol Officer,,Inactive,,,,,,,fappiano,peter
 "Farago, John",019-00066704,Waltham,124521,34,Employee ID,Ofc,,,,,,,,,farago,john
-"Farazi,, Qaiss",017-03287834,Framingham,,342,Badge Number,Police Officer,,,,,,,,,farazi,
+"Farazi,, Qaiss",017-03287834,Framingham,,342,Badge Number,Police Officer,,,,,,,,,farazi,qaiss
 "Farber, Douglas L",005-08956635,Worcester,,,,Officer,,Active,,,,,,,farber,douglas
 "Farber, Molly",063-06186551,Northampton,6048,,Employee ID,Patrol Officer,,Inactive,,,,,,,farber,molly
 "Farber, Molly O.",044-09737885,Amherst,135,,,Patrol,,,,,,,,,farber,molly
@@ -4511,7 +4511,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Fitzgerald, Ryan",024-00085617,Taunton,422,422,Employee ID,Patrolman,,Active,,,,,,,fitzgerald,ryan
 "Fitzgerald, Sean",004-08279540,Boston,10808,ZZZZZ,Employee ID,Sr Radio Communications Tech,,Active,,,,,,,fitzgerald,sean
 "Fitzgerald, Thomas",003-03774712,Massachusetts,1003,G,Employee ID,Lieutenant,,Active,,,,,,,fitzgerald,thomas
-"Fitzgerald,, Ryan",017-02114929,Framingham,,,Unknown,Na,,,,,,,,,fitzgerald,
+"Fitzgerald,, Ryan",017-02114929,Framingham,,,Unknown,Na,,,,,,,,,fitzgerald,ryan
 "Fitzgibbon, Brian",004-02200686,Boston,81403,1360,Employee ID,Police Offc Mobile Offc 2$6,,Active,,,,,,,fitzgibbon,brian
 "Fitzmaurice, William",003-01952357,Massachusetts,1005,H,Employee ID,Sergeant,,Active,,,,,,,fitzmaurice,william
 "Fitzpatrick, Collin",059-08316577,Needham,,5244,Badge Number,Patrol Officer,,Active,,,,,,,fitzpatrick,collin
@@ -4741,7 +4741,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Fournier, Jason",013-09026309,Fall,A673,A673,Employee ID,P.O.,,Active,,,,,,,fournier,jason
 "Fournier, Joyce A",004-05381589,Boston,12286,,Employee ID,School Traffic Supv,,Inactive,,,,,,,fournier,joyce
 "Fournier, Thomas",080-06684253,Burlington,,,Unknown,Police Patrolmen,,Active,,,,,,,fournier,thomas
-"Fowks,, Stephen",017-04365377,Framingham,,375,Badge Number,Police Officer,,,,,,,,,fowks,
+"Fowks,, Stephen",017-04365377,Framingham,,375,Badge Number,Police Officer,,,,,,,,,fowks,stephen
 "Fowler, Erin",003-04821762,Massachusetts,3435,G,Employee ID,Trooper,,Active,,,,,,,fowler,erin
 "Fox, William W.",034-02600350,Everett,,3827,Badge Number,Sgt,,Active,,,,,,,fox,william
 "Frais, Williams",003-01584520,Massachusetts,3954,G,Employee ID,Trooper,,Active,,,,,,,frais,williams
@@ -4758,7 +4758,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Francis, Kato I",004-09744529,Boston,97285,2276,Employee ID,Police Officer,,Active,,,,,,,francis,kato
 "Francis, Sean P",004-00965209,Boston,10889,2489,Employee ID,Police Offc Mobile Offc 2$6,,Active,,,,,,,francis,sean
 "Franco, James",100-03232107,Norton,925,139,Unknown,Lt 2,,Active,,,,,,,franco,james
-"Franco,, Roberto",017-03618014,Framingham,,390,Badge Number,Police Officer,,,,,,,,,franco,
+"Franco,, Roberto",017-03618014,Framingham,,390,Badge Number,Police Officer,,,,,,,,,franco,roberto
 "Francoeur, Douglas",003-02414829,Massachusetts,3597,G,Employee ID,Trooper,,Active,,,,,,,francoeur,douglas
 "Franey, Michelle",085-04883123,Easton,,99,,Patrol,,Active,,,,,,,franey,michelle
 "Frank Kosek, Jason",004-07333630,Boston,148850,ZZZZZ,Employee ID,Sr Radio Communicati,,Active,,,,,,,frank kosek,jason
@@ -4841,7 +4841,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Fucarile, Edward",092-02750612,Stoneham,3285,49,Employee ID,Patrol Officer,,Active,,,,,,,fucarile,edward
 "Fucca, Charles",066-06418355,North,421,,Employee ID,Patrol Officer,,R,,,,,,,fucca,charles
 "Fucci, Richard",012-03215307,Lynn,6567,,Employee ID,Patrol,,Active,,,,,,,fucci,richard
-"Fuer,, Richard",017-03937635,Framingham,,303,Badge Number,Police Officer,,,,,,,,,fuer,
+"Fuer,, Richard",017-03937635,Framingham,,303,Badge Number,Police Officer,,,,,,,,,fuer,richard
 "Fullam Jr, Daniel J",004-03543452,Boston,153086,1733,Employee ID,Police Officer,,Active,,,,,,,fullam,daniel
 "Fullam, Daniel J",004-04709633,Boston,10403,4222,Employee ID,Police Offc/Hosp Liaison 4$10,,Active,,,,,,,fullam,daniel
 "Fullam, Kevin",030-03260219,Barnstable,11276,,Employee ID,Sergeant W/  Bach 15%,,Active,,,,,,,fullam,kevin
@@ -5013,7 +5013,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Gardiner, John",030-03807094,Barnstable,14266,,Employee ID,Patrol Officer Associates 10%,,Active,,,,,,,gardiner,john
 "Gardner, Jessica",004-06424112,Boston,115656,1711,Employee ID,Police Officer,,Active,,,,,,,gardner,jessica
 "Gardner, Vaness",030-07501984,Barnstable,13304,,Employee ID,Patrol Officer,,Inactive,,,,,,,gardner,vaness
-"Gardner,, Thomas",017-04813738,Framingham,,362,Badge Number,Police Officer,,,,,,,,,gardner,
+"Gardner,, Thomas",017-04813738,Framingham,,362,Badge Number,Police Officer,,,,,,,,,gardner,thomas
 "Garfield, Beth",003-08107548,Massachusetts,3798,G,Employee ID,Trooper,,Active,,,,,,,garfield,beth
 "Garland, Lynn",030-07496487,Barnstable,11365,,Employee ID,Principal Dept/Div Assistant,,Inactive,,,,,,,garland,lynn
 "Garlick, Keith S",005-04731405,Worcester,,80,,Officer,,Active,,,,,,,garlick,keith
@@ -5042,7 +5042,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Gately, Josiah",003-03558787,Massachusetts,3799,G,Employee ID,Trooper,,Active,,,,,,,gately,josiah
 "Gates, Christopher",025-09097053,Chicopee,247,22,Employee ID,Ptl.,,Active,,,,,,,gates,christopher
 "Gatie, John",026-07345610,Weymouth,1133,,Employee ID,Patrolman,,RETIRED,,,,,,,gatie,john
-"Gatlin,, Timothy D.",017-08521854,Framingham,,354,Badge Number,Police Officer,,,,,,,,,gatlin,
+"Gatlin,, Timothy D.",017-08521854,Framingham,,354,Badge Number,Police Officer,,,,,,,,,gatlin,timothy d.
 "Gatto, Jason",007-04108499,Lowell,21373,,Employee ID,Police Officer,,Active,,,,,,,gatto,jason
 "Gattozzi, Keith",067-08880840,Milford,9999-8746,812,Employee ID,Special Police Officer,,Active,,,,,,,gattozzi,keith
 "Gaucher, Richard",010-03969745,Brockton,292,292,,Patrolman,,Full Time,,,,,,,gaucher,richard
@@ -5271,7 +5271,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Glasheen, Liam M",040-02659307,Holyoke,319,,Employee ID,Officer,,Active,,,,,,,glasheen,liam
 "Glassman, Jerilyn",062-50435290,Norwood,TS30,,External ID,Traffic Supervisor,,P,,,,,,,glassman,jerilyn
 "Glavin, Michelle",039-01876216,Billerica,131,85,Employee ID,Patrolman,,,,,,,,,glavin,michelle
-"Glavin,, Garrett",017-05981181,Framingham,,373,Badge Number,Police Officer,,,,,,,,,glavin,
+"Glavin,, Garrett",017-05981181,Framingham,,373,Badge Number,Police Officer,,,,,,,,,glavin,garrett
 "Gleason, Tiffany",065-08087874,West,1227,,Employee ID,Records Clerk Matron,,,,,,,,,gleason,tiffany
 "Gleeson, Edward W",004-06080723,Boston,8596,ZZZZZ,Employee ID,Police Dispatcher,,Active,,,,,,,gleeson,edward
 "Gleick, Kyle",003-00142348,Massachusetts,3272,C,Employee ID,Trooper,,Active,,,,,,,gleick,kyle
@@ -5288,7 +5288,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Godin, David",004-06234486,Boston,103757,1917,Employee ID,Police Officer,,Active,,,,,,,godin,david
 "GODIN, JOSEPH",096-82192148,Gardner,1092,,Employee ID,Dispatcher,,Inactive,,,,,,,godin,joseph
 "Godino, John",054-05457493,Franklin,GJ02,63,Employee ID,Na,,Active,,,,,,,godino,john
-"Godino,, Michael",017-06251112,Framingham,,345,Badge Number,Police Officer,,,,,,,,,godino,
+"Godino,, Michael",017-06251112,Framingham,,345,Badge Number,Police Officer,,,,,,,,,godino,michael
 "Goff, Jesse E",004-05386462,Boston,11690,6491,Employee ID,Police Detective,,Active,,,,,,,goff,jesse
 "Goggin Jr., Michael T",004-04808620,Boston,106713,3444,Employee ID,Police Officer,,Active,,,,,,,goggin,michael
 "Goggin, Brian",080-00139146,Burlington,,,Unknown,Police Patrolmen,,Active,,,,,,,goggin,brian
@@ -5303,7 +5303,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Golden, Peter J",004-09960218,Boston,10834,ZZZZZ,Employee ID,Mtr Eq Rpprs Classibpdfleetbfd,,Active,,,,,,,golden,peter
 "Golden, Timothy",007-02018052,Lowell,10685,,Employee ID,Sergeant Police,,Active,,,,,,,golden,timothy
 "Golden, Timothy J",004-01545183,Boston,10796,497,Employee ID,Police Sergeant,,Active,,,,,,,golden,timothy
-"Golden,, James",017-07675416,Framingham,,385,Badge Number,Police Officer,,,,,,,,,golden,
+"Golden,, James",017-07675416,Framingham,,385,Badge Number,Police Officer,,,,,,,,,golden,james
 "Goldman, Dwayne E",011-02501997,Quincy,5104,5104,Employee ID,Na,,,,,,,,,goldman,dwayne
 "Goldrick, James",011-02172405,Quincy,167157,7157,Employee ID,Na,,,,,"Jesus Cartagena,Erica Cartagena,Nicholas Montel,""Leslie Wallace, Melissa Wallace, Leo Fennell""","3:16-CV-30134,3:16-CV-30133,3:16-CV-30135,3:19-cv-30109",,,goldrick,james
 "GOLDSTEIN , ISAAC",014-71565146,Newton,,,Not Provided,Civilian,,Active,,,,,,,goldstein,isaac
@@ -5334,7 +5334,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Goncalves, Danielson",003-09680328,Massachusetts,4504,C,Employee ID,Trooper,,Active,,,,,,,goncalves,danielson
 "Goncalves, Ildo D",004-03885295,Boston,11900,1250,Employee ID,Police Officer,,Active,,,,,,,goncalves,ildo
 "Goncalves, Raoul",034-08910375,Everett,,9569,Badge Number,Ptl,,Active,,,,,,,goncalves,raoul
-"Goncalves,, Jose",017-07085287,Framingham,,319,Badge Number,Police Officer,,,,,,,,,goncalves,
+"Goncalves,, Jose",017-07085287,Framingham,,319,Badge Number,Police Officer,,,,,,,,,goncalves,jose
 "Gondella, Michael",003-00181507,Massachusetts,3000,A,Employee ID,Trooper,,Active,,,,,,,gondella,michael
 "Gondella, Stephen",003-02581755,Massachusetts,2746,A,Employee ID,Lieutenant,,Active,,,,,,,gondella,stephen
 "Gonelli, Tara",046-02147906,Shrewsbury,22277,,,Dispatcher,,Inactive,,,,,,,gonelli,tara
@@ -5513,7 +5513,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Green, Michael",003-09836586,Massachusetts,4508,B,Employee ID,Trooper,,Active,,,,,,,green,michael
 "Green, Shawn",046-07075460,Shrewsbury,4543,,,Dispatcher,,Inactive,,,,,,,green,shawn
 "Green, Stephen W",004-08051107,Boston,8785,428,Employee ID,Police Sergeant,,Active,,,,,,,green,stephen
-"Green,, James",017-01956074,Framingham,,141,Badge Number,Police Officer,,,,,,,,,green,
+"Green,, James",017-01956074,Framingham,,141,Badge Number,Police Officer,,,,,,,,,green,james
 "Greene, Bonnie",046-07290571,Shrewsbury,88450,,,Dispatcher,,Inactive,,,,,,,greene,bonnie
 "Greene, Brenden",062-48783559,Norwood,BG01,40,External ID,Detective,,F,,,,,,,greene,brenden
 "Greene, Daniel C",004-01591817,Boston,8854,2354,Employee ID,Police Officer,,Inactive,,,,,,,greene,daniel
@@ -5590,7 +5590,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Grossi, Domenic",080-00392711,Burlington,,,Unknown,Police Patrolmen,,Active,,,,,,,grossi,domenic
 "Grosso, Lorenzo",090-04258796,Wareham,,LG,Badge Number,Patrol Officer,,Active,,,,,,,grosso,lorenzo
 "Grout, Douglas",003-00165114,Massachusetts,3599,G,Employee ID,Trooper,,Active,,,,,,,grout,douglas
-"Grout,, Derek",017-07878477,Framingham,,387,Badge Number,Police Officer,,,,,,,,,grout,
+"Grout,, Derek",017-07878477,Framingham,,387,Badge Number,Police Officer,,,,,,,,,grout,derek
 "Groux, Thomas",093-00310568,Winchester,664,33,Employee ID,Lt,,Active,,,,,,,groux,thomas
 "Grover, Christopher",071-01397817,Stoughton,902128,173,,Patrolmen,,Active,,,,,,,grover,christopher
 "Grover, Richard",054-05733903,Franklin,GR02,11,Employee ID,Na,,Active,,,,,,,grover,richard
@@ -5612,9 +5612,9 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Guarino, Nicholas",062-30018664,Norwood,NG01,13,External ID,Patrolman,,Inactive,,,,,,,guarino,nicholas
 "Guarino, Patricia S",004-01607599,Boston,101945,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,guarino,patricia
 "Guarino, Paul",054-06829470,Franklin,GP01,30,Employee ID,Na,,Active,,,,,,,guarino,paul
-"Guarino,, Anthony",017-01364882,Framingham,,396,Badge Number,Police Officer,,,,,,,,,guarino,
-"Guarino,, Domenic",017-04140341,Framingham,,401,Badge Number,Police Officer,,,,,,,,,guarino,
-"Guarino,, Mitchell",017-02978825,Framingham,,367,Badge Number,Police Officer,,,,,,,,,guarino,
+"Guarino,, Anthony",017-01364882,Framingham,,396,Badge Number,Police Officer,,,,,,,,,guarino,anthony
+"Guarino,, Domenic",017-04140341,Framingham,,401,Badge Number,Police Officer,,,,,,,,,guarino,domenic
+"Guarino,, Mitchell",017-02978825,Framingham,,367,Badge Number,Police Officer,,,,,,,,,guarino,mitchell
 "Guercio, Steven J",005-01556831,Worcester,,58,,Officer,,Active,,,,,,,guercio,steven
 "Guerin, Kerri A",004-04886804,Boston,116170,2315,Employee ID,Police Offc Comm Serv Offc 3$8,,Active,,,,,,,guerin,kerri
 "Guerini III, Andrew J",004-02404045,Boston,153126,5145,Employee ID,Police Officer,,Active,,,,,,,guerini,andrew
@@ -5627,7 +5627,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Guerrero, Oscar A",004-08721577,Boston,131244,1697,Employee ID,Police Officer,,Active,,,,,,,guerrero,oscar
 "Guerrero, Santa A",004-03045070,Boston,149338,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,guerrero,santa
 "Guerriero, Michael",003-02708604,Massachusetts,3119,F,Employee ID,Sergeant,,Active,,,,,,,guerriero,michael
-"Guertin,, Joseph",017-00524452,Framingham,,369,Badge Number,Police Officer,,,,,,,,,guertin,
+"Guertin,, Joseph",017-00524452,Framingham,,369,Badge Number,Police Officer,,,,,,,,,guertin,joseph
 "Guest, John",003-05832267,Massachusetts,3444,H,Employee ID,Trooper,,Active,,,,,,,guest,john
 "Guglielmo, Kaitlin",082-02232986,Yarmouth,7442,,Employee ID,Matron,,Part Time,,,,,,,guglielmo,kaitlin
 "Guida, Bryan",074-04868046,Danvers,10434,,Employee ID,Patrol Officer,,,,,,,,,guida,bryan
@@ -5650,7 +5650,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Gustafson, Kristina",030-09206589,Barnstable,14705,,Employee ID,Patrol Officer,,Active,,,,,,,gustafson,kristina
 "Gustie, Allen G.",021-06579563,Brookline,990793,36,Employee ID,Sergeant,,,,,,,,,gustie,allen
 "Guthrie, Ryan",015-06898100,Lawrence,1162,,Employee ID,Patrol Officer,,,,,,,,,guthrie,ryan
-"Gutwill,, Matthew",017-06388488,Framingham,,285,Badge Number,Police Officer,,,,,,,,,gutwill,
+"Gutwill,, Matthew",017-06388488,Framingham,,285,Badge Number,Police Officer,,,,,,,,,gutwill,matthew
 "Guy, Edward",050-07164403,Andover,11190,L7,Employee ID,Lieutenant,,,,,,,,,guy,edward
 "Guy, Kevin M",004-07174776,Boston,10539,555,Employee ID,Police Detective,,Active,,,,,,,guy,kevin
 "Guzman, Christian",018-04484551,Haverhill,136,136,Employee ID,Officer,,,,,,,,,guzman,christian
@@ -6000,7 +6000,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Hendrick, Phillip",015-05598664,Lawrence,3313,,Employee ID,Patrol Officer,,,,,,,,,hendrick,phillip
 "Hendricks, Sharon A",004-02689779,Boston,97067,,Employee ID,"Communequipop Iii, R-13 (Ct)",,Inactive,,,,,,,hendricks,sharon
 "Hendricks, Teddy J",004-01985814,Boston,9047,2715,Employee ID,Police Offc Mobile Offc 2$6,,Active,,,,,,,hendricks,teddy
-"Hendry,, Christopher",017-04370725,Framingham,,340,Badge Number,Police Officer,,,,,,,,,hendry,
+"Hendry,, Christopher",017-04370725,Framingham,,340,Badge Number,Police Officer,,,,,,,,,hendry,christopher
 "Henehan, Paul",072-03085040,Saugus,3844,3844,Employee ID,Patrolmen,,Active,,,,,,,henehan,paul
 "Henneberry, Derek",003-04545576,Massachusetts,4524,C,Employee ID,Trooper,,Active,,,,,,,henneberry,derek
 "Henneberry, Paul",081-04186847,Walpole,,37,Badge Number,Na,,,,,,,,,henneberry,paul
@@ -6138,7 +6138,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Hill, Justin",098-03140556,Bourne,184,,Employee ID,Plt,,,,,,,,,hill,justin
 "Hill, Stephen",006-94970159,Springfield,,,,,,,,,Louis Jiles,3:09-v-30064,,,hill,stephen
 "Hill, Thomas J",004-03371894,Boston,10411,929,Employee ID,Police Lieutenant,,Inactive,,,,,,,hill,thomas
-"Hill,, James",017-04325935,Framingham,,392,Badge Number,Police Officer,,,,,,,,,hill,
+"Hill,, James",017-04325935,Framingham,,392,Badge Number,Police Officer,,,,,,,,,hill,james
 "Hilliard, Erik",010-04436800,Brockton,291,291,,Patrolman,,Inactive,,,,,,,hilliard,erik
 "Hillman, Barbara L",004-06804490,Boston,101655,ZZZZZ,Employee ID,Head Clerk & Secretary,,Active,,,,,,,hillman,barbara
 "Hillman, Ethan",003-00749511,Massachusetts,3611,C,Employee ID,Trooper,,Active,,,,,,,hillman,ethan
@@ -6315,7 +6315,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Hughes, Richard",052-04788717,Randolph,,72,Badge Number,Sgt,,Active,,,,,,,hughes,richard
 "Hughes, Shawn",023-05427389,Medford,,S40,Badge Number,Sergeant,,,,,,,,,hughes,shawn
 "Hughes, Timothy",088-02235051,Westford,5987,48,Employee ID,Patrolman,,Active,,,,,,,hughes,timothy
-"Hughes,, Michele",017-02919328,Framingham,,261,Badge Number,Police Officer,,,,,,,,,hughes,
+"Hughes,, Michele",017-02919328,Framingham,,261,Badge Number,Police Officer,,,,,,,,,hughes,michele
 "Hulse, Andrew C.",044-08230710,Amherst,124,,,Patrol,,,,,,,,,hulse,andrew
 "Hultgren, Thomas",007-01529851,Lowell,10709,,Employee ID,Sergeant Police,,Active,,,,,,,hultgren,thomas
 "Humber, Marcus A.",044-00227888,Amherst,107,,,Detective,,,,,,,,,humber,marcus
@@ -6541,7 +6541,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Jermaine Wynn, Gerard",004-06366578,Boston,157699,2251,Employee ID,Police Officer,,Active,,,,,,,jermaine wynn,gerard
 "Jesus Pina, Stanley",004-02242770,Boston,153117,5129,Employee ID,Police Officer,,Active,,,,,,,jesus pina,stanley
 "Jett, Phillip",003-07955645,Massachusetts,4535,B,Employee ID,Trooper,,Active,,,,,,,jett,phillip
-"Jewell,, Ryan",017-08524639,Framingham,,382,Badge Number,Police Officer,,,,,,,,,jewell,
+"Jewell,, Ryan",017-08524639,Framingham,,382,Badge Number,Police Officer,,,,,,,,,jewell,ryan
 "Jimenez, Cristian",047-04305148,Chelsea,4028,222,,Police Officer,,,,,,,,,jimenez,cristian
 "Jimenez, Gilberto",063-03943197,Northampton,772,,Employee ID,Special Police,,Active,,,,,,,jimenez,gilberto
 "Jimenez, Siervo R",006-07416410,Springfield,112462,331,Employee ID,Officer,,Active,,,,,,,jimenez,siervo
@@ -6551,7 +6551,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Johanson, Kevin R",005-04228598,Worcester,,,,Sergeant,,Active,,,,,,,johanson,kevin
 "John Boulger, Michael",004-00760979,Boston,11819,1834,Employee ID,Police Officer,,Active,,,,,,,john boulger,michael
 "John Bouzane, Matthew",004-08845425,Boston,11482,ZZZZZ,Employee ID,Dir-Signal Service (Bpd),,Active,,,,,,,john bouzane,matthew
-"John Carlo,, David",017-09423665,Framingham,,279,Badge Number,Police Officer,,,,,,,,,john carlo,
+"John Carlo,, David",017-09423665,Framingham,,279,Badge Number,Police Officer,,,,,,,,,john carlo,david
 "John Errico, David",004-03282748,Boston,11923,,Employee ID,Jr  Building Custodian,,Inactive,,,,,,,john errico,david
 "John F Sevigne, Jr.",040-05762417,Holyoke,285,,Employee ID,Officer,,Active,,,,,,,sevigne,john
 "John Foley, Thomas",004-07413093,Boston,12076,6042,Employee ID,Police Officer,,Active,,,,,,,john foley,thomas
@@ -6646,7 +6646,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Jordan, Patrick",019-00648131,Waltham,,105,Badge Number,Ofc,,,,,,,,,jordan,patrick
 "Jordan, Richard P",004-08450465,Boston,11701,6408,Employee ID,Police Detective,,Inactive,,,,,,,jordan,richard
 "Jordan, Thomas L",004-07417803,Boston,1708,ZZZZZ,Employee ID,Head Clerk,,Active,,,,,,,jordan,thomas
-"Jordan,, Wayne",017-09701520,Framingham,,315,Badge Number,Police Officer,,,,,,,,,jordan,
+"Jordan,, Wayne",017-09701520,Framingham,,315,Badge Number,Police Officer,,,,,,,,,jordan,wayne
 "Joress, Benjamin",003-03225133,Massachusetts,3614,B,Employee ID,Trooper,,Active,,,,,,,joress,benjamin
 "Jorge, Lucas",003-06119410,Massachusetts,2633,G,Employee ID,Trooper,,Active,,,,,,,jorge,lucas
 "Jose Dasilva, Moses",004-06939155,Boston,110128,1757,Employee ID,Police Officer,,Active,,,,,,,jose dasilva,moses
@@ -6709,14 +6709,14 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Juba, Dave E",004-07213832,Boston,11615,6749,Employee ID,Police Detective,,Active,,,,,,,juba,dave
 "Judge, Gregory",040-01127461,Holyoke,128,,Employee ID,Officer,,Active,,,,,,,judge,gregory
 "Julce, Michael",003-03349668,Massachusetts,4537,H,Employee ID,Trooper,,Active,,,,,,,julce,michael
-"Julian Little, St.",004-02414362,Boston,91906,3096,Employee ID,Police Officer,,Active,,,,,,,,julian little
+"Julian Little, St.",004-02414362,Boston,91906,3096,Employee ID,Police Officer,,Active,,,,,,,little,julian
 "Juliano, George E",004-07211223,Boston,8960,92,Employee ID,Police Lieutenant (Det),,Active,,,,,,,juliano,george
 "Julio, Jonathan R",035-09118501,Salem,104143,216,Employee ID,Na,,POLICE PATROL,,,,,,,julio,jonathan
 "Junior Cherry, Michael, Michael,",069-00367423,Milton,1461,M1461,Employee ID,Patrol,,Active,,,,,,,junior cherry,michael
 "Junior Noel, Jacques",004-05058720,Boston,153098,5105,Employee ID,Police Officer,,Active,,,,,,,junior noel,jacques
 "Jurewich, Andrew",062-65754054,Norwood,AJ01,31,External ID,Patrol,,F,,,,,,,jurewich,andrew
 "Jurkowski, Nathan M",006-04401495,Springfield,112800,392,Employee ID,Officer,,Active,,,,,,,jurkowski,nathan
-"Jusino, Jr., Johnny",025-05699288,Chicopee,302,39,Employee ID,Ptl.,,Active,,,,,,,jusino,
+"Jusino, Jr., Johnny",025-05699288,Chicopee,302,39,Employee ID,Ptl.,,Active,,,,,,,jusino,johnny
 "Jusseuame, Robert",042-03837216,Marlborough,54RJ,,,Lieutenant,,Active,,,,,,,jusseuame,robert
 "Justiniano, Wanina",006-08014797,Springfield,107188,,Employee ID,Recruit,,Active,,,,,,,justiniano,wanina
 "Kachadoorian, Jon A",005-06361380,Worcester,,34,,Officer,,Active,,,,,,,kachadoorian,jon
@@ -6845,7 +6845,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Keita, Oumar",006-09953117,Springfield,112459,320,Employee ID,Officer,,Active,,,,,,,keita,oumar
 "Keith Connor, Robert",004-03103176,Boston,148252,1578,Employee ID,Police Officer,,Active,,,,,,,keith connor,robert
 "Keith, Kevin",003-03685010,Massachusetts,4334,H,Employee ID,Trooper,,Active,,,,,,,keith,kevin
-"Keith,, Martin",017-04693425,Framingham,,269,Badge Number,Police Lieutenant,,,,,,,,,keith,
+"Keith,, Martin",017-04693425,Framingham,,269,Badge Number,Police Lieutenant,,,,,,,,,keith,martin
 "Keleher, Patrick",059-08130205,Needham,,26,Badge Number,Patrol Officer,,Active,,,,,,,keleher,patrick
 "Keleher, Thomas",091-01054169,Canton,285,,,Na,,Full Time,,,,,,,keleher,thomas
 "Kellaher, Meghan",046-09058665,Shrewsbury,46835,,,Dispatcher,,Inactive,,,,,,,kellaher,meghan
@@ -6858,7 +6858,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Kelleher, Richard",081-00785678,Walpole,,17,Badge Number,Detective Sergeant,,,,,,,,,kelleher,richard
 "Kelleher, William",059-08609603,Needham,,8963,Badge Number,Patrol Officer,,Active,,,,,,,kelleher,william
 "Kelleher, William",062-61381275,Norwood,WK80,,External ID,Patrol,,Inactive,,,,,,,kelleher,william
-"Kelleher,, Kimberly A.",017-07467809,Framingham,,251,Badge Number,Police Officer,,,,,,,,,kelleher,
+"Kelleher,, Kimberly A.",017-07467809,Framingham,,251,Badge Number,Police Officer,,,,,,,,,kelleher,kimberly a.
 "Kellen Gaffey, Matthew",004-04130669,Boston,153151,5148,Employee ID,Police Officer,,Active,,,,,,,kellen gaffey,matthew
 "Keller-Smith, Irene",004-03050639,Boston,12292,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,keller-smith,irene
 "Kelley, Allan G",004-00140518,Boston,11618,4740,Employee ID,Police Officer,,Active,,,,,,,kelley,allan
@@ -7562,8 +7562,8 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "LEONE , CHARLES",014-55024186,Newton,,,Not Provided,Lieutenant,,Active,,,,,,,leone,charles
 "Leone, Guy",023-01550256,Medford,,202,Badge Number,Patrol Officer,,,,,,,,,leone,guy
 "Leone, Michael",023-05239727,Medford,,S49,Badge Number,Sergeant,,,,,,,,,leone,michael
-"Leone,, Eric",017-06816515,Framingham,,402,Badge Number,Police Officer,,,,,,,,,leone,
-"Leone,, Nicholas",017-06022117,Framingham,,348,Badge Number,Police Officer,,,,,,,,,leone,
+"Leone,, Eric",017-06816515,Framingham,,402,Badge Number,Police Officer,,,,,,,,,leone,eric
+"Leone,, Nicholas",017-06022117,Framingham,,348,Badge Number,Police Officer,,,,,,,,,leone,nicholas
 "Leon-Resto, Daniel",006-07208070,Springfield,40682,112,Employee ID,Officer,,Active,,,,,,,leon-resto,daniel
 "Lepage, Brian",025-09608070,Chicopee,227,17,Employee ID,Ptl.,,Active,,,,,,,lepage,brian
 "Lerro, Robert E",004-03579392,Boston,157691,2254,Employee ID,Police Officer,,Active,,,,,,,lerro,robert
@@ -7610,8 +7610,8 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Lewis, Roderick L",004-01235233,Boston,95802,1944,Employee ID,Police Officer,,Active,,,,,,,lewis,roderick
 "Lewis, Sean",003-09738671,Massachusetts,3462,F,Employee ID,Trooper,,Active,,,,,,,lewis,sean
 "Lewis, Shavonne M",006-02492383,Springfield,104282,212,Employee ID,Officer,,Suspended Unpaid,,,"Herman Cumby,Herman Cumby,""Jackie Ligon, Jozelle Ligon, Michael Cintron""","18-cv-30049,3:18-cv-30049,3-18-cv-30053",,,lewis,shavonne
-"Lewis,, Andrew",017-01056600,Framingham,,368,Badge Number,Police Officer,,,,,,,,,lewis,
-"Lewis,, Robert",017-05465383,Framingham,,308,Badge Number,Police Officer,,,,,,,,,lewis,
+"Lewis,, Andrew",017-01056600,Framingham,,368,Badge Number,Police Officer,,,,,,,,,lewis,andrew
+"Lewis,, Robert",017-05465383,Framingham,,308,Badge Number,Police Officer,,,,,,,,,lewis,robert
 "Leyne, Thomas",034-06093598,Everett,,9565,Badge Number,Lt,,Active,,,,,,,leyne,thomas
 "Li, Wei",004-06015681,Boston,108900,,Employee ID,Police Dispatcher,,Inactive,,,,,,,li,wei
 "Liang, Raymond",004-02591063,Boston,140415,ZZZZZ,Employee ID,Cadet (Police),,Active,,,,,,,liang,raymond
@@ -7775,7 +7775,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Losolfo, Mark",035-03065697,Salem,100570,114,Employee ID,Na,,POLICE CAPTAIN,,,,,,,losolfo,mark
 "Lott, Joseph",024-03308807,Taunton,310,310,Employee ID,Special,,Active,,,,,,,lott,joseph
 "Louberry, William J",004-08558013,Boston,108897,3573,Employee ID,Police Officer,,Active,,,,,,,louberry,william
-"Loud,, Steven",017-05107328,Framingham,,361,Badge Number,Police Officer,,,,,,,,,loud,
+"Loud,, Steven",017-05107328,Framingham,,361,Badge Number,Police Officer,,,,,,,,,loud,steven
 "Louden, David",006-77454719,Springfield,,,,,,,,,George Perrot,18-cv-10147,,,louden,david
 "Loughran, Thomas",003-03264106,Massachusetts,3466,G,Employee ID,Trooper,,Active,,,,,,,loughran,thomas
 "Louie, Jack",003-03721534,Massachusetts,3631,G,Employee ID,Trooper,,Active,,,,,,,louie,jack
@@ -7786,7 +7786,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Louise Carter, Sheila",004-08705289,Boston,125074,ZZZZZ,Employee ID,Communic. Equipop Ii 9Ii(Ss),,Active,,,,,,,louise carter,sheila
 "Louissaint, Vladimir",003-03748066,Massachusetts,4166,G,Employee ID,Trooper,,Active,,,,,,,louissaint,vladimir
 "Lounsbury, Matthew",030-04297285,Barnstable,10246,,Employee ID,Senior Patrol Officer,,Active,,,,,,,lounsbury,matthew
-"Loureiro,, David",017-07551693,Framingham,,321,Badge Number,Police Sergeant,,,,,,,,,loureiro,
+"Loureiro,, David",017-07551693,Framingham,,321,Badge Number,Police Sergeant,,,,,,,,,loureiro,david
 "Lovell, James",074-03871182,Danvers,109,,Employee ID,Sergeant,,,,,,,,,lovell,james
 "Lovely, Sean M",005-04582199,Worcester,,350,,Officer,,Active,,,,,,,lovely,sean
 "Loverin, Michael R",005-08672282,Worcester,,,,Sergeant,,Active,,,,,,,loverin,michael
@@ -7836,7 +7836,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Luongo, Robert T",004-08948328,Boston,10279,4138,Employee ID,Police Offc Comm Serv Offc 3$8,,Active,,,,,,,luongo,robert
 "Luongo, Roberto",023-00884967,Medford,,262,Badge Number,Patrol Officer,,,,,,,,,luongo,roberto
 "Lupien, Stephan",042-09232333,Marlborough,59SL,,,Lieutenant,,Active,,,,,,,lupien,stephan
-"Lurie,, Jason",017-09486239,Framingham,,302,Badge Number,Police Officer,,,,,,,,,lurie,
+"Lurie,, Jason",017-09486239,Framingham,,302,Badge Number,Police Officer,,,,,,,,,lurie,jason
 "Lusteg, Patrick",036-00219527,Westfield,85639,192,Employee ID,Patrolman,,,,,,,,,lusteg,patrick
 "Luther, Allen",003-04596218,Massachusetts,3019,F,Employee ID,Trooper,,Active,,,,,,,luther,allen
 "Luti, Dennis J",035-01641446,Salem,103476,174,Employee ID,Na,,POLICE PATROL,,,,,,,luti,dennis
@@ -7945,7 +7945,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Macgregor, James W",034-05112203,Everett,,12028,Badge Number,Ptl,,Active,,,,,,,macgregor,james
 "Machado, Eric",090-03825210,Wareham,,EVM,Badge Number,Patrol Officer,,Active,,,,,,,machado,eric
 "Machado, James",013-07670609,Fall,A127,A127,Employee ID,Sergeant,,Active,,,,,,,machado,james
-"Machado,, Susan",017-09750210,Framingham,,355,Badge Number,Police Officer,,,,,,,,,machado,
+"Machado,, Susan",017-09750210,Framingham,,355,Badge Number,Police Officer,,,,,,,,,machado,susan
 "Machowski, Erek",025-04992901,Chicopee,289,31,Employee ID,Ptl.,,Active,,,,,,,machowski,erek
 "Machugh, Robert",077-04135684,Reading,73,73,Employee ID,Det.,,Active,,,,,,,machugh,robert
 "Maciel, Samantha",042-04900319,Marlborough,127SM,,,Patrol,,Active,,,,,,,maciel,samantha
@@ -7962,7 +7962,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Mack, Scott",019-06862751,Waltham,124256,28,Employee ID,Ofc,,,,,,,,,mack,scott
 "Mackay, George",020-01739437,Malden,252,,Employee ID,Patrol Officer,,Active,,,,,,,mackay,george
 "Mackay, James",003-04745159,Massachusetts,3831,D,Employee ID,Trooper,,Active,,,,,,,mackay,james
-"Mackeil,, Brendan",017-05712517,Framingham,,386,Badge Number,Police Officer,,,,,,,,,mackeil,
+"Mackeil,, Brendan",017-05712517,Framingham,,386,Badge Number,Police Officer,,,,,,,,,mackeil,brendan
 "Mackenzie, Brian",050-05740358,Andover,11287,P7,Employee ID,Patrolman,,,,,,,,,mackenzie,brian
 "Mackenzie, Heather A",004-01279758,Boston,8796,4357,Employee ID,Police Offc/Juvenile Offc 4$10,,Active,,,,,,,mackenzie,heather
 "Mackenzie, Ian C",004-01346655,Boston,94209,ZZZZZ,Employee ID,Prin Admin Asst,,Active,,,,,,,mackenzie,ian
@@ -8130,8 +8130,8 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Mandracchia, Samuel",003-08797394,Massachusetts,3992,F,Employee ID,Trooper,,Active,,,,,,,mandracchia,samuel
 "Mangan, Michael",015-05729486,Lawrence,1645,,Employee ID,Police Lieutenant,,,,,,,,,mangan,michael
 "Manganello, Na A",081-03883740,Walpole,,16,Badge Number,Na,,,,,,,,,manganello,na
-"Mangano,, Matthew",017-05032811,Framingham,,408,Badge Number,Na,,,,,,,,,mangano,
-"Mangano,, Timothy",017-07103128,Framingham,,384,Badge Number,Police Officer,,,,,,,,,mangano,
+"Mangano,, Matthew",017-05032811,Framingham,,408,Badge Number,Na,,,,,,,,,mangano,matthew
+"Mangano,, Timothy",017-07103128,Framingham,,384,Badge Number,Police Officer,,,,,,,,,mangano,timothy
 "Mangino, Michelle",027-08020870,Revere,237,C-12,Employee ID,Captain,,Active,,,,,,,mangino,michelle
 "Mangino, Scott R",004-03042602,Boston,12129,1252,Employee ID,Police Officer,,Active,,,,,,,mangino,scott
 "Mangott, Darren",085-07207438,Easton,,75,,Sgt,,Active,,,,,,,mangott,darren
@@ -8529,7 +8529,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Mccarthy, Steven",003-01740624,Massachusetts,1477,G,Employee ID,Det. Captain,,Active,,,,,,,mccarthy,steven
 "Mccarthy, Thomas",003-07957381,Massachusetts,2227,F,Employee ID,Captain,,Active,,,,,,,mccarthy,thomas
 "Mccarthy, Timothy",004-08482623,Boston,93867,6608,Employee ID,Police Detective,,Active,,,,,,,mccarthy,timothy
-"Mccarthy,, Thomas",017-01204875,Framingham,,306,Badge Number,Police Sergeant,,,,,,,,,mccarthy,
+"Mccarthy,, Thomas",017-01204875,Framingham,,306,Badge Number,Police Sergeant,,,,,,,,,mccarthy,thomas
 "Mccarty, Matthew",004-09234943,Boston,114015,3313,Employee ID,Police Officer,,Active,,,,,,,mccarty,matthew
 "MCCAULEY, TRAVIS",096-56980358,Gardner,1163,,Employee ID,Police Detail Officer,,Active,,,,,,,mccauley,travis
 "Mccavick, Daniel P",040-00858733,Holyoke,197,,Employee ID,Sergeant,,Active,,,,,,,mccavick,daniel
@@ -8594,8 +8594,8 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Mcdonald, Scott",003-00088835,Massachusetts,2760,G,Employee ID,Det. Lieutenant,,Active,,,,,,,mcdonald,scott
 "Mcdonald, Stephen",003-03385353,Massachusetts,4001,G,Employee ID,Trooper,,Active,,,,,,,mcdonald,stephen
 "Mcdonald, Steven",003-04958426,Massachusetts,1488,G,Employee ID,Captain,,Active,,,,,,,mcdonald,steven
-"Mcdonald,, Christopher",017-03507063,Framingham,,360,Badge Number,Police Officer,,,,,,,,,mcdonald,
-"Mcdonald,, Michael",017-03157346,Framingham,,353,Badge Number,Police Officer,,,,,,,,,mcdonald,
+"Mcdonald,, Christopher",017-03507063,Framingham,,360,Badge Number,Police Officer,,,,,,,,,mcdonald,christopher
+"Mcdonald,, Michael",017-03157346,Framingham,,353,Badge Number,Police Officer,,,,,,,,,mcdonald,michael
 "Mcdonnell, Brendan",098-05063290,Bourne,1088,33,Employee ID,Ptl,,Active,,,,,,,mcdonnell,brendan
 "Mcdonnell, Julie A.",021-09202086,Brookline,10300,263,Employee ID,Patrol Officer,,,,,,,,,mcdonnell,julie
 "Mcdonnell, Kevin",035-09307139,Salem,103694,182,Employee ID,Na,,POLICE PATROL,,,,,,,mcdonnell,kevin
@@ -8654,7 +8654,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Mcginn, Sean",080-01897993,Burlington,,,Unknown,Police Patrolmen,,Active,,,,,,,mcginn,sean
 "Mcginn, Stephen",073-01661398,Bridgewater,6107,,,Na,,RETIRED,,,,,,,mcginn,stephen
 "Mcginnis, Michael",046-01970513,Shrewsbury,89404,37,,Off Duty Police Detail,,Active,,,,,,,mcginnis,michael
-"Mcginty,, Christopher",017-09258518,Framingham,,409,Badge Number,Na,,,,,,,,,mcginty,
+"Mcginty,, Christopher",017-09258518,Framingham,,409,Badge Number,Na,,,,,,,,,mcginty,christopher
 "Mcgloin, Michael",056-08997192,Lexington,,206,Badge Number,Patrolman,,Active,,,,,,,mcgloin,michael
 "Mcgoldrick, Kevin J",004-03115192,Boston,10566,DSUPT,Employee ID,Dep Supn (Bpd),,Active,,,,,,,mcgoldrick,kevin
 "Mcgoldrick, Kevin P",004-08195307,Boston,11340,478,Employee ID,Police Sergeant/Fgrprt Ev Tech,,Active,,,,,,,mcgoldrick,kevin
@@ -8686,7 +8686,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Mcgrath, Michael",016-05767620,Somerville,71210,208,Employee ID,Patrolmen,,Unpaid Administrative Leave,,,,,,,mcgrath,michael
 "Mcgrath, Michael W",005-00482930,Worcester,,349,,Officer,,Active,,,,,,,mcgrath,michael
 "Mcgrath, Scott",003-04431816,Massachusetts,2898,G,Employee ID,Det. Lieutenant,,Active,,,,,,,mcgrath,scott
-"Mcgrath,, Kathleen",017-06340894,Framingham,,218,Badge Number,Police Officer,,,,,,,,,mcgrath,
+"Mcgrath,, Kathleen",017-06340894,Framingham,,218,Badge Number,Police Officer,,,,,,,,,mcgrath,kathleen
 "Mcgreevy, Christopher",003-01721990,Massachusetts,4561,C,Employee ID,Trooper,,Active,,,,,,,mcgreevy,christopher
 "Mcgregor, Clorissa",004-03053080,Boston,131201,1701,Employee ID,Police Officer,,Active,,,,,,,mcgregor,clorissa
 "Mcguiness, John M",005-02463847,Worcester,,,,Officer,,Active,,,,,,,mcguiness,john
@@ -8748,7 +8748,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Mckinney, Brendan",063-01575497,Northampton,5089,,Employee ID,Patrol Officer,,Active,,,,,,,mckinney,brendan
 "McKinney, Justin",062-62806289,Norwood,JM98,,External ID,Patrol,,Inactive,,,,,,,mckinney,justin
 "Mckinnon, Frank",072-00998810,Saugus,1902,1902,Employee ID,Patrolmen,,Active,,,,,,,mckinnon,frank
-"Mckinnon,, Jake",017-00665862,Framingham,,394,Badge Number,Police Officer,,,,,,,,,mckinnon,
+"Mckinnon,, Jake",017-00665862,Framingham,,394,Badge Number,Police Officer,,,,,,,,,mckinnon,jake
 "Mcknight, Jesse R",006-02083544,Springfield,48027,64,Employee ID,Officer,,Active,,,,,,,mcknight,jesse
 "Mckreith - Collins, Marquez J",006-02212657,Springfield,108952,396,Employee ID,Officer,,Active,,,,,,,mckreith - collins,marquez
 "Mckunes, Stephen",004-05290128,Boston,135933,1725,Employee ID,Police Officer,,Active,,,,,,,mckunes,stephen
@@ -9061,7 +9061,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Michel, Louidor",004-07109944,Boston,153361,5124,Employee ID,Police Officer,,Active,,,,,,,michel,louidor
 "Michienzie, Joseph",062-34616875,Norwood,JM41,4,External ID,Patrol,,Inactive,,,,,,,michienzie,joseph
 "Michno, Michael",003-02418515,Massachusetts,2410,D,Employee ID,Major,,Active,,,,,,,michno,michael
-"Mickens,, Rachel",017-05090398,Framingham,,316,Badge Number,Police Sergeant,,,,,,,,,mickens,
+"Mickens,, Rachel",017-05090398,Framingham,,316,Badge Number,Police Sergeant,,,,,,,,,mickens,rachel
 "Mickiewicz, Jamie",006-07566057,Springfield,115596,,Employee ID,Recruit,,Active,,,,,,,mickiewicz,jamie
 "Miczek, Michael",021-02080344,Brookline,156924,215,Employee ID,Patrol Officer,,,,,,,,,miczek,michael
 "Middleton, Joseph",003-03650747,Massachusetts,1544,H,Employee ID,Trooper,,Active,,,,,,,middleton,joseph
@@ -9100,7 +9100,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Miller, Robert",003-07197577,Massachusetts,3030,G,Employee ID,Trooper,,Active,,,,,,,miller,robert
 "Miller, Scott",062-73970756,Norwood,SM01,,External ID,Patrol,,Inactive,,,,,,,miller,scott
 "Miller, Scott",087-07410995,Hingham,2519,,,Officer,,Active,,,,,,,miller,scott
-"Miller,, Christian",017-00178516,Framingham,,301,Badge Number,Police Officer,,,,,,,,,miller,
+"Miller,, Christian",017-00178516,Framingham,,301,Badge Number,Police Officer,,,,,,,,,miller,christian
 "Miller-Martin, Mary",004-04185623,Boston,104347,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,miller-martin,mary
 "Millett, Mario",003-03099829,Massachusetts,2551,G,Employee ID,Det. Lieutenant,,Active,,,,,,,millett,mario
 "Milligan, David",062-13616599,Norwood,DM43,17,External ID,Detective,,Inactive,,,,,,,milligan,david
@@ -9143,7 +9143,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Miranda, Kyle",003-06721607,Massachusetts,4569,C,Employee ID,Trooper,,Active,,,,,,,miranda,kyle
 "Miranda, Manuel G",004-00653052,Boston,116177,3542,Employee ID,Police Officer,,Active,,,,,,,miranda,manuel
 "Miranda, Thiago",003-04290972,Massachusetts,3665,G,Employee ID,Trooper,,Active,,,,,,,miranda,thiago
-"Miranda,, Timothy",017-00706885,Framingham,,346,Badge Number,Police Officer,,,,,,,,,miranda,
+"Miranda,, Timothy",017-00706885,Framingham,,346,Badge Number,Police Officer,,,,,,,,,miranda,timothy
 "Mirasolo, Francis",039-02538272,Billerica,69,115,Employee ID,Sergeant,,,,,,,,,mirasolo,francis
 "Mirdik, Mary J",004-01133284,Boston,140837,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,mirdik,mary
 "Mirza, Mustafa",047-08919218,Chelsea,3308,183,,Police Officer,,,,,,,,,mirza,mustafa
@@ -9248,7 +9248,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Montoya, Jesus",020-04096633,Malden,285,,Employee ID,Patrol Officer,,Active,,,,,,,montoya,jesus
 "Montoya, Jocelyn",004-05853522,Boston,138643,,Employee ID,Cadet (Police),,Active,,,,,,,montoya,jocelyn
 "Montrond, David",010-06552773,Brockton,499,499,,Patrolman,,Full Time,,,,,,,montrond,david
-"Montuori,, Christopher",017-05056501,Framingham,,240,Badge Number,Police Sergeant,,,,,,,,,montuori,
+"Montuori,, Christopher",017-05056501,Framingham,,240,Badge Number,Police Sergeant,,,,,,,,,montuori,christopher
 "Monzon, Mario",003-07184781,Massachusetts,1569,G,Employee ID,Det. Captain,,Active,,,,,,,monzon,mario
 "Monzon, Renzo A",004-09394398,Boston,144476,3411,Employee ID,Police Officer,,Active,,,,,,,monzon,renzo
 "Moodie - Bryant, Janet",010-08213795,Brockton,498,498,,Clerk,,Full Time,,,,,,,moodie - bryant,janet
@@ -9271,7 +9271,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Moore, Nicholas G",004-05193985,Boston,98633,796,Employee ID,Police Sergeant,,Active,,,,,,,moore,nicholas
 "Moore, Robert",003-03438286,Massachusetts,1571,F,Employee ID,Trooper,,Active,,,,,,,moore,robert
 "Moore, Steven",003-06425272,Massachusetts,4181,G,Employee ID,Trooper,,Active,,,,,,,moore,steven
-"Moore,, John",017-05797171,Framingham,,300,Badge Number,Police Officer,,,,,,,,,moore,
+"Moore,, John",017-05797171,Framingham,,300,Badge Number,Police Officer,,,,,,,,,moore,john
 "Moquete, Edward A",004-02431879,Boston,95148,4868,Employee ID,Police Officer,,Active,,,,,,,moquete,edward
 "Morace, Michael",025-04884639,Chicopee,259,25,Employee ID,Ptl.,,Active,,,,,,,morace,michael
 "Morais, Michael",024-06527125,Taunton,261,261,Employee ID,Special,,Active,,,,,,,morais,michael
@@ -9305,7 +9305,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Morava, Brett",066-09169561,North,486,,Employee ID,Special Officer,,Inactive,,,,,,,morava,brett
 "Morawiak, Peter",003-09450906,Massachusetts,2764,A,Employee ID,Lieutenant,,Active,,,,,,,morawiak,peter
 "Moreau, Chanel",003-01882574,Massachusetts,3667,G,Employee ID,Trooper,,Active,,,,,,,moreau,chanel
-"Moreau,, Brett",017-05903612,Framingham,,370,Badge Number,Police Officer,,,,,,,,,moreau,
+"Moreau,, Brett",017-05903612,Framingham,,370,Badge Number,Police Officer,,,,,,,,,moreau,brett
 "Moreira, Joseph",016-06438004,Somerville,46741,320,Employee ID,Patrolmen,,Active,,,,,,,moreira,joseph
 "Moreira, Nicholas",016-04381643,Somerville,2682,350,Employee ID,Patrolmen,,Active,,,,,,,moreira,nicholas
 "Morel, Jorge",016-03117936,Somerville,3359,356,Employee ID,Patrolmen,,Active,,,,,,,morel,jorge
@@ -9314,7 +9314,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Morency, Victor",048-09825277,Dartmouth,6705,6705,Employee ID,Lieutenant,,Active,,,,,,,morency,victor
 "Moreno, Christopher A",004-09156792,Boston,8225,603,Employee ID,Police Detective,,Inactive,,,,,,,moreno,christopher
 "Moreno, Jorge",010-04574767,Brockton,495,495,,Patrolman,,Full Time,,,,,,,moreno,jorge
-"Morenzetti,, Justin",017-07669896,Framingham,,,Unknown,Na,,,,,,,,,morenzetti,
+"Morenzetti,, Justin",017-07669896,Framingham,,,Unknown,Na,,,,,,,,,morenzetti,justin
 "Moreta, Luis",015-05771025,Lawrence,3311,,Employee ID,Patrol Officer,,,,,,,,,moreta,luis
 "Moreta, Yaira",015-08317859,Lawrence,3330,,Employee ID,Police Crossing Guard,,,,,,,,,moreta,yaira
 "MORGAN, ALEXA",096-35820122,Gardner,8555,973,Employee ID,Police Officer,,Active,,,,,,,morgan,alexa
@@ -9701,7 +9701,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Nichols, Eric",024-02887208,Taunton,361,361,Employee ID,Lieutenant,,Active,,,,,,,nichols,eric
 "Nichols, Evan",078-06076825,Belmont,,,Unknown,Police Officer,,Active,,,,,,,nichols,evan
 "Nichols, Jordan",030-05260747,Barnstable,15267,,Employee ID,Police Matron/Jail Attendant,,Active,,,,,,,nichols,jordan
-"Nichols,, Michael A.",017-03205085,Framingham,,331,Badge Number,Police Officer,,,,,,,,,nichols,
+"Nichols,, Michael A.",017-03205085,Framingham,,331,Badge Number,Police Officer,,,,,,,,,nichols,michael a.
 "Nickles, Jonathan",003-05296411,Massachusetts,3483,C,Employee ID,Sergeant,,Active,,,,,,,nickles,jonathan
 "Nicole Berryhill, Natalie",004-05517175,Boston,141075,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,nicole berryhill,natalie
 "Nicole Clark, Ashley",004-01294778,Boston,153679,ZZZZZ,Employee ID,"Communequipop Iii, R",,Active,,,,,,,nicole clark,ashley
@@ -9869,7 +9869,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "O'Connell, Stephen",003-04007673,Massachusetts,3329,A,Employee ID,Trooper,,Active,,,,,,,o'connell,stephen
 "O'Connell, Stephen P",004-00114602,Boston,102668,2140,Employee ID,Police Officer,,Active,,,,,,,o'connell,stephen
 "O'Connell, William",018-05433881,Haverhill,18,18,Employee ID,Detective,,,,,,,,,o'connell,william
-"O'Connell,, Paul",017-03880206,Framingham,,228,Badge Number,Police Officer,,,,,,,,,o'connell,
+"O'Connell,, Paul",017-03880206,Framingham,,228,Badge Number,Police Officer,,,,,,,,,o'connell,paul
 "O'Connor Jr., John J",004-07417479,Boston,10436,388,Employee ID,Police Detective,,Active,,,,,,,o'connor,john
 "O'Connor, Cian",011-01065371,Quincy,8521,8521,Employee ID,Na,,,,,,,,,o'connor,cian
 "O'Connor, David L",004-09145232,Boston,11634,509,Employee ID,Police Sergeant,,Active,,,,,,,o'connor,david
@@ -9937,7 +9937,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "O'Hara, Michael C",004-00165903,Boston,8269,253,Employee ID,Police Lieutenant,,Active,,,,,,,o'hara,michael
 "Ohare, John",030-02805312,Barnstable,10316,,Employee ID,Ma Ptl Officer Bachelors 20%,,Active,,,,,,,ohare,john
 "O'Hare, Steven J",011-00426813,Quincy,5981,5981,Employee ID,Na,,,,,,,,,o'hare,steven
-"O'Hare,, Sean",017-09178137,Framingham,,357,Badge Number,Police Officer,,,,,,,,,o'hare,
+"O'Hare,, Sean",017-09178137,Framingham,,357,Badge Number,Police Officer,,,,,,,,,o'hare,sean
 "O'Hearn, David",088-07411275,Westford,5020,14,Employee ID,Sergeant,,Active,,,,,,,o'hearn,david
 "O'Hearn, Mark",043-09870479,Woburn,3226,,,Patrol Officer,,Active,,,,,,,o'hearn,mark
 "O'Hearn, William",003-03188445,Massachusetts,4197,D,Employee ID,Trooper,,Active,,,,,,,o'hearn,william
@@ -10125,9 +10125,9 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "O'Toole, Patrick",065-04877918,West,4020,,Employee ID,Police Officer,,,,,,,,,o'toole,patrick
 "O'Toole, Terrance V",004-01936181,Boston,10298,705,Employee ID,Police Detective,,Active,,,,,,,o'toole,terrance
 "O'Toole, Thomas",062-65953168,Norwood,TO49,,External ID,Special Police Officer,,P,,,,,,,o'toole,thomas
-"O'Toole,, Timothy",017-05777921,Framingham,,294,Badge Number,Police Sergeant,,,,,,,,,o'toole,
+"O'Toole,, Timothy",017-05777921,Framingham,,294,Badge Number,Police Sergeant,,,,,,,,,o'toole,timothy
 "Ott, Anthony A",006-00670318,Springfield,111517,279,Employee ID,Officer,,Active,,,,,,,ott,anthony
-"Ottaviani,, Christopher",017-09293071,Framingham,,312,Badge Number,Police Sergeant,,,,,,,,,ottaviani,
+"Ottaviani,, Christopher",017-09293071,Framingham,,312,Badge Number,Police Sergeant,,,,,,,,,ottaviani,christopher
 "Ottaviano, David",023-04594845,Medford,,160,Badge Number,Patrol Officer,,,,,,,,,ottaviano,david
 "Ouellette, Charles",007-09847161,Lowell,18993,,Employee ID,Director Of Admin Serv Police,,Inactive,,,,,,,ouellette,charles
 "Ouellette, Neil",074-01699996,Danvers,43,,Employee ID,Police Chief,,,,,,,,,ouellette,neil
@@ -10326,7 +10326,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Paterson, Robert",003-06446795,Massachusetts,3333,G,Employee ID,Trooper,,Active,,,,,,,paterson,robert
 "Patient, Dyan D",005-00701517,Worcester,,395,,Officer,,Active,,,,,,,patient,dyan
 "Patnaude, David",066-03316850,North,413,,Employee ID,Patrol Officer,,R,,,,,,,patnaude,david
-"Patriarca,, Paul",017-04609533,Framingham,,297,Badge Number,Police Sergeant,,,,,,,,,patriarca,
+"Patriarca,, Paul",017-04609533,Framingham,,297,Badge Number,Police Sergeant,,,,,,,,,patriarca,paul
 "Patricia Mchale, Allison",004-04005781,Boston,114273,2138,Employee ID,Police Officer,,Active,,,,,,,patricia mchale,allison
 "Patrick Coffey, John",004-01306797,Boston,153153,5159,Employee ID,Police Officer,,Active,,,,,,,patrick coffey,john
 "Patrick Dwan, Daryle",004-04933951,Boston,11521,175,Employee ID,Police Lieutenant,,Active,,,,,,,patrick dwan,daryle
@@ -10543,7 +10543,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Peters, Michael L",005-02013612,Worcester,,,,Sergeant,,Active,,,,,,,peters,michael
 "Peters, Scott",052-04205126,Randolph,,109,Badge Number,Ptl,,Active,,,,,,,peters,scott
 "Petersen, Jan",062-69350952,Norwood,ADMIN,,External ID,Analyst,,Inactive,,,,,,,petersen,jan
-"Petersen, Jr., Thomas",100-07595374,Norton,,,Unknown,Lt. 10,,Active,,,,,,,petersen,
+"Petersen, Jr., Thomas",100-07595374,Norton,,,Unknown,Lt. 10,,Active,,,,,,,petersen,thomas
 "Petersen, Thomas",100-05532540,Norton,1450,132,Employee ID,Chief 2,,Active,,,,,,,petersen,thomas
 "Peterson, Dennis",058-05240674,Tewksbury,,25,Badge Number,Sergeant,,,,,,,,,peterson,dennis
 "Peterson, Edward M",039-00994378,Billerica,153,108,Employee ID,Inspector,,,,,,,,,peterson,edward
@@ -10611,10 +10611,10 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Pierce, Christopher",003-05743615,Massachusetts,3692,G,Employee ID,Trooper,,Active,,,,,,,pierce,christopher
 "Pierce, Edward A",035-02638344,Salem,102831,150,Employee ID,Na,,POLICE PATROL,,,,,,,pierce,edward
 "Pierce, Jonathan",018-07202705,Haverhill,142,142,Employee ID,Officer,,,,,,,,,pierce,jonathan
-"Pierce, Jr, Steven",010-08901375,Brockton,490,490,,Patrolman,,Full Time,,,,,,,pierce,
+"Pierce, Jr, Steven",010-08901375,Brockton,490,490,,Patrolman,,Full Time,,,,,,,pierce,steven
 "PIERCE, LEAH",096-24554150,Gardner,1075,,Employee ID,Dispatcher,,Inactive,,,,,,,pierce,leah
 "Pierce, Shane",003-04735439,Massachusetts,3339,G,Employee ID,Trooper,,Active,,,,,,,pierce,shane
-"Pierce, Sr., Steven",010-02442183,Brockton,270,270,,Patrolman,,Full Time,,,,,,,pierce,
+"Pierce, Sr., Steven",010-02442183,Brockton,270,270,,Patrolman,,Full Time,,,,,,,pierce,steven
 "Pieroni, David",074-05568135,Danvers,11528,,Employee ID,Patrol Officer,,,,,,,,,pieroni,david
 "Pieroway, Mathew R",004-00262117,Boston,106666,3153,Employee ID,Police Officer,,Active,,,,,,,pieroway,mathew
 "Pieroway, Robert J",004-04708460,Boston,9600,6557,Employee ID,Police Sergeant (Det),,Inactive,,,,,,,pieroway,robert
@@ -10644,7 +10644,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Pina-Tavares, Rosangela M",004-01518118,Boston,89936,ZZZZZ,Employee ID,Exec Sec (B.P.D.),,Active,,,,,,,pina-tavares,rosangela
 "Pinciaro, David G",004-06954147,Boston,51000,2591,Employee ID,Police Officer,,Active,,,,,,,pinciaro,david
 "Pinckney, Reginald J",004-08412427,Boston,11446,4590,Employee ID,Police Officer,,Active,,,,,,,pinckney,reginald
-"Pini,, Leonard",017-04316065,Framingham,,289,Badge Number,Police Lieutenant,,,,,,,,,pini,
+"Pini,, Leonard",017-04316065,Framingham,,289,Badge Number,Police Lieutenant,,,,,,,,,pini,leonard
 "Pinkerman, Matthew",065-08340477,West,3728,,Employee ID,Police Officer,,,,,,,,,pinkerman,matthew
 "Pinkham, David",003-07320504,Massachusetts,3341,G,Employee ID,Sergeant,,Active,,,,,,,pinkham,david
 "Pinkham, Deirdre M",004-00725404,Boston,93276,2711,Employee ID,Police Officer,,Active,,,,,,,pinkham,deirdre
@@ -10662,7 +10662,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Pires, Valter M",069-04443306,Milton,315,M8903,Employee ID,Patrol,,Active,,,,,,,pires,valter
 "Piro, Glen",091-06880072,Canton,466,,,Na,,Full Time,,,,,,,piro,glen
 "Pirrello, Ronald E",004-04717564,Boston,10578,277,Employee ID,Police Sergeant/Chf Radio Disp,,Active,,,,,,,pirrello,ronald
-"Pisano,, Christopher",017-04233387,Framingham,,318,Badge Number,Police Officer,,,,,,,,,pisano,
+"Pisano,, Christopher",017-04233387,Framingham,,318,Badge Number,Police Officer,,,,,,,,,pisano,christopher
 "Piscitelli, Matthew P",005-08219712,Worcester,,313,,Officer,,Active,,,,,,,piscitelli,matthew
 "Piskator, Brian M",005-09607679,Worcester,,79,,Officer,,Active,,,,,,,piskator,brian
 "Pistolese III, Anthony",024-06006699,Taunton,393,393,Employee ID,Patrolman,,Active,,,,,,,pistolese,anthony
@@ -10756,7 +10756,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Porter, Robert",065-06090174,West,1520,,Employee ID,Sergeant,,,,,,,,,porter,robert
 "Porter, Thomas J",004-05428736,Boston,120914,1967,Employee ID,Police Officer,,Active,,,,,,,porter,thomas
 "Porter, Zachary",084-00585540,Middleborough,12533,114,Employee ID,Patrol,,Active,,,,,,,porter,zachary
-"Porter,, Ryan",017-08855759,Framingham,,371,Badge Number,Police Officer,,,,,,,,,porter,
+"Porter,, Ryan",017-08855759,Framingham,,371,Badge Number,Police Officer,,,,,,,,,porter,ryan
 "Portnoy, Kevin",018-00004131,Haverhill,87,87,Employee ID,Detective,,,,,,,,,portnoy,kevin
 "Porto, Victor",048-01526069,Dartmouth,26,38,Employee ID,Special Police Officer,,Active,,,,,,,porto,victor
 "Portuondo, Mark",005-05536204,Worcester,,134,,Officer,,Active,,,,,,,portuondo,mark
@@ -10817,7 +10817,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Pratt, Douglas",058-00280840,Tewksbury,,55,Badge Number,Officer,,,,,,,,,pratt,douglas
 "Pratt, Marielen",030-05099600,Barnstable,10343,,Employee ID,Secretary To Detective Divisio,,Inactive,,,,,,,pratt,marielen
 "Pratt, Thomas",004-07864923,Boston,10163,559,Employee ID,Police Sergeant (Det),,Active,,,,,,,pratt,thomas
-"Pratt,, Kevin",017-06824964,Framingham,,378,Badge Number,Police Officer,,,,,,,,,pratt,
+"Pratt,, Kevin",017-06824964,Framingham,,378,Badge Number,Police Officer,,,,,,,,,pratt,kevin
 "Precia, Carmel E",004-09801745,Boston,8023,5018,Employee ID,Police Detective,,Inactive,,,,,,,precia,carmel
 "Precourt, Nicholas",100-09796749,Norton,10350,178,Employee ID,Det 3,,Active,,,,,,,precourt,nicholas
 "Prescott, Matthew",003-00994137,Massachusetts,2775,G,Employee ID,Sergeant,,Active,,,,,,,prescott,matthew
@@ -10841,7 +10841,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Prizio, Michael",005-06400201,Worcester,,51,,Officer,,Active,,,,,,,prizio,michael
 "Proctor, Michael",003-00386864,Massachusetts,3863,G,Employee ID,Trooper,,Active,,,,,,,proctor,michael
 "Proia, Marc",088-09938538,Westford,5071,16,Employee ID,Sergeant,,Active,,,,,,,proia,marc
-"Proia,, Joseph",017-00834463,Framingham,,393,Badge Number,Police Officer,,,,,,,,,proia,
+"Proia,, Joseph",017-00834463,Framingham,,393,Badge Number,Police Officer,,,,,,,,,proia,joseph
 "Prophete, Frandiane",016-05652652,Somerville,49750,332,Employee ID,Patrolmen,,Active,,,,,,,prophete,frandiane
 "Prosser, Jennette M",004-07192120,Boston,12086,,Employee ID,Supv Contract-Orders (Rpd Bpd),,Inactive,,,,,,,prosser,jennette
 "Proule, Jason",003-05144664,Massachusetts,4599,D,Employee ID,Trooper,,Active,,,,,,,proule,jason
@@ -10886,7 +10886,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Purifory, Kevin",023-06455264,Medford,,286,Badge Number,Patrol Officer,,,,,,,,,purifory,kevin
 "Purpora, Carmen",015-02845729,Lawrence,1709,,Employee ID,Patrol Officer,,,,,,,,,purpora,carmen
 "Pursell, Kyle",056-06815303,Lexington,,196,Badge Number,Patrolman,,Retired,,,,,,,pursell,kyle
-"Pursell,, Kyle",017-04815357,Framingham,,400,Badge Number,Police Officer,,,,,,,,,pursell,
+"Pursell,, Kyle",017-04815357,Framingham,,400,Badge Number,Police Officer,,,,,,,,,pursell,kyle
 "Purtell, Christopher",007-06030862,Lowell,7587,,Employee ID,Sergeant Police,,Active,,,,,,,purtell,christopher
 "Purtell, Daniel",003-06595465,Massachusetts,3342,G,Employee ID,Trooper,,Active,,,,,,,purtell,daniel
 "Pusey, Daniel C",004-00851376,Boston,91927,548,Employee ID,Police Sergeant (Det),,Active,,,,,,,pusey,daniel
@@ -11040,7 +11040,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Reardon, Michael",066-05286728,North,472,,Employee ID,Detective,,Active,,,,,,,reardon,michael
 "Reardon, Sean",003-01479082,Massachusetts,3047,D,Employee ID,Lieutenant,,Active,,,,,,,reardon,sean
 "Reardon, Terence",027-06925556,Revere,371,238,Employee ID,Patrol Officer,,,,,,,,,reardon,terence
-"Reardon,, Gregory",017-08825740,Framingham,,283,Badge Number,Police Lieutenant,,,,,,,,,reardon,
+"Reardon,, Gregory",017-08825740,Framingham,,283,Badge Number,Police Lieutenant,,,,,,,,,reardon,gregory
 "Recine, Joseph",003-07557206,Massachusetts,2779,A,Employee ID,Lieutenant,,Active,,,,,,,recine,joseph
 "Recupero, Francesco",004-04102015,Boston,99723,5036,Employee ID,Police Officer,,Active,,,,,,,recupero,francesco
 "REDDICK, THERESE",062-14862479,Norwood,TR01,,External ID,Traffic Supervisor,,Inactive,,,,,,,reddick,therese
@@ -11235,7 +11235,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Riley, Timothy",048-07201979,Dartmouth,6464,6464,Employee ID,Officer,,Active,,,,,,,riley,timothy
 "Riley, Wayne",003-08188233,Massachusetts,1793,F,Employee ID,Trooper,,Active,,,,,,,riley,wayne
 "Riley, William D",035-04513032,Salem,100025,100,Employee ID,Na,,POLICE PATROL,,,,,,,riley,william
-"Riley,, Sean",017-07491944,Framingham,,277,Badge Number,Lt,,,,,,,,,riley,
+"Riley,, Sean",017-07491944,Framingham,,277,Badge Number,Lt,,,,,,,,,riley,sean
 "Rinaldi, Nancy E",004-01851891,Boston,90222,,Employee ID,School Traffic Supv,,Inactive,,,,,,,rinaldi,nancy
 "Rincon, Jenny",003-00388945,Massachusetts,4608,A,Employee ID,Trooper,,Active,,,,,,,rincon,jenny
 "Ring, Andrew",090-05393052,Wareham,,ACR,Badge Number,Patrol Officer,,Active,,,,,,,ring,andrew
@@ -11280,7 +11280,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Rivera, Shayna M",004-08546790,Boston,144503,6820,Employee ID,Police Officer,,Active,,,,,,,rivera,shayna
 "Rivera, Ted R",004-04903938,Boston,8774,1233,Employee ID,Police Officer,,Inactive,,,,,,,rivera,ted
 "Rivera, William",005-09734162,Worcester,,162,,Officer,,Active,,,,,,,rivera,william
-"Rivera,, Eduardo",017-00276854,Framingham,,232,Badge Number,Police Officer,,,,,,,,,rivera,
+"Rivera,, Eduardo",017-00276854,Framingham,,232,Badge Number,Police Officer,,,,,,,,,rivera,eduardo
 "Rivers, Bryan",004-06878955,Boston,11638,6420,Employee ID,Police Detective,,Active,,,,,,,rivers,bryan
 "Rivers, Elizabeth",004-09277348,Boston,102931,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,rivers,elizabeth
 "Rivers, Ryan",030-07738223,Barnstable,10750,,Employee ID,Patrol Officer,,Inactive,,,,,,,rivers,ryan
@@ -11590,7 +11590,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Ruiz, Melvin",004-05658098,Boston,10303,950,Employee ID,Police Detective,,Active,,,,,,,ruiz,melvin
 "Ruiz, Melvin A",004-03135930,Boston,157617,1337,Employee ID,Police Officer,,Active,,,,,,,ruiz,melvin
 "Ruiz, Victor",035-09893374,Salem,100125,106,Employee ID,Na,,POLICE PATROL,,,,,,,ruiz,victor
-"Ruiz,, Jorge",017-05138966,Framingham,,276,Badge Number,Police Lieutenant,,,,,,,,,ruiz,
+"Ruiz,, Jorge",017-05138966,Framingham,,276,Badge Number,Police Lieutenant,,,,,,,,,ruiz,jorge
 "Ruka, Joseph A",004-00694546,Boston,9789,4102,Employee ID,Police Officer,,Active,,,,,,,ruka,joseph
 "Rule, Justine",063-09012359,Northampton,6727,,Employee ID,Asst. Aco,,Inactive,,,,,,,rule,justine
 "Rullo, Robert",084-07732717,Middleborough,86601,76,Employee ID,Patrol,,Active,,,,,,,rullo,robert
@@ -11682,7 +11682,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Saengsombat, Vincent",052-01732897,Randolph,,131,Badge Number,Ptl,,Active,,,,,,,saengsombat,vincent
 "Safa, Dina",004-09586743,Boston,136535,ZZZZZ,Employee ID,"Communequipop Iii, R-13 (Ct)",,Active,,,,,,,safa,dina
 "Safford, Chelsea",003-03658558,Massachusetts,4390,G,Employee ID,Trooper,,Active,,,,,,,safford,chelsea
-"Sage,, William",017-01197316,Framingham,,,Unknown,Na,,,,,,,,,sage,
+"Sage,, William",017-01197316,Framingham,,,Unknown,Na,,,,,,,,,sage,william
 "Saikali, Christopher",048-06496538,Dartmouth,5922,5922,Employee ID,Officer,,Active,,,,,,,saikali,christopher
 "Saindon, Charles",015-09201594,Lawrence,1620,,Employee ID,Patrol Officer,,,,,,,,,saindon,charles
 "Saint Germain, David",003-02924272,Massachusetts,4215,G,Employee ID,Trooper,,Active,,,,,,,saint germain,david
@@ -11890,7 +11890,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Schlageter, Ralph",024-00242332,Taunton,321,321,Employee ID,Patrolman,,Active,,,,,,,schlageter,ralph
 "Schlatz, Thomas",073-09304960,Bridgewater,8140,,,Na,,RETIRED,,,,,,,schlatz,thomas
 "SCHLEGEL , JASON",014-18493519,Newton,,,Not Provided,Officer,,Active,,,,,,,schlegel,jason
-"Schleicher, Jr., Kevin",100-03402808,Norton,,,Unknown,Ptlm. 10,,Active,,,,,,,schleicher,
+"Schleicher, Jr., Kevin",100-03402808,Norton,,,Unknown,Ptlm. 10,,Active,,,,,,,schleicher,kevin
 "Schleicher, Kevin",100-03700573,Norton,9848,173,Employee ID,Sgt  6,,Active,,,,,,,schleicher,kevin
 "Schlieman, William",010-06290159,Brockton,482,482,,Lieutenant,,Full Time,,,,,,,schlieman,william
 "Schlitter, Leo",059-04670510,Needham,,3096,Badge Number,Patrol Officer,,Active,,,,,,,schlitter,leo
@@ -11952,13 +11952,13 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Sean Spillane, Richard",004-04624875,Boston,50503,2592,Employee ID,Police Officer,,Active,,,,,,,sean spillane,richard
 "Sears, Derek R",035-00159662,Salem,102381,145,Employee ID,Na,,POLICE PATROL,,,,,,,sears,derek
 "Sebastian, Bryan",023-09001581,Medford,,276,Badge Number,Patrol Officer,,,,,,,,,sebastian,bryan
-"Sebastian,, James",017-03660831,Framingham,,278,Badge Number,Police Officer,,,,,,,,,sebastian,
+"Sebastian,, James",017-03660831,Framingham,,278,Badge Number,Police Officer,,,,,,,,,sebastian,james
 "Sebbins, Emily",086-09962104,Wilmington,210,210,Employee ID,Patrol Officer,,Active,,,,,,,sebbins,emily
 "Secatore, John",056-02193672,Lexington,,204,Badge Number,Patrolman,,Active,,,,,,,secatore,john
 "Sech, Matthew",049-00295010,Chelmsford,,156,Badge Number,Patrol Officer,,Active,,,,,,,sech,matthew
 "Sedergren, Michael",006-98065279,Springfield,,,,,,,,,Melvin Jones,3:10-cv-30244,,,sedergren,michael
 "Sedlis, Steven",004-02370906,Boston,83709,ZZZZZ,Employee ID,Police Dispatcher,,Active,,,,,,,sedlis,steven
-"Seeto,, James",017-01264580,Framingham,,351,Badge Number,Police Officer,,,,,,,,,seeto,
+"Seeto,, James",017-01264580,Framingham,,351,Badge Number,Police Officer,,,,,,,,,seeto,james
 "Segee, Keith",003-03458376,Massachusetts,3509,G,Employee ID,Trooper,,Active,,,,,,,segee,keith
 "Seguin, Normand",043-05646475,Woburn,1026,,,Patrol Officer,,Active,,,,,,,seguin,normand
 "Segur, Timothy",005-02531771,Worcester,,,,Sergeant,,Active,,,,,,,segur,timothy
@@ -12079,7 +12079,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Sheehan, Thomas",006-74249508,Springfield,,,,,,,,,Jerry Bellamy,3:20-cv-30015,,,sheehan,thomas
 "Sheehan, Timothy",003-08289109,Massachusetts,4397,B,Employee ID,Trooper,,Active,,,,,,,sheehan,timothy
 "Sheehan, Timothy T",006-09468230,Springfield,65829,76,Employee ID,Officer,,Active,,,,,,,sheehan,timothy
-"Sheehan,, Michael",017-09704583,Framingham,,291,Badge Number,Police Sergeant,,,,,,,,,sheehan,
+"Sheehan,, Michael",017-09704583,Framingham,,291,Badge Number,Police Sergeant,,,,,,,,,sheehan,michael
 "Sheehy, Brandon",018-04228373,Haverhill,89,89,Employee ID,Sergeant,,,,,,,,,sheehy,brandon
 "Sheehy, Brian J.",021-04007133,Brookline,991782,157,Employee ID,Patrol Officer,,,,,,,,,sheehy,brian
 "Sheesley, Monica L",004-04366041,Boston,8617,876,Employee ID,Police Detective,,Active,,,,,,,sheesley,monica
@@ -12126,7 +12126,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "SIAW, DENNIS",096-67069764,Gardner,971,975,Employee ID,Police Officer Candidate,,Active,,,,,,,siaw,dennis
 "Siberon, Walter",013-05311440,Fall,A824,A824,Employee ID,P.O.,,Active,,,,,,,siberon,walter
 "Sibert, Scott",052-04082446,Randolph,,51,Badge Number,Ptl,,RETIRED,,,,,,,sibert,scott
-"Sibilio,, Robert",017-00341111,Framingham,,284,Badge Number,Police Sergeant,,,,,,,,,sibilio,
+"Sibilio,, Robert",017-00341111,Framingham,,284,Badge Number,Police Sergeant,,,,,,,,,sibilio,robert
 "Sicard, John",003-09219307,Massachusetts,2575,F,Employee ID,Trooper,,Active,,,,,,,sicard,john
 "Sicard, Neil",035-07816487,Salem,104103,214,Employee ID,Na,,POLICE PATROL,,,,,,,sicard,neil
 "Sicard, Stephen",003-02091590,Massachusetts,2674,G,Employee ID,Trooper,,Active,,,,,,,sicard,stephen
@@ -12225,7 +12225,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Sirois, Richard",007-07861508,Lowell,19321,,Employee ID,Traffic Supervisor- Police,,Active,,,,,,,sirois,richard
 "Sirois, Robert J",012-05205679,Lynn,6785,,Employee ID,Patrol,,Active,,,,,,,sirois,robert
 "Sisco, Tracey",071-02031856,Stoughton,179,,,Patrolmen,,Inactive,,,,,,,sisco,tracey
-"Sistrand,, Arthur",017-02856548,Framingham,,296,Badge Number,Police Officer,,,,,,,,,sistrand,
+"Sistrand,, Arthur",017-02856548,Framingham,,296,Badge Number,Police Officer,,,,,,,,,sistrand,arthur
 "Skabeikis, John",003-00014988,Massachusetts,3353,A,Employee ID,Trooper,,Active,,,,,,,skabeikis,john
 "Skaff, Charles",067-04664536,Milford,9996-8042,828,Employee ID,Special Police Officer,,Active,,,,,,,skaff,charles
 "Skagerlind, Kyle",042-00938731,Marlborough,121KS,,,Patrol,,Active,,,,,,,skagerlind,kyle
@@ -12237,7 +12237,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Skerry, Phillip",043-06310481,Woburn,971,,,Patrol Officer,,Active,,,,,,,skerry,phillip
 "Skinner, Kevin",086-09675380,Wilmington,200,200,Employee ID,Patrol Officer,,Active,,,,,,,skinner,kevin
 "Skinner, Michael",010-08601771,Brockton,457,457,,Sergeant,,Full Time,,,,,,,skinner,michael
-"Skinnion,, John",017-05376413,Framingham,,129,Badge Number,Police Officer,,,,,,,,,skinnion,
+"Skinnion,, John",017-05376413,Framingham,,129,Badge Number,Police Officer,,,,,,,,,skinnion,john
 "Sklut, Brian",046-04199516,Shrewsbury,22213,49,,Patrolman,,Active,,,,,,,sklut,brian
 "Sklut, Daniel",046-09655691,Shrewsbury,26111,,,Police Lieutenant,,Inactive,,,,,,,sklut,daniel
 "Sklut, Mark",046-00280979,Shrewsbury,85230,63,,Patrolman,,Active,,,,,,,sklut,mark
@@ -12334,7 +12334,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Smith, Tyrone E",004-07654093,Boston,11956,2018,Employee ID,Police Officer,,Active,,,,,,,smith,tyrone
 "Smith, William",004-07181706,Boston,9791,1802,Employee ID,Police Offc Acad Instr 2$6,,Inactive,,,,,,,smith,william
 "Smith, Willie",033-61033981,Arlington,,,Non-Officer,Parking Control,,Active,,,,,,,smith,willie
-"Smith,, Benjamin",017-03106147,Framingham,,381,Badge Number,Police Officer,,,,,,,,,smith,
+"Smith,, Benjamin",017-03106147,Framingham,,381,Badge Number,Police Officer,,,,,,,,,smith,benjamin
 "Smith-Cabrera, Patience",082-05655296,Yarmouth,,,Unknown,Matron,,Part Time,,,,,,,smith-cabrera,patience
 "Smola, Zachary",025-02701057,Chicopee,335,59,Employee ID,Ptl.,,Active,,,,,,,smola,zachary
 "Smolinski, Derek",094-03058013,Ludlow,L8,L8,,Patrol Officer,,Active,,,,,,,smolinski,derek
@@ -12620,7 +12620,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Stoyak, Joseph",036-08034706,Westfield,74695,67,Employee ID,Patrolman,,,,,,,,,stoyak,joseph
 "Strange, Donald",025-06880262,Chicopee,254,,Employee ID,Capt.,,Active,,,,,,,strange,donald
 "Strange, Jacob W",006-05271778,Springfield,109937,43,Employee ID,Sergeant,,Active,,,,,,,strange,jacob
-"Strange,, Keith",017-01099690,Framingham,,271,Badge Number,Na,,,,,,,,,strange,
+"Strange,, Keith",017-01099690,Framingham,,271,Badge Number,Na,,,,,,,,,strange,keith
 "Strangie, Nicholas J",074-09584789,Danvers,10761,,Employee ID,Patrol Officer,,,,,,,,,strangie,nicholas
 "Strassmann, Franz",078-04965311,Belmont,4084,,Employee ID,Police Officer,,Active,,,,,,,strassmann,franz
 "Stratton, Michael J",004-04935937,Boston,10305,DSUPT,Employee ID,Dep Supn (Bpd),,Active,,,,,,,stratton,michael
@@ -12875,7 +12875,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Tedesco, John",043-09951706,Woburn,972,,,Patrol Officer,,Active,,,,,,,tedesco,john
 "Tedesco, Thomas",071-01312320,Stoughton,901130,217,,Patrolmen,,Active,,,,,,,tedesco,thomas
 "Tee Riley Jr., Quion",004-04126700,Boston,105620,1408,Employee ID,Police Officer,,Active,,,,,,,tee riley,quion
-"Teel,, Christopher",017-04599098,Framingham,,310,Badge Number,Police Officer,,,,,,,,,teel,
+"Teel,, Christopher",017-04599098,Framingham,,310,Badge Number,Police Officer,,,,,,,,,teel,christopher
 "Teixeira, Caetano A",004-01718506,Boston,11465,4211,Employee ID,Police Officer,,Active,,,,,,,teixeira,caetano
 "Teixeira, David",003-09497795,Massachusetts,4630,H,Employee ID,Trooper,,Active,,,,,,,teixeira,david
 "Teixeira, John A",004-04785589,Boston,9804,911,Employee ID,Police Detective,,Active,,,,,,,teixeira,john
@@ -12982,7 +12982,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Tierney, Bradford",094-09588998,Ludlow,L12,L12,,Patrol Officer,,Active,,,,,,,tierney,bradford
 "Tierney, Conor",066-09497660,North,489,,Employee ID,Patrol Officer,,Active,,,,,,,tierney,conor
 "Tierney, Matthew M",004-00379797,Boston,9037,870,Employee ID,Police Detective,,Inactive,,,,,,,tierney,matthew
-"Tierney,, Timothy",017-00462937,Framingham,,405,Badge Number,Police Officer,,,,,,,,,tierney,
+"Tierney,, Timothy",017-00462937,Framingham,,405,Badge Number,Police Officer,,,,,,,,,tierney,timothy
 "Tilley, Brian",020-02191452,Malden,301,,Employee ID,Patrol Officer,,Active,,,,,,,tilley,brian
 "Tillu, Noorulain",015-07482169,Lawrence,3688,,Employee ID,Special Police Officers,,,,,,,,,tillu,noorulain
 "Timmerman, Edward",059-06009419,Needham,,250,Badge Number,Patrol Officer,,Active,,,,,,,timmerman,edward
@@ -13418,7 +13418,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Vivolo, Carmen",016-05281155,Somerville,24640,209,Employee ID,Lieutenant,,Active,,,,,,,vivolo,carmen
 "Voellings, Lauren J",005-00126006,Worcester,,,,Sergeant,,Active,,,,,,,voellings,lauren
 "Voisine, Brian",015-04548150,Lawrence,364,,Employee ID,Special Police Officers,,,,,,,,,voisine,brian
-"Volk Fernandes,, Julie",017-06378531,Framingham,,404,Badge Number,Police Officer,,,,,,,,,volk fernandes,
+"Volk Fernandes,, Julie",017-06378531,Framingham,,404,Badge Number,Police Officer,,,,,,,,,volk fernandes,julie
 "Volkov, Vitaly I.",033-38078982,Arlington,5775,30,Employee ID/Badge,Police Officer,,Active,,,,,,,volkov,vitaly
 "Vona, Michael E",006-04125797,Springfield,112468,338,Employee ID,Officer,,Active,,,,,,,vona,michael
 "Vorce, Alan",042-09016117,Marlborough,61AV,,,Patrol,,Active,,,,,,,vorce,alan
@@ -13471,7 +13471,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Walker, Scott",003-07727730,Massachusetts,3524,G,Employee ID,Trooper,,Active,,,,,,,walker,scott
 "Walker, Shawn",038-02563662,Fitchberg,152,31,Employee ID,Patrol Officer,,Active,,,,,,,walker,shawn
 "Walker, William Y",004-07033206,Boston,126520,2744,Employee ID,Police Officer,,Active,,,,,,,walker,william
-"Walker,, Zakery",017-03384665,Framingham,,406,Badge Number,Police Officer,,,,,,,,,walker,
+"Walker,, Zakery",017-03384665,Framingham,,406,Badge Number,Police Officer,,,,,,,,,walker,zakery
 "Walkus, Brandon",085-09085030,Easton,,73,,Sgt,,Active,,,,,,,walkus,brandon
 "Wall, Cynthia",004-07666003,Boston,106897,,Employee ID,Communic. Equipop Ii 9Ii(Ss),,Inactive,,,,,,,wall,cynthia
 "Wall, Daniel",034-01223614,Everett,,32952,Badge Number,Ptl,,Active,,,,,,,wall,daniel
@@ -13488,7 +13488,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Wallace, Stephen",045-06317968,Braintree,136,,Employee ID,Patrolman,,Active,,,,,,,wallace,stephen
 "Walls, Francis",003-08205530,Massachusetts,2473,G,Employee ID,Lieutenant,,Active,,,,,,,walls,francis
 "Walls, Janice",004-04324357,Boston,109035,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,walls,janice
-"Walls,, Kristen",017-09069943,Framingham,,397,Badge Number,Police Officer,,,,,,,,,walls,
+"Walls,, Kristen",017-09069943,Framingham,,397,Badge Number,Police Officer,,,,,,,,,walls,kristen
 "WALSH , DANIEL",014-33528980,Newton,,,Not Provided,Lieutenant,,Active,,,,,,,walsh,daniel
 "WALSH , THOMAS",014-83534661,Newton,,,Not Provided,Officer,,Active,,,,,,,walsh,thomas
 "Walsh, Brendan M",004-02728180,Boston,102394,6756,Employee ID,Police Detective,,Active,,,,,,,walsh,brendan
@@ -13551,7 +13551,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Ware Iv, Paul M",039-00082212,Billerica,190,146,Employee ID,Patrolman,,,,,,,,,ware,paul
 "Ware, Kevin",045-01467984,Braintree,99,,Employee ID,Lieutenant,,Active,,,,,,,ware,kevin
 "Ware, Ryan",003-04746274,Massachusetts,4058,H,Employee ID,Trooper,,Active,,,,,,,ware,ryan
-"Wareham,, Harry",017-06956902,Framingham,,254,Badge Number,Police Lieutenant,,,,,,,,,wareham,
+"Wareham,, Harry",017-06956902,Framingham,,254,Badge Number,Police Lieutenant,,,,,,,,,wareham,harry
 "Warish, David",024-09140206,Taunton,290,290,Employee ID,Special,,Active,,,,,,,warish,david
 "Warish, Phillip",024-07126327,Taunton,214,214,Employee ID,Special,,Active,,,,,,,warish,phillip
 "Warmington, Andrew",030-00174509,Barnstable,12610,,Employee ID,Seasonal Security Officer,,Inactive,,,,,,,warmington,andrew
@@ -13867,7 +13867,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Wilson, Thomas",003-07583410,Massachusetts,4239,G,Employee ID,Trooper,,Active,,,,,,,wilson,thomas
 "Wilson, Thomas A",069-01390371,Milton,390,M5527,Employee ID,Lt,,Active,,,,,,,wilson,thomas
 "Wilson, Timothy F",004-09870076,Boston,117846,2565,Employee ID,Police Officer,,Active,,,,,,,wilson,timothy
-"Wilson,, Sean P.",017-03424148,Framingham,,336,Badge Number,Police Officer,,,,,,,,,wilson,
+"Wilson,, Sean P.",017-03424148,Framingham,,336,Badge Number,Police Officer,,,,,,,,,wilson,sean p.
 "Wimes, Altresa S",004-09246686,Boston,96669,ZZZZZ,Employee ID,School Traffic Supv,,Active,,,,,,,wimes,altresa
 "Wine, Alan M",006-05555783,Springfield,112500,332,Employee ID,Officer,,Active,,,,,,,wine,alan
 "Winer, Robert",026-04403342,Weymouth,1293,,Employee ID,Lieutenant,,Active,,,,,,,winer,robert
@@ -13875,7 +13875,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Wing, Sarrah N",038-03102556,Fitchberg,172,45,Employee ID,Patrol Officer,,Active,,,,,,,wing,sarrah
 "Winget, Gordon",003-02590772,Massachusetts,4653,C,Employee ID,Trooper,,Military Leave,,,,,,,winget,gordon
 "Wingler, Joshua",003-02423986,Massachusetts,4654,B,Employee ID,Trooper,,Active,,,,,,,wingler,joshua
-"Winkelman,, Zachary",017-02860643,Framingham,,383,Badge Number,Police Officer,,,,,,,,,winkelman,
+"Winkelman,, Zachary",017-02860643,Framingham,,383,Badge Number,Police Officer,,,,,,,,,winkelman,zachary
 "Winrow, David",003-00610209,Massachusetts,4655,C,Employee ID,Trooper,,Active,,,,,,,winrow,david
 "Winrow, David S",004-02611121,Boston,144493,,Employee ID,Police Officer,,Inactive,,,,,,,winrow,david
 "Winslow-Fortes, Brian",004-07649280,Boston,9540,ZZZZZ,Employee ID,Mtr Eq Rpprs Classibpdfleetbfd,,Active,,,,,,,winslow-fortes,brian
@@ -13968,7 +13968,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Wright, Paul D",004-04418546,Boston,11750,4894,Employee ID,Police Offc/Bomb Squad,,Active,,,,,,,wright,paul
 "Wright, Scott",030-08741461,Barnstable,11342,,Employee ID,Sr Pt Officer Bachelors 20%,,Active,,,,,,,wright,scott
 "Wright, Walika",004-08023110,Boston,99869,,Employee ID,School Traffic Supv,,Inactive,,,,,,,wright,walika
-"Wright,, James",017-02575839,Framingham,,328,Badge Number,Police Officer,,,,,,,,,wright,
+"Wright,, James",017-02575839,Framingham,,328,Badge Number,Police Officer,,,,,,,,,wright,james
 "Wrighter, Christopher",098-02486554,Bourne,7562,4,Employee ID,Ptl,,Active,,,,,,,wrighter,christopher
 "Wry, Bradford",100-02623371,Norton,11687,201,Employee ID,Ptlm 21,,Active,,,,,,,wry,bradford
 "Wyche-Mcallister, Shamika",062-87644711,Norwood,SM99,,External ID,Traffic Supervisor,,Inactive,,,,,,,wyche-mcallister,shamika
@@ -14108,7 +14108,7 @@ Full Name,Internal Unique ID,Agency,Employee ID,Badge Num,Identifier Type,Rank,D
 "Dupuis, Raymond",053-11570277,Watertown,553,,Employee ID,Captain,,Full Time,,,,,,,dupuis,raymond
 "Lawn, Michael",053-11850992,Watertown,717,,Employee ID,Chief,,Full Time,,,,,,,lawn,michael
 "Stewart, Michael",053-95399052,Watertown,1027,357,Employee ID,CP/SRO Officer,,Full Time,,,,,,,stewart,michael
-"Lam, King",053-81636221,Watertown,1016,342,Employee ID,Patrol Officer/Sys Admin,,Full Time,,,,,,,lam,
+"Lam, King",053-81636221,Watertown,1016,342,Employee ID,Patrol Officer/Sys Admin,,Full Time,,,,,,,lam,king
 "Comick, Michael",053-24746526,Watertown,1007,336,Employee ID,CP/Admin Officer,,Full Time,,,,,,,comick,michael
 "Demos, George",053-83853249,Watertown,971,312,Employee ID,Sergeant,,Full Time,,,,,,,demos,george
 "Kelley, Kerry",053-56698924,Watertown,950,302,Employee ID,CP/SRO Officer,,Full Time,,,,,,,kelley,kerry
