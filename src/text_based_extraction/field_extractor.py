@@ -1,8 +1,9 @@
 import sys
-sys.path.append("..")
 import re
 import os
 from os import walk, path
+from .internal_unique_id_lookup import lookup
+import pandas as pd
 
  
 '''
@@ -23,13 +24,13 @@ notes - notes - https://drive.google.com/drive/folders/191GkC8uPO4wJmrypBJVyRFYI
 
 # takes in a list of lines from complaint doc and a list of tokens from order doc
 # returns dictionary of extracted fields
-def get_suit_fields(complaint_lines, order_tokens):
+def get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path):
   # extract fields
   docket_num = extract_docket_num(order_tokens)
 
-  officers = extract_officers(complaint_lines)
+  officers, iuid_str = extract_officer_data(complaint_lines, officer_roster_csv_path)
 
-  fields = { 'Docket Number': docket_num, 'Officer(s)': officers }
+  fields = { 'Docket Number': docket_num, 'Officer(s)': officers, 'Internal Unique ID (Officer)': iuid_str }
 
   return fields
 
@@ -43,15 +44,20 @@ def extract_docket_num(tokens):
 
   return docket_num
 
-# pass in complaint lines, returns list of officers
-def extract_officers(lines):
+# pass in complaint lines, returns list of officers and list of internal uniquid IDs
+def extract_officer_data(lines, officer_roster_csv_path):
+  officer_roster = pd.read_csv(officer_roster_csv_path)
+
   officers_regex = re.compile('Defendant ([a-zA-Z\']{3,40})(?:\s[A-Z].)?\s([a-zA-Z\']{3,40}) (is|was)')
-  officers = [m.group(2) + ', ' + m.group(1) for m in (officers_regex.match(str(line)) for line in lines) if m]
 
-  # remove duplicates
-  officers = list(set(officers))
+  # create list of tuples
+  officer_names = [(m.group(1), m.group(2)) for m in (officers_regex.match(str(line)) for line in lines) if m]
+  officer_names = list(set(officer_names))
 
-  # format as single string
-  officers_string = "; ".join(officers)
+  officers = '; '.join([last + ', ' + first for first, last in officer_names])
 
-  return officers_string
+  # TODO: remove collisions from lookup with same name by using agency field too 
+  iuid_list = [lookup(first + " " + last, officer_roster) for first, last in officer_names]
+  iuid_str = '; '.join([iuid for iuid in iuid_list if iuid])
+
+  return officers, iuid_str

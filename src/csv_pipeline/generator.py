@@ -21,7 +21,6 @@ nltk.download('punkt')
 Function generates the field CSV files to be used by the CPCS team
 """
 def generate_fields(input_directory, officer_roster_csv_path, debug = False):
-    officer_data = pd.read_csv(officer_roster_csv_path)
 
     # Standardize path name
     input_directory = path.join(input_directory, '')
@@ -54,7 +53,7 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
             page_tokens = word_tokenize(page_text)
             order_tokens += page_tokens
 
-    fields = field_extractor.get_suit_fields(complaint_lines, order_tokens)
+    fields = field_extractor.get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path)
 
     return fields
 
