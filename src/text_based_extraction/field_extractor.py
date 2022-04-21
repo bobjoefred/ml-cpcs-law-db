@@ -28,9 +28,11 @@ def get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path):
   # extract fields
   docket_num = extract_docket_num(order_tokens)
 
+  agency = extract_agency(complaint_lines)
+
   officers, iuid_str = extract_officer_data(complaint_lines, officer_roster_csv_path)
 
-  fields = { 'Docket Number': docket_num, 'Officer(s)': officers, 'Internal Unique ID (Officer)': iuid_str }
+  fields = { 'Docket Number': docket_num, 'Officer(s)': officers, 'Internal Unique ID (Officer)': iuid_str, 'Agency (from Officers)': agency }
 
   return fields
 
@@ -43,6 +45,16 @@ def extract_docket_num(tokens):
   docket_num = list(filter(docket_num_regex.match, tokens))[0].upper()
 
   return docket_num
+
+
+def extract_agency(lines):
+  agency_regex = re.compile('(?i)(city|town) of ([a-z]{3,40})[\., ]')
+  agency_matches = [m.group(2) for m in (agency_regex.match(line) for line in lines) if m]
+  agency_matches = list(set(agency_matches))
+  agency_list = [town.title() + ' Police Department' for town in agency_matches]
+  agency = ';'.join(agency_list)
+  return agency
+
 
 # pass in complaint lines, returns list of officers and list of internal uniquid IDs
 def extract_officer_data(lines, officer_roster_csv_path):
