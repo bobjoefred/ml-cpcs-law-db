@@ -21,7 +21,6 @@ nltk.download('punkt')
 Function generates the field CSV files to be used by the CPCS team
 """
 def generate_fields(input_directory, officer_roster_csv_path, debug = False):
-    officer_data = pd.read_csv(officer_roster_csv_path)
 
     # Standardize path name
     input_directory = path.join(input_directory, '')
@@ -39,11 +38,12 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
     # complaint_lines is organized as a list of strings, each a single line of the document
     if not debug:
         complaint_lines = text_extractor.pdf_to_text(input_directory + complaint_filename)
-        with open('data/complaint_lines.pkl', 'wb') as f:
+        with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'wb') as f:
             pickle.dump(complaint_lines, f)
     else:
-        with open('data/complaint_lines.pkl', 'rb') as f:
+        with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'rb') as f:
             complaint_lines = pickle.load(f)
+    # print(complaint_lines)
 
     # Use simple text extraction for order document, which is digitally created
     # order_tokens is a list of lowercase single-word tokens
@@ -53,8 +53,8 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
             page_text = page.get_text().lower()
             page_tokens = word_tokenize(page_text)
             order_tokens += page_tokens
-
-    fields = field_extractor.get_suit_fields(complaint_lines, order_tokens)
+    fields = field_extractor.get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path)
+    # print(fields)
 
     return fields
 
@@ -62,7 +62,10 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
 # Returns tuple of complaint filename, order filename 
 def select_filenames(filenames):
     # Sort filenames by document number, with length of filename to break ties
-    filenames.sort(key=lambda fn: (int(re.search('\[([^]-]+)(\]|-)', fn).group(1)), len(fn)))
+    try:
+        filenames.sort(key=lambda fn: (int(re.search('\[([^]-]+)(\]|-)', fn).group(1)), len(fn)))
+    except:
+        print("Document number not found.")
 
     if not len(filenames):
         return None, None
