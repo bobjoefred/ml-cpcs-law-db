@@ -1,8 +1,15 @@
+"""
+Needed library imports
+"""
 import sys
 import re
 import os
 from os import walk, path
 from .internal_unique_id_lookup import lookup
+
+import sys
+sys.path.append("..")
+from ml_based_extraction import notes_generator
 import pandas as pd
 
  
@@ -32,7 +39,9 @@ def get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path):
 
   officers, iuid_str = extract_officer_data(complaint_lines, agency, officer_roster_csv_path)
 
-  fields = { 'Docket Number': docket_num, 'Officer(s)': officers, 'Internal Unique ID (Officer)': iuid_str, 'Agency (from Officers)': agency }
+  notes = notes_generator.generate_notes(" ".join(complaint_lines))
+
+  fields = { 'Docket Number': docket_num, 'Officer(s)': officers, 'Internal Unique ID (Officer)': iuid_str, 'Agency (from Officers)': agency, 'Notes': notes }
 
   return fields
 
