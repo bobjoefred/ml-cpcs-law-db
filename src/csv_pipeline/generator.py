@@ -61,7 +61,9 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
 
 # Returns tuple of complaint filename, order filename 
 def select_filenames(filenames):
-    # Sort filenames by document number, with length of filename to break ties
+    """
+    Sort filenames by document number, with length of filename to break ties
+    """
     try:
         filenames.sort(key=lambda fn: (int(re.search('\[([^]-]+)(\]|-)', fn).group(1)), len(fn)))
     except:
