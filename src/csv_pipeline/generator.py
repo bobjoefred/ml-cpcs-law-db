@@ -48,13 +48,16 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
     # Use simple text extraction for order document, which is digitally created
     # order_tokens is a list of lowercase single-word tokens
     order_tokens = []
-    with fitz.open(input_directory + order_filename) as doc:
-        for page in doc:
-            page_text = page.get_text().lower()
-            page_tokens = word_tokenize(page_text)
-            order_tokens += page_tokens
+    try:
+        with fitz.open(input_directory + order_filename) as doc:
+            for page in doc:
+                page_text = page.get_text().lower()
+                page_tokens = word_tokenize(page_text)
+                order_tokens += page_tokens
+    except:
+        print("Order document not found.")
+
     fields = field_extractor.get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path)
-    # print(fields)
 
     return fields
 
@@ -93,5 +96,5 @@ def select_filenames(filenames):
         selected_order = orders[-1]
     else:
         selected_order = filenames[-1]
-    
+
     return selected_complaint, selected_order

@@ -10,6 +10,7 @@ from .internal_unique_id_lookup import lookup
 import sys
 sys.path.append("..")
 from ml_based_extraction import notes_generator
+from ml_based_extraction import incident_tags_generator
 import pandas as pd
 
  
@@ -41,6 +42,8 @@ def get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path):
 
   notes = notes_generator.generate_notes(" ".join(complaint_lines))
 
+  incident_tag = incident_tags_generator.generate_incident_tags(" ".join(complaint_lines))
+  
   fields = { 'Docket Number': docket_num, 'Officer(s)': officers, 'Internal Unique ID (Officer)': iuid_str, 'Agency (from Officers)': agency, 'Notes': notes }
 
   return fields
