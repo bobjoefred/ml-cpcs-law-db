@@ -4,7 +4,7 @@ Library imports, import huggingface transformers library and torch
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer
 import torch
 
-MODEL_NAME = "google/pegasus-xsum"
+MODEL_NAME = "google/pegasus-cnn_dailymail"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 tokenizer = PegasusTokenizer.from_pretrained(MODEL_NAME)
 model = PegasusForConditionalGeneration.from_pretrained(MODEL_NAME).to(DEVICE)

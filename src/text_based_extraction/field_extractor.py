@@ -49,11 +49,16 @@ def get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path):
 # input: list of lowered tokens
 # output: docket number
 def extract_docket_num(tokens):
-  # docket number e.g. 1:16-cv-11865-WGY or 1184CV00961
+  """
+  docket number e.g. 1:16-cv-11865-WGY or 1184CV00961
+  """
   docket_num_regex = re.compile('[0-9]:?[0-9]*-?cv.*')
-  docket_num = list(filter(docket_num_regex.match, tokens))[0].upper()
+  try:
+    docket_num = list(filter(docket_num_regex.match, tokens))[0].upper()
 
-  return docket_num
+    return docket_num
+  except:
+    return ""
 
 
 def extract_agency(lines):
