@@ -10,10 +10,11 @@ dir_source, dir_names, _ = next(walk("../input"), (None, None, []))
 all_fields = []
 for dir_name in dir_names:
     input_dir = (dir_source + '/' + dir_name)
+    print(input_dir)
     all_fields.append(gen.generate_fields(
         input_directory = input_dir,
         officer_roster_csv_path = 'data/officer_roster.csv',
-        debug = True))
+        debug = False))
 
 df = pd.DataFrame(all_fields)
 df.to_csv('output.csv', index=False)
