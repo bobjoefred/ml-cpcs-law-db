@@ -16,7 +16,7 @@ from ml_based_extraction import settlement_extractor
 from ml_based_extraction import incident_tags_generator
 
 
-def generate_fields(input_directory, officer_roster_csv_path, debug = False):
+def generate_fields(input_directory, dir_name, officer_roster_csv_path, debug = False):
     """
     Function generates the field CSV files to be used by the CPCS team
     """
@@ -32,6 +32,8 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
             filenames.remove(filename)
 
     complaint_filename, order_filename = select_filenames(filenames)
+    print("Complaint file:", complaint_filename)
+    print("Order filename: ", order_filename)
 
     # Use OCR for complaint document, which is scanned
     # complaint_lines is organized as a list of strings, each a single line of the document
@@ -42,7 +44,7 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
     else:
         with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'rb') as file:
             complaint_lines = pickle.load(file)
-    # print(complaint_lines)
+    print(complaint_lines)
 
     # Use simple text extraction for order document, which is digitally created
     # order_tokens is a list of lowercase single-word tokens
@@ -55,8 +57,9 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
                 order_tokens += page_tokens
     except:
         print("Order document not found.")
+        order_tokens = word_tokenize((" ".join(complaint_lines)).lower())
 
-    fields = field_extractor.get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path)
+    fields = field_extractor.get_suit_fields(complaint_lines, order_tokens, dir_name, officer_roster_csv_path)
 
     return fields
 
@@ -80,8 +83,8 @@ def select_filenames(filenames):
     selected_order = None
 
     # Select complaints with priority to [1-main] document
-    complaints = [fn for fn in filenames if 'Complaint' in fn and 'Answer' not in fn]
-    complaint = [fn for fn in complaints if '[1-main]' in fn]
+    complaints = [fn for fn in filenames if 'complaint' in fn.lower() and 'answer' not in fn.lower()]
+    complaint = [fn for fn in complaints if '[1-main]' in fn.lower()]
     if len(complaint):
         selected_complaint = complaint[0]
     elif len(complaints):
@@ -90,7 +93,7 @@ def select_filenames(filenames):
         selected_complaint = filenames[0]
 
     # Select last order
-    orders = [fn for fn in filenames if ('Order' in fn or 'Dismissal' in fn) and 'Appeal' not in fn]
+    orders = [fn for fn in filenames if ('order' in fn.lower() or 'dismissal' in fn.lower()) and 'appeal' not in fn.lower()]
     if len(orders):
         selected_order = orders[-1]
     else:
