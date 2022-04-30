@@ -1,4 +1,13 @@
-# Custom libraries
+"""
+Standard and custom libraries
+"""
+import re
+from os import walk, path
+import pickle
+import fitz # PyMuPDF
+import nltk
+from nltk.tokenize import word_tokenize
+nltk.download('punkt')
 from text_based_extraction import field_extractor
 from text_based_extraction import internal_unique_id_lookup
 from ml_based_extraction import text_extractor
@@ -6,21 +15,11 @@ from ml_based_extraction import case_name_generator
 from ml_based_extraction import settlement_extractor
 from ml_based_extraction import incident_tags_generator
 
-# Standard libraries
-import fitz # PyMuPDF
-import nltk
-import pickle
-import pandas as pd
-import re
-from os import walk, path
-from nltk.tokenize import word_tokenize
-nltk.download('punkt')
 
-
-"""
-Function generates the field CSV files to be used by the CPCS team
-"""
 def generate_fields(input_directory, officer_roster_csv_path, debug = False):
+    """
+    Function generates the field CSV files to be used by the CPCS team
+    """
 
     # Standardize path name
     input_directory = path.join(input_directory, '')
@@ -38,23 +37,26 @@ def generate_fields(input_directory, officer_roster_csv_path, debug = False):
     # complaint_lines is organized as a list of strings, each a single line of the document
     if not debug:
         complaint_lines = text_extractor.pdf_to_text(input_directory + complaint_filename)
-        with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'wb') as f:
-            pickle.dump(complaint_lines, f)
+        with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'wb') as file:
+            pickle.dump(complaint_lines, file)
     else:
-        with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'rb') as f:
-            complaint_lines = pickle.load(f)
+        with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'rb') as file:
+            complaint_lines = pickle.load(file)
     # print(complaint_lines)
 
     # Use simple text extraction for order document, which is digitally created
     # order_tokens is a list of lowercase single-word tokens
     order_tokens = []
-    with fitz.open(input_directory + order_filename) as doc:
-        for page in doc:
-            page_text = page.get_text().lower()
-            page_tokens = word_tokenize(page_text)
-            order_tokens += page_tokens
+    try:
+        with fitz.open(input_directory + order_filename) as doc:
+            for page in doc:
+                page_text = page.get_text().lower()
+                page_tokens = word_tokenize(page_text)
+                order_tokens += page_tokens
+    except:
+        print("Order document not found.")
+
     fields = field_extractor.get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path)
-    # print(fields)
 
     return fields
 
@@ -93,5 +95,5 @@ def select_filenames(filenames):
         selected_order = orders[-1]
     else:
         selected_order = filenames[-1]
-    
+
     return selected_complaint, selected_order

@@ -10,6 +10,7 @@ from .internal_unique_id_lookup import lookup
 import sys
 sys.path.append("..")
 from ml_based_extraction import notes_generator
+from ml_based_extraction import incident_tags_generator
 import pandas as pd
 
  
@@ -32,58 +33,65 @@ notes - notes - https://drive.google.com/drive/folders/191GkC8uPO4wJmrypBJVyRFYI
 # takes in a list of lines from complaint doc and a list of tokens from order doc
 # returns dictionary of extracted fields
 def get_suit_fields(complaint_lines, order_tokens, officer_roster_csv_path):
-  # extract fields
-  docket_num = extract_docket_num(order_tokens)
+    # extract fields
+    docket_num = extract_docket_num(order_tokens)
 
-  agency = extract_agency(complaint_lines)
+    agency = extract_agency(complaint_lines)
 
-  officers, iuid_str = extract_officer_data(complaint_lines, agency, officer_roster_csv_path)
+    officers, iuid_str = extract_officer_data(complaint_lines, agency, officer_roster_csv_path)
 
-  notes = notes_generator.generate_notes(" ".join(complaint_lines))
+    notes = notes_generator.generate_notes(" ".join(complaint_lines))
 
-  fields = { 'Docket Number': docket_num, 'Officer(s)': officers, 'Internal Unique ID (Officer)': iuid_str, 'Agency (from Officers)': agency, 'Notes': notes }
+    incident_tag = incident_tags_generator.generate_incident_tags(" ".join(complaint_lines))
 
-  return fields
+    fields = { 'Docket Number': docket_num,
+                'Officer(s)': officers,
+                'Internal Unique ID (Officer)': iuid_str,
+                'Agency (from Officers)': agency,
+                'Tags': incident_tag,
+                'Notes': notes }
+
+    return fields
 
 
 # input: list of lowered tokens
 # output: docket number
 def extract_docket_num(tokens):
-  """
-  docket number e.g. 1:16-cv-11865-WGY or 1184CV00961
-  """
-  docket_num_regex = re.compile('[0-9]:?[0-9]*-?cv.*')
-  try:
-    docket_num = list(filter(docket_num_regex.match, tokens))[0].upper()
+    """
+    docket number e.g. 1:16-cv-11865-WGY or 1184CV00961
+    """
+    docket_num_regex = re.compile('[0-9]:?[0-9]*-?cv.*')
+    try:
+        docket_num = list(filter(docket_num_regex.match, tokens))[0].upper()
 
-    return docket_num
-  except:
-    return ""
+        return docket_num
+    except:
+        return ""
 
 
 def extract_agency(lines):
-  agency_regex = re.compile('(?i)(city|town) of ([a-z]{3,40})[\.,; ]')
-  agency_matches = [m.group(2) for m in (agency_regex.match(line) for line in lines) if m]
-  agency_matches = list(set(agency_matches))
+    agency_regex = re.compile('(?i)(city|town) of ([a-z]{3,40})[\.,; ]')
+    agency_matches = [m.group(2) for m in (agency_regex.match(line) for line in lines) if m]
+    agency_matches = list(set(agency_matches))
 
-  agency_list = [town.title() + ' Police Department' for town in agency_matches]
-  agency = ';'.join(agency_list)
-  return agency
+    agency_list = [town.title() + ' Police Department' for town in agency_matches]
+    agency = ';'.join(agency_list)
+    return agency
 
 
 # pass in complaint lines, returns list of officers and list of internal uniquid IDs
 def extract_officer_data(lines, agency, officer_roster_csv_path):
-  officer_roster = pd.read_csv(officer_roster_csv_path)
-  officers_regex = re.compile('Defendant ([a-zA-Z\']{3,40})(?:\s[A-Z].)?\s([a-zA-Z\']{3,40}) (is|was|ID)')
-  # create list of tuples
-  officer_names = [(m.group(1), m.group(2)) for m in (officers_regex.match(str(line)) for line in lines) if m]
-  # officer_names = [m for m in (officers_regex.findall(str(combined_lines))) if m]
-  officer_names = list(set(officer_names))
+    officer_roster = pd.read_csv(officer_roster_csv_path)
+    officers_regex = re.compile('Defendant ([a-zA-Z\']{3,40})(?:\s[A-Z].)?\s([a-zA-Z\']{3,40}) (is|was|ID)')
+    # create list of tuples
+    officer_names = [(m.group(1), m.group(2)) for m in (officers_regex.match(str(line)) for line in lines) if m]
+    # officer_names = [m for m in (officers_regex.findall(str(combined_lines))) if m]
+    officer_names = list(set(officer_names))
 
-  officers = '; '.join([last + ', ' + first for first, last in officer_names])
+    officers = '; '.join([last + ', ' + first for first, last in officer_names])
 
-  # TODO: remove collisions from lookup with same name by using agency field too 
-  iuid_list = [lookup(first + " " + last, agency, officer_roster) for first, last in officer_names]
-  iuid_str = '; '.join([iuid for iuid in iuid_list if iuid])
+    # TODO: remove collisions from lookup with same name by using agency field too 
+    iuid_list = [lookup(first + " " + last, agency, officer_roster) for first, last in officer_names]
+    iuid_str = '; '.join([iuid for iuid in iuid_list if iuid])
 
-  return officers, iuid_str
+    return officers, iuid_str
