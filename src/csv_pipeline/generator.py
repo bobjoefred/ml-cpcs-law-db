@@ -29,9 +29,9 @@ def generate_fields(input_directory, dir_name, officer_roster_csv_path, debug = 
         if ".pdf" not in filename:
             filenames.remove(filename)
 
-    complaint_filename, order_filename = select_filenames(filenames)
+    complaint_filename, order_filenames = select_filenames(filenames)
     print("Complaint file:", complaint_filename)
-    print("Order filename: ", order_filename)
+    print("Order filenames: ", order_filenames)
 
     # Use OCR for complaint document, which is scanned
     # complaint_lines is organized as a list of strings, each a single line of the document
@@ -47,11 +47,12 @@ def generate_fields(input_directory, dir_name, officer_roster_csv_path, debug = 
     # order_tokens is a list of lowercase single-word tokens
     order_tokens = []
     try:
-        with fitz.open(input_directory + order_filename) as doc:
-            for page in doc:
-                page_text = page.get_text().lower()
-                page_tokens = word_tokenize(page_text)
-                order_tokens += page_tokens
+        for order_filename in order_filenames:
+            with fitz.open(input_directory + order_filename) as doc:
+                for page in doc:
+                    page_text = page.get_text().lower()
+                    page_tokens = word_tokenize(page_text)
+                    order_tokens += page_tokens
     except:
         print("Order document not found.")
         order_tokens = word_tokenize((" ".join(complaint_lines)).lower())
@@ -77,7 +78,6 @@ def select_filenames(filenames):
         return filenames[0], None
 
     selected_complaint = None
-    selected_order = None
 
     # Select complaints with priority to [1-main] document
     complaints = [fn for fn in filenames if 'complaint' in fn.lower() and 'answer' not in fn.lower()]
@@ -89,11 +89,11 @@ def select_filenames(filenames):
     else:
         selected_complaint = filenames[0]
 
-    # Select first relevant order or last file
-    orders = [fn for fn in filenames if ('order' in fn.lower() or 'dismissal' in fn.lower() or 'settlement' in fn.lower()) and 'appeal' not in fn.lower()]
-    if len(orders):
-        selected_order = orders[0]
-    else:
-        selected_order = filenames[-1]
+    order_terms = ['order', 'dismissal', 'settlement', 'docket', 'judgment']
 
-    return selected_complaint, selected_order
+    # Select first relevant order or last file
+    orders = [fn for fn in filenames if any(term in fn.lower() for term in order_terms)]
+    if not orders:
+        orders = [filenames[-1]]
+
+    return selected_complaint, orders

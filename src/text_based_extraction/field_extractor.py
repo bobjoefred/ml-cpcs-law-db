@@ -122,7 +122,6 @@ def extract_court(lines):
 def extract_disposition_info(tokens):
     disposition_types = []
 
-
     combined_tokens = " ".join(tokens)
     settlement = False
 
