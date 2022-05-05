@@ -49,6 +49,9 @@ def get_suit_fields(complaint_lines, order_tokens, dir_name, officer_roster_csv_
 
     disposition_type, disposition_date = extract_disposition_info(order_tokens)
 
+
+    settlement_amount = extract_settlement_amount(order_tokens) if 'Settled' in disposition_type else ""
+
     fields = { 'Docket Number': docket_num,
                 'Internal Unique ID (Officer)': iuid_str,
                 'Case Name/Caption': dir_name,
@@ -58,6 +61,7 @@ def get_suit_fields(complaint_lines, order_tokens, dir_name, officer_roster_csv_
                 'Courts': court,
                 'Disposition Type': disposition_type,
                 'Disposition Date': disposition_date,
+                'Settlement/Judgment Amount': settlement_amount,
                 'Notes': notes }
 
     return fields
@@ -141,11 +145,15 @@ def extract_disposition_info(tokens):
     
     disposition_string = "; ".join(disposition_types)
 
-    disposition_date_regex = re.compile('Filed ([0-9]{2}/[0-9]{2}/[0-9]{2})')
+    disposition_date_regex = re.compile('filed ([0-9]{2}/[0-9]{2}/[0-9]{2})')
     date_match = re.search(disposition_date_regex, combined_tokens)
     date = date_match.group(1) if date_match else ""
     
 
     return disposition_string, date
+
+
+def extract_settlement_amount(tokens):
+
     
 

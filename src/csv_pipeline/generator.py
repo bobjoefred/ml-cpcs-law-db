@@ -92,7 +92,7 @@ def select_filenames(filenames):
     order_terms = ['order', 'dismissal', 'settlement', 'docket', 'judgment']
 
     # Select first relevant order or last file
-    orders = [fn for fn in filenames if any(term in fn.lower() for term in order_terms)]
+    orders = [fn for fn in filenames if any(term in fn.lower() for term in order_terms) and 'motion' not in fn.lower()]
     if not orders:
         orders = [filenames[-1]]
 
