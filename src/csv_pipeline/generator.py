@@ -11,8 +11,6 @@ nltk.download('punkt')
 from text_based_extraction import field_extractor
 from text_based_extraction import internal_unique_id_lookup
 from ml_based_extraction import text_extractor
-from ml_based_extraction import case_name_generator
-from ml_based_extraction import settlement_extractor
 from ml_based_extraction import incident_tags_generator
 
 
@@ -44,7 +42,6 @@ def generate_fields(input_directory, dir_name, officer_roster_csv_path, debug = 
     else:
         with open('data/complaint_lines_' + path.splitext(complaint_filename)[0] + '.pkl', 'rb') as file:
             complaint_lines = pickle.load(file)
-    print(complaint_lines)
 
     # Use simple text extraction for order document, which is digitally created
     # order_tokens is a list of lowercase single-word tokens
@@ -92,10 +89,10 @@ def select_filenames(filenames):
     else:
         selected_complaint = filenames[0]
 
-    # Select last order
-    orders = [fn for fn in filenames if ('order' in fn.lower() or 'dismissal' in fn.lower()) and 'appeal' not in fn.lower()]
+    # Select first relevant order or last file
+    orders = [fn for fn in filenames if ('order' in fn.lower() or 'dismissal' in fn.lower() or 'settlement' in fn.lower()) and 'appeal' not in fn.lower()]
     if len(orders):
-        selected_order = orders[-1]
+        selected_order = orders[0]
     else:
         selected_order = filenames[-1]
 

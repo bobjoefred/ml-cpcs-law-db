@@ -1,6 +1,7 @@
 """
 Needed library imports
 """
+from lib2to3.pgen2 import token
 import sys
 import re
 import os
@@ -46,6 +47,8 @@ def get_suit_fields(complaint_lines, order_tokens, dir_name, officer_roster_csv_
 
     court = extract_court(complaint_lines)
 
+    disposition_type, disposition_date = extract_disposition_info(order_tokens)
+
     fields = { 'Docket Number': docket_num,
                 'Internal Unique ID (Officer)': iuid_str,
                 'Case Name/Caption': dir_name,
@@ -53,6 +56,8 @@ def get_suit_fields(complaint_lines, order_tokens, dir_name, officer_roster_csv_
                 'Agency (from Officers)': agency,
                 'Incident Tags': incident_tag,
                 'Courts': court,
+                'Disposition Type': disposition_type,
+                'Disposition Date': disposition_date,
                 'Notes': notes }
 
     return fields
@@ -66,8 +71,7 @@ def extract_docket_num(tokens):
     """
     docket_num_regex = re.compile('[0-9]:?[0-9]*-?cv.*')
     try:
-        docket_num = list(filter(docket_num_regex.match, tokens))[0].upper()
-
+        docket_num = list(filter(docket_num_regex.search, tokens))[0].upper()
         return docket_num
     except:
         return ""
@@ -76,7 +80,7 @@ def extract_docket_num(tokens):
 def extract_agency(lines):
     try:
         agency_regex = re.compile('(?i)(city|town) of ([a-z]{3,40})[\.,; ]')
-        agency_matches = [m.group(2) for m in (agency_regex.match(line) for line in lines) if m]
+        agency_matches = [m.group(2) for m in [agency_regex.search(line) for line in lines] if m]
 
         agency_list = [town.title() + ' Police Department' for town in agency_matches]
         agency_list = list(set(agency_list))
@@ -92,7 +96,7 @@ def extract_officer_data(lines, agency, officer_roster_csv_path):
         officer_roster = pd.read_csv(officer_roster_csv_path)
         officers_regex = re.compile('Defendant ([a-zA-Z\']{3,40})(?:\s[A-Z].)?\s([a-zA-Z\']{3,40}) (is|was|ID)')
         # create list of tuples
-        officer_names = [(m.group(1).title(), m.group(2).title()) for m in (officers_regex.match(str(line)) for line in lines) if m]
+        officer_names = [(m.group(1).title(), m.group(2).title()) for m in [officers_regex.search(str(line)) for line in lines] if m]
         officer_names = list(set(officer_names))
 
         officers = '; '.join([last + ', ' + first for first, last in officer_names])
@@ -112,3 +116,37 @@ def extract_court(lines):
         return court_list[0].title()
     else:
         return ""
+
+
+# returns settlement type, settlement amount (if applicable)
+def extract_disposition_info(tokens):
+    disposition_types = []
+
+
+    combined_tokens = " ".join(tokens)
+    settlement = False
+
+    settlement_terms = ["shall recover", "interest at the rate of", "the amount of $"]
+
+    if any(term in combined_tokens for term in settlement_terms):
+        settlement = True
+        disposition_types.append("Settled")
+
+    # select either with prejudice, without prejudice, or generally dismissed where it is unclear
+    if "with prejudice" in combined_tokens:
+        disposition_types.append("Dismissed with Prejudice")
+    elif "without prejudice" in combined_tokens:
+        disposition_types.append("Dismissed without Prejudice")
+    elif "dismissed" in combined_tokens:
+        disposition_types.append("Dismissed")
+    
+    disposition_string = "; ".join(disposition_types)
+
+    disposition_date_regex = re.compile('Filed ([0-9]{2}/[0-9]{2}/[0-9]{2})')
+    date_match = re.search(disposition_date_regex, combined_tokens)
+    date = date_match.group(1) if date_match else ""
+    
+
+    return disposition_string, date
+    
+
