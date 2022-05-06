@@ -83,11 +83,7 @@ def extract_agency(lines):
         agency_matches = [m.group(2) for m in [agency_regex.search(line) for line in lines] if m]
 
         agency_list = [town.title() + ' Police Department' for town in agency_matches]
-        # agency_list = list(set(agency_list))
-        # agency = ';'.join(agency_list)
-        if agency_list:
-            agency = agency_list[0]
-        return agency
+        return agency_list[0] if agency_list else ""
     except:
         return ""
 
