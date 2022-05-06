@@ -13,8 +13,9 @@ for dir_name in dir_names:
     print(input_dir)
     all_fields.append(gen.generate_fields(
         input_directory = input_dir,
+        dir_name=dir_name,
         officer_roster_csv_path = 'data/officer_roster.csv',
-        debug = True))
+        debug = False))
 
 df = pd.DataFrame(all_fields)
 df.to_csv('output.csv', index=False)
