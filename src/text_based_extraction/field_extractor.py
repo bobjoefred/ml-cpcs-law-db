@@ -49,9 +49,6 @@ def get_suit_fields(complaint_lines, order_tokens, dir_name, officer_roster_csv_
 
     disposition_type, disposition_date = extract_disposition_info(order_tokens)
 
-
-    settlement_amount = extract_settlement_amount(order_tokens) if 'Settled' in disposition_type else ""
-
     fields = { 'Docket Number': docket_num,
                 'Internal Unique ID (Officer)': iuid_str,
                 'Case Name/Caption': dir_name,
@@ -61,7 +58,6 @@ def get_suit_fields(complaint_lines, order_tokens, dir_name, officer_roster_csv_
                 'Courts': court,
                 'Disposition Type': disposition_type,
                 'Disposition Date': disposition_date,
-                'Settlement/Judgment Amount': settlement_amount,
                 'Notes': notes }
 
     return fields
@@ -73,8 +69,8 @@ def extract_docket_num(tokens):
     """
     docket number e.g. 1:16-cv-11865-WGY or 1184CV00961
     """
-    docket_num_regex = re.compile('[0-9]:?[0-9]*-?cv.*')
     try:
+        docket_num_regex = re.compile('[0-9]:?[0-9]*-?cv.*')
         docket_num = list(filter(docket_num_regex.search, tokens))[0].upper()
         return docket_num
     except:
@@ -87,8 +83,10 @@ def extract_agency(lines):
         agency_matches = [m.group(2) for m in [agency_regex.search(line) for line in lines] if m]
 
         agency_list = [town.title() + ' Police Department' for town in agency_matches]
-        agency_list = list(set(agency_list))
-        agency = ';'.join(agency_list)
+        # agency_list = list(set(agency_list))
+        # agency = ';'.join(agency_list)
+        if agency_list:
+            agency = agency_list[0]
         return agency
     except:
         return ""
@@ -115,45 +113,44 @@ def extract_officer_data(lines, agency, officer_roster_csv_path):
 
 def extract_court(lines):
     # get court line and cut off string after "court" in case of extraneous parts of line
-    court_list = [line[:line.lower().index("court") + len("court")] for line in lines if "court" in line.lower()]
-    if court_list:
-        return court_list[0].title()
-    else:
+    try:
+        court_list = [line[:line.lower().index("court") + len("court")] for line in lines if "court" in line.lower()]
+        if court_list:
+            return court_list[0].title()
+        else:
+            return ""
+    except:
         return ""
 
 
 # returns settlement type, settlement amount (if applicable)
 def extract_disposition_info(tokens):
-    disposition_types = []
+    try:
+        disposition_types = []
 
-    combined_tokens = " ".join(tokens)
-    settlement = False
+        combined_tokens = " ".join(tokens)
+        settlement = False
 
-    settlement_terms = ["shall recover", "interest at the rate of", "the amount of $"]
+        settlement_terms = ["shall recover", "interest at the rate of", "the amount of $"]
 
-    if any(term in combined_tokens for term in settlement_terms):
-        settlement = True
-        disposition_types.append("Settled")
+        if any(term in combined_tokens for term in settlement_terms):
+            settlement = True
+            disposition_types.append("Settled")
 
-    # select either with prejudice, without prejudice, or generally dismissed where it is unclear
-    if "with prejudice" in combined_tokens:
-        disposition_types.append("Dismissed with Prejudice")
-    elif "without prejudice" in combined_tokens:
-        disposition_types.append("Dismissed without Prejudice")
-    elif "dismissed" in combined_tokens:
-        disposition_types.append("Dismissed")
-    
-    disposition_string = "; ".join(disposition_types)
+        # select either with prejudice, without prejudice, or generally dismissed where it is unclear
+        if "with prejudice" in combined_tokens:
+            disposition_types.append("Dismissed with Prejudice")
+        elif "without prejudice" in combined_tokens:
+            disposition_types.append("Dismissed without Prejudice")
+        elif "dismissed" in combined_tokens:
+            disposition_types.append("Dismissed")
+        
+        disposition_string = "; ".join(disposition_types)
 
-    disposition_date_regex = re.compile('filed ([0-9]{2}/[0-9]{2}/[0-9]{2})')
-    date_match = re.search(disposition_date_regex, combined_tokens)
-    date = date_match.group(1) if date_match else ""
-    
-
-    return disposition_string, date
-
-
-def extract_settlement_amount(tokens):
-
-    
-
+        disposition_date_regex = re.compile('filed ([0-9]{2}/[0-9]{2}/[0-9]{2})')
+        date_match = re.search(disposition_date_regex, combined_tokens)
+        date = date_match.group(1) if date_match else ""
+        
+        return disposition_string, date
+    except:
+        return "", ""
