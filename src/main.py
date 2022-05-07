@@ -18,4 +18,4 @@ for dir_name in dir_names:
         debug = False))
 
 df = pd.DataFrame(all_fields)
-df.to_csv('output.csv', index=False)
+df.to_csv('../output.csv', index=False)
