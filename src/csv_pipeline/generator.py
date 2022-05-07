@@ -53,7 +53,8 @@ def generate_fields(input_directory, dir_name, officer_roster_csv_path, debug = 
                     page_text = page.get_text().lower()
                     page_tokens = word_tokenize(page_text)
                     order_tokens += page_tokens
-    except:
+    except Exception as error:
+        print(error)
         print("Order document not found.")
         order_tokens = word_tokenize((" ".join(complaint_lines)).lower())
 
@@ -69,7 +70,8 @@ def select_filenames(filenames):
     """
     try:
         filenames.sort(key=lambda fn: (int(re.search('\[([^]-]+)(\]|-)', fn).group(1)), len(fn)))
-    except:
+    except Exception as error:
+        print(error)
         print("Document number not found.")
 
     if not len(filenames):

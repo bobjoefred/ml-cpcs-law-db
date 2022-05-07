@@ -9,13 +9,17 @@ We use OCR, text parsing and machine learning technologies to identify important
 
 The current setup is a data extraction pipeline that is deployed on the **BU Shared Compute Cluster**, and do not feature frontend support (as there is no need for this feature).
 
-### Usage on BU SCC
-1. Launch a BU SCC cluster with some sort of GPU capabilities.
-2. Download and enter this repo, as git is included by default in all instances.
-3. Execute the `init_scc.sh` script, which loads in the nessesary modules and installs any dependencies the Python program requires.
-4. Add any desired civil suit directories into `input/` (there is an example civil suit already so it is fine to skip this step)
-5. Change directory to `src/`.
-6. Execute `python3 main.py` to parse the document information. Output file is stored to `output.csv` inside of `src/`.
+We use two machine learning models to extract important information from the lawsuits.
+
+1. Google Pegasus
+2. Facebook Bart MNLI large
+
+### Usage locally
+1. Ensure that Python is installed and it's version is at least 3.8.10
+2. Run the `load_env.sh` script to install all the dependencies, or run `pip3 install -r requirements.txt` to install all the dependencies.
+3. Place any lawsuit to extract within the `input` folder. Please name the folders as the lawsuit name.
+4. Navigate to the src folder, and run the `python3 main.py` command.
+5. An output csv file should be produced at the root of the project.
 
 ### Known issues
 - The settlement amount field is missing. See issue #32 for more details.
