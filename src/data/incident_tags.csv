@@ -1,0 +1,27 @@
+Tag Group,Tag Subgroup Code,Tag Subgroup Summary
+Other,ASV,Alcohol or substance use policy violation
+Integrity,BBP,Bias-based profiling or statement
+Other,BCV,Body worn camera policy violation
+Integrity,BRC,Bribe / Corruption
+Other,CCL,Crime / Conformance to laws
+Integrity,CIH,Informant (or CI) handling
+Other,COR,CORI / CJIS policy violation
+Other,DTR,Disrespectful treatment/rudeness
+Integrity,EVT,Evidence tampering/procedure violation
+Violence,EXF,Excessive Force
+Integrity,FAL,False Testimony/Untruthfulness
+Other,IFI,Irrelevant or Frivilous Issue
+Integrity,KWA,Knowingly Wrongful Arrest/Malicious Prosecution
+Integrity,MVI,Miranda Violation / Abusive Interrogation
+Other,ORH,Ongoing or Repeated Harassment
+Other,OSI,Other Substantive Issue (not listed)
+Integrity,OTF,Overtime / Timesheet Fraud or Dishonesty
+Other,OTH,Other procedure or rule violation
+Violence,PPV,Prisoner policy violation
+Integrity,RET,Retaliation
+Integrity,SNI,Severe Negligence / Inaction
+Other,SPC,Stolen property/cash
+Violence,SXM,Sexual Misconduct
+Integrity,ULU,Unlawful/Suggestive Line-up
+Integrity,USS,Unlawful Entry/Search/Seizure
+Violence,WFD,Wrongful Death
