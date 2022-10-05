@@ -77,10 +77,9 @@ The OCR will be deployed on BU Shared Computing Cluster and will be accessible f
 
 ### References
 
-Lecture note from Professors:
+[Lecture note 1 from Professors](https://drive.google.com/file/d/1zgT9zNjHc_1lCIG42XApGlgroMNv0ZW3/view)
 
-https://drive.google.com/file/d/1zgT9zNjHc_1lCIG42XApGlgroMNv0ZW3/view
-https://docs.google.com/presentation/d/18Gxgi1ITVS6T-FU5RVQ463NQfA1b04tMZLd6XNPTKDk/edit
+[Lecture note 2 from Professors](https://docs.google.com/presentation/d/18Gxgi1ITVS6T-FU5RVQ463NQfA1b04tMZLd6XNPTKDk/edit)
 
 
 
