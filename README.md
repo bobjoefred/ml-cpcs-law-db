@@ -2,7 +2,7 @@
 
 
 ### Introduction
-This repository contains code to **parse** and **extract** information from public lawsuits of civil complaints against police departments.
+This repository contains code to **parse** and **extract** information from public lawsuits of civil complaints against police departments with all police misconduct data acquired via public records (i.e. internal affairs records) or public themselves (i.e. lawsuits records on PACER)
 
 ### Tech stack
 We use OCR, text parsing and machine learning technologies to identify important fields within each lawsuit and provide a simple to read interface that is ready to be read by databases. This enables non-technical individuals to lookup important information without having to manually go through all the files, which can be hundreds of pages of legal proceedings.
