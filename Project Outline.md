@@ -63,15 +63,14 @@ The OCR will be deployed on BU Shared Computing Cluster and will be accessible f
 
 ## Resources
 
-Github link from last semester:: https://drive.google.com/drive/folders/16RRbVDCfQVsVaPO2ziyq9P8vNa9SFthv
+[Github link from last semester](https://drive.google.com/drive/folders/16RRbVDCfQVsVaPO2ziyq9P8vNa9SFthv)
 
 
 ### Data Sets
 
 
-Public Dataset given by the Client:
-https://drive.google.com/open?id=1CSn0elzrWwjNfizDeEX2YxvQ6SN_IdBt
-https://drive.google.com/drive/folders/16RRbVDCfQVsVaPO2ziyq9P8vNa9SFthv?usp=sharing
+[Public Dataset 1 given by the Client](https://drive.google.com/open?id=1CSn0elzrWwjNfizDeEX2YxvQ6SN_IdBt)
+[Public Dataset 2 given by the Client]([https://drive.google.com/open?id=1CSn0elzrWwjNfizDeEX2YxvQ6SN_IdBt]
 
 
 
@@ -88,5 +87,5 @@ https://docs.google.com/presentation/d/18Gxgi1ITVS6T-FU5RVQ463NQfA1b04tMZLd6XNPT
 Our team has weekly meetings from 3:30pm to 4:15pm on Wednesdays. Might be changed later.
 Bi-weekly meeting with client TBD
 
-[meeting notes](https://docs.google.com/document/d/1ccZFtlUd6iiBPOcO2sUgpn-_ya-qcng9ljRkd69B_1U/edit?pli=1)
+[Meeting notes](https://docs.google.com/document/d/1ccZFtlUd6iiBPOcO2sUgpn-_ya-qcng9ljRkd69B_1U/edit?pli=1)
 
