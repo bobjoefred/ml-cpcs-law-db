@@ -25,7 +25,8 @@ the PubLayNet and PubTables-1M datasets. The paper tackles the problem of identi
 [Paper 3](https://arxiv.org/pdf/2208.04011.pdf): Information Extraction from Scanned Invoice Images using Text Analysis and Layout Features
 In our dataset, there are some scanned reports in different forms containing officer information and incident information. There are also various formats for invoice. While storing invoice content as metadata to avoid paper document processing may be the future trend, almost all of daily issued invoices are still printed on paper or generated in digital formats such as PDFs. In this paper, we introduce the OCRMiner system for information extraction from scanned document images which is based on text analysis techniques in combination with layout features to extract indexing metadata of (semi-)structured documents. This paper research on the system is designed to process the document in a similar way a human reader uses, i.e. to employ different layout and text attributes in a coordinated decision. The system consists of a set of interconnected modules that start with (possibly erroneous) character-based output from a standard OCR system and allow to apply different techniques and to expand the extracted knowledge at each step. Using an open source OCR, the system is able to recover the invoice data in 90% for English and in 88% for the Czech set.
 
-(Add Paper 4 here)
+[Paper 4](https://arxiv.org/pdf/2210.01959.pdf): Detect, Retrieve, Comprehend: A Flexible Framework for Zero-Shot Document-Level Question Answering
+While not exactly the same, we have a set of questions that would ideally be answered based on information found in our dataset, which like the paper consists of PDFs of varying quality. While data prep is extremely important, this paper also focuses on the ability to accurately extract data from less than ideal sources. The paper describes a method of using OCR to generate questions and answers, and then matching those answers to a given question. They used the QASPER dataset which is already divided into 3 major categories that are useful for this specific application: Extractive, Abstractive, Yes/No, and Unanswerable. Question/Answer formats are also very easily convertible to CSV formats as even unanswered questions have a 1:1 for questions to answers. 
 
 
 
@@ -93,5 +94,22 @@ For ML Extraction, they employed 2 pre-trained ML model, specifically-
 Google Pegasus - Summarization
 Facebook (Meta) Bart-Large-MNLI- Zero-shot classification
 
-(Add Data Availability table here)
+*MISSING
+
+**What we have
+| Town/Country | Data                                                            | Policy | Note                                                                                                                                                                                         |
+|--------------|-----------------------------------------------------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Berkshire    | **Brady list                                                    | *      |                                                                                                                                                                                              |
+| Bristol      | **Brandy Material                                               | *      |                                                                                                                                                                                              |
+| Cape         | **AI reports of incidents with all important information erased | yes    | To that end, I request that you provide the names and supporting information of any of the above names officers who fall into the following categories                                       |
+| Essex        | **Report with all important information erased **Brady list     | yes    |                                                                                                                                                                                              |
+| Hampden      | **Brady list **Detailed report                                  | *      |                                                                                                                                                                                              |
+| Middlesex    | **Brady list **Detailed report                                  | yes    |                                                                                                                                                                                              |
+| Norfolk      | **Brady list                                                    | *      |                                                                                                                                                                                              |
+| Northwestern | **Report with all important information erased                  | *      |                                                                                                                                                                                              |
+| Plymouth     | *                                                               | *      | Our office does have available a copy of a template used by ADA's to make Brady disclosures. However, we do not have a central depository for each specific Brady notice of disclosure made. |
+| State        | *                                                               | *      | We enclose ninety-seven (97) pages of record that may be responsive to your request But do data found                                                                                        |
+| Stuffolk     | **                                                              |        |                                                                                                                                                                                              |
+| Worcester    | *                                                               | *      | https://worcesterda.com/prosecution/frequently-asked-questions-brady-list/                                                                                                                   |
+
 
